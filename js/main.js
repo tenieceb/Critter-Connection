@@ -1,34 +1,65 @@
-// main.js
+import { loadLocalAnimals, getSpotlightAnimal, filterAnimals } from './animals.js';
 
-import { getSpeciesData, matchGBIFScientificName, getGBIFConservationStatus } from "./species_data.js";
+document.addEventListener('DOMContentLoaded', async () => {
+  const animals = await loadLocalAnimals();
 
-import { renderSpeciesDetails } from "./species_details.js";
+  const spotlightContainer = document.getElementById('spotlight-card');
+  const animalGrid = document.getElementById('animal-grid');
 
-import { loadHeaderFooter, qs, renderWithTemplate } from "./utils.js";
+  // Render spotlight animal
+  const spotlightAnimal = getSpotlightAnimal(animals);
+  if (spotlightAnimal) {
+    spotlightContainer.innerHTML = `
+      <h3>${spotlightAnimal.name}</h3>
+      <img src="${spotlightAnimal.image_link}" alt="${spotlightAnimal.name}" style="max-width: 100%; height: auto;">
+      <p><strong>Status:</strong> ${spotlightAnimal.status}</p>
+      <p><strong>Type:</strong> ${spotlightAnimal.type}</p>
+    `;
+  } else {
+    spotlightContainer.textContent = 'No spotlight animal available.';
+  }
 
-document.addEventListener("DOMContentLoaded", () => {
-  const search = qs("input[type='search']");
+  // Render all animals initially
+  renderAnimals(animals, animalGrid);
 
-  search.addEventListener("change", async () => {
-    const name = search.value.trim();
-    if (!name) return;
+  // Set up filter radio buttons
+  const filterStatusRadios = document.querySelectorAll('input[name="status"]');
+  const filterTypeRadios = document.querySelectorAll('input[name="type"]');
 
-    // 1. Fetch basic species info
-    const animals = await getSpeciesData(name);
-    if (!animals.length) return alert("No species found.");
+  function applyFilters() {
+    // Get selected values or empty string if none
+    const selectedStatus = [...filterStatusRadios].find(r => r.checked)?.value || '';
+    const selectedType = [...filterTypeRadios].find(r => r.checked)?.value || '';
 
-    const species = animals[0];
+    // Filter animals
+    const filtered = filterAnimals(animals, { status: selectedStatus, type: selectedType });
 
-    // 2. Match scientific name to GBIF
-    const sciName = species.taxonomy?.scientific_name;
-    const gbifID = sciName ? await matchGBIFScientificName(sciName) : null;
+    // Render filtered animals
+    renderAnimals(filtered, animalGrid);
+  }
 
-    // 3. Fetch conservation status
-    const status = gbifID ? await getGBIFConservationStatus(gbifID) : null;
-
-    // 4. Render the page
-    renderSpeciesDetails(species, status);
-  });
+  // Attach change event listeners to filters
+  filterStatusRadios.forEach(radio => radio.addEventListener('change', applyFilters));
+  filterTypeRadios.forEach(radio => radio.addEventListener('change', applyFilters));
 });
 
-loadHeaderFooter();
+/**
+ * Render animal cards into the container
+ * @param {Array} animals 
+ * @param {HTMLElement} container 
+ */
+function renderAnimals(animals, container) {
+  if (!animals.length) {
+    container.innerHTML = '<p>No animals found.</p>';
+    return;
+  }
+
+  container.innerHTML = animals.map(animal => `
+    <div class="animal-card">
+      <h4>${animal.name}</h4>
+      <img src="${animal.image_link}" alt="${animal.name}" style="max-width: 100%; height: auto;">
+      <p><strong>Status:</strong> ${animal.status}</p>
+      <p><strong>Type:</strong> ${animal.type}</p>
+    </div>
+  `).join('');
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Giant Panda",
+    "scientific_name": "Ailuropoda melanoleuca",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Grosser_Panda.JPG",
+    "status": "Vulnerable",
+    "type": "Mammal"
+  },
+  {
+    "name": "Snow Leopard",
+    "scientific_name": "Panthera uncia",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Snow_Leopard_Panthera_uncia.jpg",
+    "status": "Vulnerable",
+    "type": "Mammal"
+  },
+  {
+    "name": "Black Rhinoceros",
+    "scientific_name": "Diceros bicornis",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/7/71/Black_Rhinoceros_in_South_Africa.jpg",
+    "status": "Critically Endangered",
+    "type": "Mammal"
+  },
+  {
+    "name": "Hawksbill Turtle",
+    "scientific_name": "Eretmochelys imbricata",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Eretmochelys_imbricata_head.jpg",
+    "status": "Critically Endangered",
+    "type": "Reptile"
+  },
+  {
+    "name": "Sumatran Tiger",
+    "scientific_name": "Panthera tigris sumatrae",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/5/58/Sumatran_tiger_%28Panthera_tigris_sumatrae%29_2.jpg",
+    "status": "Critically Endangered",
+    "type": "Mammal"
+  }
+  
+]

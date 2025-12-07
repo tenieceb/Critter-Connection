@@ -22,6 +22,9 @@
     <!-- Sidebar Filters -->
     <aside class="filters">
         <h3>Filter Options</h3>
+        <div class="filter-group">
+            <label><input type="radio" name="all" value="all"> All</label>
+        </div>
 
         <div class="filter-group">
             <h4>Conservation Status</h4>
@@ -33,15 +36,15 @@
 
         <div class="filter-group">
             <h4>Species Type</h4>
-            <label><input type="radio" name="type"> Mammals</label>
-            <label><input type="radio" name="type"> Reptiles</label>
-            <label><input type="radio" name="type"> Fish</label>
+            <label><input type="radio" name="type" value="Mammals"> Mammals</label>
+            <label><input type="radio" name="type" value="Reptiles"> Reptiles</label>
+            <label><input type="radio" name="type" value="Fish"> Fish</label>
         </div>
 
         <div class="filter-group">
             <h4>Sort By</h4>
-            <label><input type="radio" name="sort"> Alphabetical</label>
-            <label><input type="radio" name="sort"> Popularity</label>
+            <label><input type="radio" name="sort" value="alpha"> Alphabetical</label>
+            <label><input type="radio" name="sort" value="popularity"> Popularity</label>
         </div>
     </aside>
 
