@@ -22,29 +22,34 @@
     <!-- Sidebar Filters -->
     <aside class="filters">
         <h3>Filter Options</h3>
-        <div class="filter-group">
-            <label><input type="radio" name="all" value="all"> All</label>
-        </div>
+    <div class="filter-group">
+    <button id="clear-filters-btn" type="button">Clear Filters / Show All</button>
+    </div>
+
 
         <div class="filter-group">
             <h4>Conservation Status</h4>
-            <label><input type="radio" name="status" value="endangered"> Endangered</label>
-            <label><input type="radio" name="status" value="vulnerable"> Vulnerable</label>
-            <label><input type="radio" name="status" value="least_concern"> Least Concern</label>
-
+            <label><input type="checkbox" name="status" value="Critically endangered"> Critically Endangered</label>
+            <label><input type="checkbox" name="status" value="endangered"> Endangered</label>
+            <label><input type="checkbox" name="status" value="vulnerable"> Vulnerable</label>
+            <label><input type="checkbox" name="status" value="least concern"> Least Concern</label>
         </div>
 
         <div class="filter-group">
             <h4>Species Type</h4>
-            <label><input type="radio" name="type" value="Mammals"> Mammals</label>
-            <label><input type="radio" name="type" value="Reptiles"> Reptiles</label>
-            <label><input type="radio" name="type" value="Fish"> Fish</label>
+            <label><input type="checkbox" name="type" value="Mammal"> Mammals</label>
+            <label><input type="checkbox" name="type" value="Reptile"> Reptiles</label>
+            <label><input type="checkbox" name="type" value="Fish"> Fish</label>
+            <label><input type="checkbox" name="type" value="Bird"> Birds</label>
+            <label><input type="checkbox" name="type" value="Invertebrate"> Invertebrates</label>
+            <label><input type="checkbox" name="type" value="Insect"> Insects</label>  
+            <label><input type="checkbox" name="type" value="Amphibian"> Amphibians</label>
         </div>
 
         <div class="filter-group">
-            <h4>Sort By</h4>
-            <label><input type="radio" name="sort" value="alpha"> Alphabetical</label>
-            <label><input type="radio" name="sort" value="popularity"> Popularity</label>
+            <h4>List By</h4>
+            <label><input type="radio" name="sort" value="alpha-asc"> A-Z</label>
+            <label><input type="radio" name="sort" value="alpha-desc"> Z-A</label>
         </div>
     </aside>
 

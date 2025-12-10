@@ -1,38 +1,1991 @@
 [
   {
+    "name": "African Lion",
+    "scientific_name": "Panthera leo",
+    "type": "Mammal",
+    "status": "Vulnerable",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+    "image_attribution": {
+      "author": "Giles Laurent",
+      "source": "https://commons.wikimedia.org/wiki/File:020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Bengal Tiger",
+    "scientific_name": "Panthera tigris tigris",
+    "type": "Mammal",
+    "status": "Endangered",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/5/56/Tiger.50.jpg",
+    "image_attribution": {
+      "author": "Anup Shah",
+      "source": "https://commons.wikimedia.org/wiki/File:Tiger.50.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "name": "Gray Wolf",
+    "scientific_name": "Canis lupus",
+    "type": "Mammal",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/6/68/Eurasian_wolf_2.jpg",
+    "image_attribution": {
+      "author": "Mas3cf",
+      "source": "https://commons.wikimedia.org/wiki/File:Eurasian_wolf_2.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Red Fox",
+    "scientific_name": "Vulpes vulpes",
+    "type": "Mammal",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Portrait_of_a_red_fox_in_Rautas_fj%C3%A4llurskog.jpg",
+    "image_attribution": {
+      "author": "ClaudiaTen",
+      "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_a_red_fox_in_Rautas_fj%C3%A4llurskog.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Cheetah",
+    "scientific_name": "Acinonyx jubatus",
+    "type": "Mammal",
+    "status": "Vulnerable",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/3/36/Cheetah_%28Acinonyx_jubatus%29_female_2.jpg",
+    "image_attribution": {
+      "author": "Charles J. Sharp ",
+      "source": "https://commons.wikimedia.org/wiki/File:Cheetah_(Acinonyx_jubatus)_female_2.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "African Elephant",
+    "scientific_name": "Loxodonta africana",
+    "type": "Mammal",
+    "status": "Vulnerable",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/3/37/African_Bush_Elephant.jpg",
+    "image_attribution": {
+      "author": "David J. Stang",
+      "source": "https://commons.wikimedia.org/wiki/File:African_Bush_Elephant.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "name": "Asian Elephant",
+    "scientific_name": "Elephas maximus",
+    "type": "Mammal",
+    "status": "Endangered",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/9/98/Elephas_maximus_%28Bandipur%29.jpg",
+    "image_attribution": {
+      "author": "Yathin S Krishnappa",
+      "source": "https://commons.wikimedia.org/wiki/File:Elephas_maximus_(Bandipur).jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "name": "Giraffe",
+    "scientific_name": "Giraffa camelopardalis",
+    "type": "Mammal",
+    "status": "Vulnerable",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Giraffe_standing.jpg",
+    "image_attribution": {
+      "author": "Miroslav Duchacek",
+      "source": "https://commons.wikimedia.org/wiki/File:Giraffe_standing.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "name": "Zebra",
+    "scientific_name": "Equus quagga",
+    "type": "Mammal",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Plains_Zebra_Equus_quagga.jpg",
+    "image_attribution": {
+      "author": "Muhammad Mahdi Karim",
+      "source": "https://commons.wikimedia.org/wiki/File:Plains_Zebra_Equus_quagga.jpg",
+      "license": "GFDL 1.2"
+    }
+  },
+  {
+    "name": "Hippopotamus",
+    "scientific_name": "Hippopotamus amphibius",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Hippopotamus_in_South_Africa_adjusted.jpg",
+    "type": "Mammal",
+    "status": "Vulnerable"
+  },
+  {
+    "name": "Gorilla",
+    "scientific_name": "Gorilla beringei",
+    "type": "Mammal",
+    "status": "Endangered",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/5/52/Mountain_gorilla_%28Gorilla_beringei_beringei%29_23.jpg",
+    "image_attribution": {
+      "author": "Thomas Fuhrmann",
+      "source": "https://commons.wikimedia.org/wiki/File:Mountain_gorilla_(Gorilla_beringei_beringei)_23.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Chimpanzee",
+    "scientific_name": "Pan troglodytes",
+    "type": "Mammal",
+    "status": "Endangered",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/6/62/Schimpanse_Zoo_Leipzig.jpg",
+    "image_attribution": {
+      "author": "Thomas Lersch",
+      "source": "https://commons.wikimedia.org/wiki/File:Schimpanse_Zoo_Leipzig.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "name": "Ring-Tailed Lemur",
+    "scientific_name": "Lemur catta",
+    "type": "Mammal",
+    "status": "Endangered",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/0/00/Ring-tailed_lemur%2C_Lemur_catta.jpg",
+    "image_attribution": {
+      "author": "Theo Kruse Burgers' Zoo",
+      "source": "https://commons.wikimedia.org/wiki/File:Ring-tailed_lemur,_Lemur_catta.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Koala",
+    "scientific_name": "Phascolarctos cinereus",
+    "type": "Mammal",
+    "status": "Vulnerable",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/4/49/Koala_climbing_tree.jpg",
+    "image_attribution": {
+      "author": "Diliff",
+      "source": "https://commons.wikimedia.org/wiki/File:Koala_climbing_tree.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "name": "Kangaroo",
+    "scientific_name": "Macropus giganteus",
+    "type": "Mammal",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Kangaroo_Australia_01_11_2008_-_retouch.JPG",
+    "image_attribution": {
+      "author": "Mark Wagner",
+      "source": "https://commons.wikimedia.org/wiki/File:Kangaroo_Australia_01_11_2008_-_retouch.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "name": "Polar Bear",
+    "scientific_name": "Ursus maritimus",
+    "type": "Mammal",
+    "status": "Vulnerable",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/0/09/Polar_Bear_-_Alaska.jpg",
+    "image_attribution": {
+      "author": "Alan Wilson",
+      "source": "https://commons.wikimedia.org/wiki/File:Polar_Bear_-_Alaska.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "name": "Brown Bear",
+    "scientific_name": "Ursus arctos",
+    "type": "Mammal",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Brown_bear_%28Ursus_arctos_arctos%29_running.jpg",
+    "image_attribution": {
+      "author": "I, Malene",
+      "source": "https://commons.wikimedia.org/wiki/File:Brown_bear_(Ursus_arctos_arctos)_running.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "name": "Giant Anteater",
+    "scientific_name": "Myrmecophaga tridactyla",
+    "type": "Mammal",
+    "status": "Vulnerable",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/0/07/185_Giant_anteater_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+    "image_attribution": {
+      "author": "Giles Laurent",
+      "source": "https://commons.wikimedia.org/wiki/File:185_Giant_anteater_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Sloth",
+    "scientific_name": "Bradypus variegatus",
+    "type": "Mammal",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Bradypus_variegatus_BCN.jpg",
+    "image_attribution": {
+      "author": "ESV- Eduard Solà Vásquez",
+      "source": "https://commons.wikimedia.org/wiki/File:Bradypus_variegatus_BCN.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "name": "Meerkat",
+    "scientific_name": "Suricata suricatta",
+    "type": "Mammal",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Suricata_suricatta1.jpg",
+    "image_attribution": {
+      "author": "ksyfancy",
+      "source": "https://commons.wikimedia.org/wiki/File:Suricata_suricatta1.jpg",
+      "license": "CC BY 3.0"
+    }
+  },
+
+  {
+    "name": "Bald Eagle",
+    "scientific_name": "Haliaeetus leucocephalus",
+    "type": "Bird",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Bald_Eagle_Portrait.jpg",
+    "image_attribution": {
+      "author": "Saffron Blaze",
+      "source": "https://commons.wikimedia.org/wiki/File:Bald_Eagle_Portrait.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "name": "Peregrine Falcon",
+    "scientific_name": "Falco peregrinus",
+    "type": "Bird",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Falco_peregrinus_good_-_Christopher_Watson.jpg",
+    "image_attribution": {
+      "author": "Christopher Watson",
+      "source": "https://commons.wikimedia.org/wiki/File:Falco_peregrinus_good_-_Christopher_Watson.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Great Horned Owl",
+    "scientific_name": "Bubo virginianus",
+    "type": "Bird",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/5/56/Bubo_bubo_sibiricus_-_01.JPG",
+    "image_attribution": {
+      "author": "Carlos Delgado",
+      "source": "https://commons.wikimedia.org/wiki/File:Bubo_bubo_sibiricus_-_01.JPG",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Snowy Owl",
+    "scientific_name": "Bubo scandiacus",
+    "type": "Bird",
+    "status": "Vulnerable",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Snowy_Owl_-_Bubo_scandiacus%2C_Boundary_Bay%2C_British_Columbia_-_6704936907.jpg",
+    "image_attribution": {
+      "author": "Judy Gallagher",
+      "source": "https://commons.wikimedia.org/wiki/File:Snowy_Owl_-_Bubo_scandiacus,_Boundary_Bay,_British_Columbia_-_6704936907.jpg",
+      "license": "CC BY 2.0"
+    }
+  },
+  {
+    "name": "Macaw",
+    "scientific_name": "Ara macao",
+    "type": "Bird",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Ara_macao_qtl1.jpg",
+    "image_attribution": {
+      "author": "Quartl",
+      "source": "https://commons.wikimedia.org/wiki/File:Ara_macao_qtl1.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "name": "Penguin",
+    "scientific_name": "Aptenodytes forsteri",
+    "type": "Bird",
+    "status": "Near Threatened",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/0/07/Emperor_Penguin_Manchot_empereur.jpg",
+    "image_attribution": {
+      "author": "Samuel Blanc",
+      "source": "https://commons.wikimedia.org/wiki/File:Emperor_Penguin_Manchot_empereur.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "name": "Flamingo",
+    "scientific_name": "Phoenicopterus roseus",
+    "type": "Bird",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/7/79/Greater_flamingo_%28Phoenicopterus_roseus%29_Bahrain.jpg",
+    "image_attribution": {
+      "author": "Charles J. Sharp ",
+      "source": "https://commons.wikimedia.org/wiki/File:Greater_flamingo_(Phoenicopterus_roseus)_Bahrain.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+
+  {
+    "name": "Saltwater Crocodile",
+    "scientific_name": "Crocodylus porosus",
+    "type": "Reptile",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Saltwater_Crocodile_%28Crocodylus_porosus%29_%2810106331165%29.jpg",
+    "image_attribution": {
+      "author": "Bernard Dupont",
+      "source": "https://commons.wikimedia.org/wiki/File:Saltwater_Crocodile_(Crocodylus_porosus)_(10106331165).jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "name": "Komodo Dragon",
+    "scientific_name": "Varanus komodoensis",
+    "type": "Reptile",
+    "status": "Endangered",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Varanus_komodoensis%2C_Komodo_Island%2C_Indonesia%2C_20250822_1332_2808.jpg",
+    "image_attribution": {
+      "author": "Jakub Halun",
+      "source": "https://commons.wikimedia.org/wiki/File:Varanus_komodoensis,_Komodo_Island,_Indonesia,_20250822_1332_2808.jpg",
+      "license": "CC BY 4.0"
+    }
+  },
+  {
+    "name": "Green Iguana",
+    "scientific_name": "Iguana iguana",
+    "type": "Reptile",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Iguana_iguana_Portoviejo_01.jpg",
+    "image_attribution": {
+      "author": "Cayambe",
+      "source": "https://commons.wikimedia.org/wiki/File:Iguana_iguana_Portoviejo_01.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "name": "Ball Python",
+    "scientific_name": "Python regius",
+    "type": "Reptile",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Ball_python_lucy.JPG",
+    "image_attribution": {
+      "author": "Mokele at English Wikipedia",
+      "source": "https://commons.wikimedia.org/wiki/File:Ball_python_lucy.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "name": "Clownfish",
+    "scientific_name": "Amphiprion ocellaris",
+    "type": "Fish",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Amphiprion_ocellaris_at_Gilli_Banta.JPG",
+    "image_attribution": {
+      "author": "Alexander Vasenin",
+      "source": "https://commons.wikimedia.org/wiki/File:Amphiprion_ocellaris_at_Gilli_Banta.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "name": "Great White Shark",
+    "scientific_name": "Carcharodon carcharias",
+    "type": "Fish",
+    "status": "Vulnerable",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/5/56/White_shark.jpg",
+    "image_attribution": {
+      "author": "Terry Goss",
+      "source": "https://commons.wikimedia.org/wiki/File:White_shark.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "name": "Orca",
+    "scientific_name": "Orcinus orca",
+    "type": "Mammal",
+    "status": "Data Deficient",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/3/37/Killerwhales_jumping.jpg",
+    "image_attribution": {
+      "author": "Robert Pittman",
+      "source": "https://commons.wikimedia.org/wiki/File:Killerwhales_jumping.jpg",
+      "license": "Public Domain"
+    }
+  },
+  {
+    "name": "Dolphin",
+    "scientific_name": "Tursiops truncatus",
+    "type": "Mammal",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/1/10/Tursiops_truncatus_01.jpg",
+    "image_attribution": {
+      "author": "NASA",
+      "source": "https://commons.wikimedia.org/wiki/File:Tursiops_truncatus_01.jpg",
+      "license": "Public Domain"
+    }
+  },
+
+  {
+    "name": "Octopus",
+    "scientific_name": "Octopus vulgaris",
+    "type": "Invertebrate",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Octopus_vulgaris_2.jpg",
+    "image_attribution": {
+      "author": "Albert Kok at Dutch Wikipedia",
+      "source": "https://commons.wikimedia.org/wiki/File:Octopus_vulgaris_2.jpg",
+      "license": "Public Domain"
+    }
+  },
+  {
+    "name": "Emperor Scorpion",
+    "scientific_name": "Pandinus imperator",
+    "type": "Invertebrate",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Emperor_scorpion_or_Imperial_scorpion_%28Pandinus_imperator%29.jpg",
+    "image_attribution": {
+      "author": "Michael L. Baird",
+      "source": "https://commons.wikimedia.org/wiki/File:Emperor_scorpion_or_Imperial_scorpion_(Pandinus_imperator).jpg",
+      "license": "CC BY 2.0"
+    }
+  },
+  
+  {
+    "name": "Red Kangaroo",
+    "scientific_name": "Osphranter rufus",
+    "type": "Mammal",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Red_Kangaroos_at_Sturt_National_Park_NSW.jpg",
+    "image_attribution": {
+      "author": "PotMart196",
+      "source": "https://commons.wikimedia.org/wiki/File:Red_Kangaroos_at_Sturt_National_Park_NSW.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Arctic Fox",
+    "scientific_name": "Vulpes lagopus",
+    "type": "Mammal",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/7/75/Arctic_fox_%28Vulpes_lagopus%29_2434.jpg",
+    "image_attribution": {
+      "author": "ImagePerson",
+      "source": "https://commons.wikimedia.org/wiki/File:Arctic_fox_(Vulpes_lagopus)_2434.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Moose",
+    "scientific_name": "Alces alces",
+    "type": "Mammal",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Moose_superior.jpg",
+    "image_attribution": {
+      "author": "USDA Forest Service",
+      "source": "https://commons.wikimedia.org/wiki/File:Moose_superior.jpg",
+      "license": "Public Domain"
+    }
+  },
+  {
+    "name": "White-Tailed Deer",
+    "scientific_name": "Odocoileus virginianus",
+    "type": "Mammal",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/e/ef/20250130_white_tailed_deer_cedar_hill_cemetery_PD204859.jpg",
+    "image_attribution": {
+      "author": "Paul Danese",
+      "source": "https://commons.wikimedia.org/wiki/File:20250130_white_tailed_deer_cedar_hill_cemetery_PD204859.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Bison",
+    "scientific_name": "Bison bison",
+    "type": "Mammal",
+    "status": "Near Threatened",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/8/8d/American_bison_k5680-1.jpg",
+    "image  _attribution": {
+      "author": "Jack Dykinga",
+      "source": "https://commons.wikimedia.org/wiki/File:American_bison_k5680-1.jpg",
+      "license": "Public Domain"
+    }
+  },
+  {
+    "name": "Camel",
+    "scientific_name": "Camelus dromedarius",
+    "type": "Mammal",
+    "status": "Domesticated",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/4/43/07._Camel_Profile%2C_near_Silverton%2C_NSW%2C_07.07.2007.jpg",
+    "image_attribution": {
+      "author": "Jjron",
+      "source": "https://commons.wikimedia.org/wiki/File:07._Camel_Profile,_near_Silverton,_NSW,_07.07.2007.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "name": "Boar",
+    "scientific_name": "Sus scrofa",
+    "type": "Mammal",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Wild_Boar_Habbitat_2.jpg",
+    "image_attribution": {
+      "author": "Richard Bart",
+      "source": "https://commons.wikimedia.org/wiki/File:Wild_Boar_Habbitat_2.jpg",
+      "license": "CC BY-SA 2.5"
+    }
+  },
+  {
+    "name": "Hyena",
+    "scientific_name": "Crocuta crocuta",
+    "type": "Mammal",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Spotted_hyena_%28Crocuta_crocuta%29.jpg",
+    "image_attribution": {
+      "author": "Charles J. Sharp",
+      "source": "https://commons.wikimedia.org/wiki/File:Spotted_hyena_(Crocuta_crocuta).jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Warthog",
+    "scientific_name": "Phacochoerus africanus",
+    "type": "Mammal",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Phacochoerus_africanus_sounder.jpg",
+    "image_attribution": {
+      "author": "gusjer",
+      "source": "https://commons.wikimedia.org/wiki/File:Phacochoerus_africanus_sounder.jpg",
+      "license": "CC BY 2.0"
+    }
+  },
+  {
+    "name": "Armadillo",
+    "scientific_name": "Dasypus novemcinctus",
+    "type": "Mammal",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/4/49/Armadillo2.jpg",
+    "image_attribution": {
+      "author": "Mwcolgan8",
+      "source": "https://commons.wikimedia.org/wiki/File:Armadillo2.jpg",
+      "license": "Public Domain"
+    }
+  },
+
+  {
+    "name": "Emu",
+    "scientific_name": "Dromaius novaehollandiae",
+    "type": "Bird",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/0/07/2008-06-21_Artis_09_Dromaius_novaehollandiae.jpg",
+    "image_attribution": {
+      "author": "Szilas",
+      "source": "https://commons.wikimedia.org/wiki/File:2008-06-21_Artis_09_Dromaius_novaehollandiae.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Ostrich",
+    "scientific_name": "Struthio camelus",
+    "type": "Bird",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/6/69/Struthio_camelus_-_R%C3%A9serve_africaine_de_Sigean_05.jpg",
+    "image_attribution": {
+      "author": "H. Zell",
+      "source": "https://commons.wikimedia.org/wiki/File:Struthio_camelus_-_R%C3%A9serve_africaine_de_Sigean_05.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "name": "Peacock",
+    "scientific_name": "Pavo cristatus",
+    "type": "Bird",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Peacock_Plumage.jpg",
+    "image_attribution": {
+      "author": "Jatin Sindhu",
+      "source": "https://commons.wikimedia.org/wiki/File:Peacock_Plumage.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Turkey",
+    "scientific_name": "Meleagris gallopavo",
+    "type": "Bird",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Wild_turkey_eastern_us.jpg",
+    "image_attribution": {
+      "author": "Dimus",
+      "source": "https://commons.wikimedia.org/wiki/File:Wild_turkey_eastern_us.jpg",
+      "license": "Public Domain"
+    }
+  },
+  {
+    "name": "Canadian Goose",
+    "scientific_name": "Branta canadensis",
+    "type": "Bird",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Branta_canadensis%2C_Frederiksberg_Have%2C_Denmark%2C_20220617_1627_6918.jpg",
+    "image_attribution": {
+      "source": "https://commons.wikimedia.org/wiki/File:Branta_canadensis,_Frederiksberg_Have,_Denmark,_20220617_1627_6918.jpg",
+      "author": "Jakub Halun",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Swan",
+    "scientific_name": "Cygnus olor",
+    "type": "Bird",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/3/35/Mute_swan_Vrhnika.jpg",
+    "image_attribution": {
+      "author": "Yerpo",
+      "source": "https://commons.wikimedia.org/wiki/File:Mute_swan_Vrhnika.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "name": "Parrot",
+    "scientific_name": "Psittaciformes",
+    "type": "Bird",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Ara_ararauna_Luc_Viatour.jpg",
+    "image_attribution": {
+      "author": "I, Luc Viatour",
+      "source": "https://commons.wikimedia.org/wiki/File:Ara_ararauna_Luc_Viatour.jpg",
+      "license": "CC BY 2.0"
+    }
+  },
+
+  {
+    "name": "Toucan",
+    "scientific_name": "Ramphastos toco",
+    "type": "Bird",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Ramphastos_toco_-Birdworld%2C_Farnham%2C_Surrey%2C_England-8a.jpg",
+    "image_attribution": {
+      "author": "Chris Parfitt from East Grinstead, England",
+      "source": "https://commons.wikimedia.org/wiki/File:Ramphastos_toco_-Birdworld,_Farnham,_Surrey,_England-8a.jpg",
+      "license": "CC BY 2.0"
+    }
+  },
+  {
+    "name": "Sparrow",
+    "scientific_name": "Passer domesticus",
+    "type": "Bird",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/2/2e/House_Sparrow_%28Passer_domesticus%29.jpg",
+    "image_attribution": {
+      "author": "Vivek Puliyeri",
+      "source": "https://commons.wikimedia.org/wiki/File:House_Sparrow_(Passer_domesticus).jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Blue Jay",
+    "scientific_name": "Cyanocitta cristata",
+    "type": "Bird",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/0/04/Cyanocitta-cristata-004.jpg",
+    "image_attribution": {
+      "author": "Mdf",
+      "source": "https://commons.wikimedia.org/wiki/File:Cyanocitta-cristata-004.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+
+  {
+    "name": "Alligator",
+    "scientific_name": "Alligator mississippiensis",
+    "type": "Reptile",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/0/03/American_Alligator.jpg",
+    "image_attribution": {
+      "author":"Postdlf",
+      "source": "https://commons.wikimedia.org/wiki/File:American_Alligator.jpg", 
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "name": "Tortoise",
+    "scientific_name": "Testudinidae",
+    "type": "Reptile",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/6/66/Testudo_graeca_ibera_1.jpg",
+    "image_attribution": {
+      "author": "Franz Xaver",
+      "source": "https://commons.wikimedia.org/wiki/File:Testudo_graeca_ibera_1.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "name": "Chameleon",
+    "scientific_name": "Chamaeleonidae",
+    "type": "Reptile",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Chamaeleonidae-01.jpg",
+    "image_attribution": {
+      "author": "MathKnight",
+      "source": "https://commons.wikimedia.org/wiki/File:Chamaeleonidae-01.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Gecko",
+    "scientific_name": "Gekkonidae",
+    "type": "Reptile",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/7/70/Gekko_gecko_106845652.jpg",
+    "image_attribution": {
+      "author": "Oleg Kosterin",
+      "source": "https://commons.wikimedia.org/wiki/File:Gekko_gecko_106845652.jpg",
+      "license": "CC BY 4.0"
+    }
+  },
+  {
+    "name": "King Cobra",
+    "scientific_name": "Ophiophagus hannah",
+    "type": "Reptile",
+    "status": "Vulnerable",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/f/fb/King_Cobra.jpg",
+    "image_attribution": {
+      "author": "Sujit Kumar",
+      "source": "https://commons.wikimedia.org/wiki/File:King_Cobra.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+
+  {
+    "name": "Goldfish",
+    "scientific_name": "Carassius auratus",
+    "type": "Fish",
+    "status": "Domesticated",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Goldfish3.jpg",
+    "image_attribution": {
+      "author": "Heptagon assumed(based on copyright claims",
+      "source": "https://commons.wikimedia.org/wiki/File:Goldfish3.jpg",
+      "license": "Public Domain"
+    }
+  },
+  {
+    "name": "Betta Fish",
+    "scientific_name": "Betta splendens",
+    "type": "Fish",
+    "status": "Domesticated",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Siamese_fighting_fish_%28Betta_splendens%29_female_orange.JPG",
+    "image_attribution": {
+      "author": "Bernard Ladenthin",
+      "source": "https://commons.wikimedia.org/wiki/File:Siamese_fighting_fish_(Betta_splendens)_female_orange.JPG",
+      "license": "CC BY 4.0"
+    }
+  },
+  {
+    "name": "Jellyfish",
+    "scientific_name": "Aurelia aurita",
+    "type": "Invertebrate",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Aurelia_aurita_%28Cnidaria%29_Luc_Viatour.jpg",
+    "image_attribution": {
+      "author": "I, Luc Viatour",
+      "source": "https://commons.wikimedia.org/wiki/File:Aurelia_aurita_(Cnidaria)_Luc_Viatour.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "name": "Starfish",
+    "scientific_name": "Asterias rubens",
+    "type": "Invertebrate",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Asterias_rubens.jpg",
+    "image_attribution": {
+      "author": "Hans Hillewaert",
+      "source": "https://commons.wikimedia.org/wiki/File:Asterias_rubens.jpg",
+      "license": "©" 
+    }
+  },
+  {
+    "name": "Lobster",
+    "scientific_name": "Homarus americanus",
+    "type": "Invertebrate",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Bugre_americanu.jpg",
+    "image_attribution": {
+      "author": "Roberto Rodriguez",
+      "source": "https://commons.wikimedia.org/wiki/File:Bugre_americanu.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Crab",
+    "scientific_name": "Brachyura",
+    "type": "Invertebrate",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Brachyura_montage.jpg",
+    "image_attribution": {
+      "author": "Biopics Dan Boone, Honguyenseo, Bernard Picton, Biopics, Philippe Boujon, Splette, Nosferattus, Rushenb",
+      "source": "https://commons.wikimedia.org/wiki/File:Brachyura_montage.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+
+  {
+    "name": "Butterfly",
+    "scientific_name": "Danaus plexippus",
+    "type": "Insect",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/7/73/Monarch_Butterfly_Danaus_plexippus_Male_2664px.jpg",
+    "image_attribution": {
+      "author": "Derek Ramsey",
+      "source": "https://commons.wikimedia.org/wiki/File:Monarch_Butterfly_Danaus_plexippus_Male_2664px.jpg",
+      "license": "©"
+    }
+  },
+  {
+    "name": "Honeybee",
+    "scientific_name": "Apis mellifera",
+    "type": "Insect",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Apis_mellifera_Western_honey_bee.jpg",
+    "image_attribution": {
+      "author": "Andreas Trepte",
+      "source": "https://commons.wikimedia.org/wiki/File:Apis_mellifera_Western_honey_bee.jpg",
+      "license": "CC BY-SA 2.5"
+    }
+  },
+  {
+    "name": "Ladybug",
+    "scientific_name": "Coccinellidae",
+    "type": "Insect",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/2/28/2019-07-22_Coccinellidae_1.jpg",
+    "image_attribution": {
+      "author": "Bernard Ladenthin",
+      "source": "https://commons.wikimedia.org/wiki/File:2019-07-22_Coccinellidae_1.jpg",
+      "license": "CC BY 4.0"
+    }
+  },
+  {
+    "name": "Ant",
+    "scientific_name": "Formicidae",
+    "type": "Insect",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/d/db/Red_Ant_-_March_2025.jpg",
+    "image_attribution": {
+      "author": "Samantha Henneke from Seagrove, NC USA",
+      "source": "https://commons.wikimedia.org/wiki/File:Red_Ant_-_March_2025.jpg",
+      "license": "CC BY 2.0"
+    }
+  },
+  {
+    "name": "Dragonfly",
+    "scientific_name": "Anisoptera",
+    "type": "Insect",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/0/03/Sympetrum_flaveolum_-_side_%28aka%29.jpg",
+    "image_attribution": {
+      "author": "André Karwath",
+      "source": "https://commons.wikimedia.org/wiki/File:Sympetrum_flaveolum_-_side_(aka).jpg",
+      "license": "CC BY-SA 2.5"
+    }
+  },
+
+  {
+    "name": "Frog",
+    "scientific_name": "Lithobates clamitans",
+    "type": "Amphibian",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/5/50/Green_Frog_Rana_clamitans_Facing_Left_3008px.jpg",
+    "image_attribution": {
+      "author": "Derek Ramsey",
+      "source": "https://commons.wikimedia.org/wiki/File:Green_Frog_Rana_clamitans_Facing_Left_3008px.jpg",
+      "license": "GFDL 1.2"
+    }
+  },
+  {
+    "name": "Toad",
+    "scientific_name": "Bufo bufo",
+    "type": "Amphibian",
+    "status": "Least Concern",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/6/66/Bufo_bufo_1.jpg",
+    "image_attribution": {
+      "author": "Joshua Lutz",
+      "source": "https://commons.wikimedia.org/wiki/File:Bufo_bufo_1.jpg",
+      "license": "Public Domain"
+    }
+  },
+
+  {
+    "name": "Musk Ox",
+    "scientific_name": "Ovibos moschatus",
+    "status": "Least Concern",
+    "type": "Mammal",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Ovibos_moschatus_qtl1.jpg",
+    "image_attribution": {
+      "author": "Quartl",
+      "source": "https://commons.wikimedia.org/wiki/File:Ovibos_moschatus_qtl1.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "name": "Ocelot",
+    "scientific_name": "Leopardus pardalis",
+    "status": "Least Concern",
+    "type": "Mammal",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/9/91/016_Ocelot_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+    "image_attribution": {
+      "author": "Giles Laurent",
+      "source": "https://commons.wikimedia.org/wiki/File:016_Ocelot_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Tasmanian Devil",
+    "scientific_name": "Sarcophilus harrisii",
+    "status": "Endangered",
+    "type": "Mammal",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Tasdevil_large.jpg",
+    "image_attribution": {
+      "author": "Wayne McLean",
+      "source": "https://commons.wikimedia.org/wiki/File:Tasdevil_large.jpg",
+      "license": "CC BY-SA 2.5"
+    }
+  },
+  {
+    "name": "Brown Hyena",
+    "scientific_name": "Parahyaena brunnea",
+    "status": "Near Threatened",
+    "type": "Mammal",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/7/75/Parahyaena_brunnea_5.jpg",
+    "image_attribution": {
+      "author": "www.southafrica.net",
+      "source": "https://commons.wikimedia.org/wiki/File:Parahyaena_brunnea_5.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "name": "Arctic Hare",
+    "scientific_name": "Lepus arcticus",
+    "status": "Least Concern",
+    "type": "Mammal",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Arctic_Hare_%28Lepus_arcticus%29_02.jpg",
+    "image_attribution": {
+      "author": "Stephan Sprinz",
+      "source": "https://commons.wikimedia.org/wiki/File:Arctic_Hare_(Lepus_arcticus)_02.jpg",
+      "license": "CC BY 4.0"
+    }
+  },
+  {
+    "name": "Secretary Bird",
+    "scientific_name": "Sagittarius serpentarius",
+    "status": "Vulnerable",
+    "type": "Bird",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Sagittarius_serpentarius_376735149.jpg",
+    "image_attribution": {
+      "author": "Gary T. Leavens",
+      "source": "https://commons.wikimedia.org/wiki/File:Sagittarius_serpentarius_376735149.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Kea",
+    "scientific_name": "Nestor notabilis",
+    "status": "Endangered",
+    "type": "Bird",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Nestor_notabilis_in_Arthur%27s_Pass_NP_04.jpg",
+    "image_attribution": {
+      "author": "Krzysztof Golik",
+      "source": "https://commons.wikimedia.org/wiki/File:Nestor_notabilis_in_Arthur%27s_Pass_NP_04.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Golden Eagle",
+    "scientific_name": "Aquila chrysaetos",
+    "status": "Least Concern",
+    "type": "Bird",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/f/f7/016_Wild_Golden_Eagle_in_flight_at_Pfyn-Finges_%28Switzerland%29_Photo_by_Giles_Laurent.jpg",
+    "image_attribution": {
+      "author": "Giles Laurent",
+      "source": "https://commons.wikimedia.org/wiki/File:016_Wild_Golden_Eagle_in_flight_at_Pfyn-Finges_(Switzerland)_Photo_by_Giles_Laurent.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Shoebill",
+    "scientific_name": "Balaeniceps rex",
+    "status": "Vulnerable",
+    "type": "Bird",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Balaeniceps_rex.jpg",
+    "image_attribution": {
+      "author": "Hans Hillewaert",
+      "source": "https://commons.wikimedia.org/wiki/File:Balaeniceps_rex.jpg",
+      "license": "© Hans Hillewaert"
+    }
+  },
+  {
+    "name": "Gharial",
+    "scientific_name": "Gavialis gangeticus",
+    "status": "Critically Endangered",
+    "type": "Reptile",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/6/63/Gharial_%28Gavialis_gangeticus%29_female_and_juvenile.jpg",
+    "image_attribution": {
+      "author": "Charles J. Sharp",
+      "source": "https://commons.wikimedia.org/wiki/File:Gharial_(Gavialis_gangeticus)_female_and_juvenile.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+
+  {
+    "name": "Frilled Lizard",
+    "scientific_name": "Chlamydosaurus kingii",
+    "status": "Least Concern",
+    "type": "Reptile",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Frill-necked_Lizard_%28Chlamydosaurus_kingii%29_%288692607976%29.jpg",
+    "image_attribution": {
+      "author": "Matt from Melbourne, Australia",
+      "source": "https://commons.wikimedia.org/wiki/File:Frill-necked_Lizard_(Chlamydosaurus_kingii)_(8692607976).jpg",
+      "license": "CC BY 2.0"
+    }
+  },
+  {
+    "name": "Horned Lizard",
+    "scientific_name": "Phrynosoma cornutum",
+    "status": "Least Concern",
+    "type": "Reptile",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/6/67/Phrynosoma_cornutum_293505046.jpg",
+    "image_attribution": {
+      "author": "Brandon Bourassa",
+      "source": "https://commons.wikimedia.org/wiki/File:Phrynosoma_cornutum_293505046.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Olive Ridley Turtle",
+    "scientific_name": "Lepidochelys olivacea",
+    "status": "Vulnerable",
+    "type": "Reptile",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/1/18/Lepidochelys_olivacea.jpg",
+    "image_attribution": {
+      "author": "Bernard Gagnon",
+      "source": "https://commons.wikimedia.org/wiki/File:Lepidochelys_olivacea.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "name": "Axolotl",
+    "scientific_name": "Ambystoma mexicanum",
+    "status": "Critically Endangered",
+    "type": "Amphibian",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Axolotl_1.jpg",
+    "image_attribution": {
+      "author": "Pmalkowski Przemysław Malkowski",
+      "source": "https://commons.wikimedia.org/wiki/File:Axolotl_1.jpg",
+      "license": "CC BY 3.0"
+    }
+  },
+  {
+    "name": "Poison Dart Frog",
+    "scientific_name": "Dendrobates tinctorius",
+    "status": "Least Concern",
+    "type": "Amphibian",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Dendrobates-tinctorius-Epipedobates-tricolor.jpg",
+    "image_attribution": {
+      "author": "Holger Krisp",
+      "source": "https://commons.wikimedia.org/wiki/File:Dendrobates-tinctorius-Epipedobates-tricolor.jpg",
+      "license": "CC BY 3.0"
+    }
+  },
+  {
+    "name": "Red-Eyed Tree Frog",
+    "scientific_name": "Agalychnis callidryas",
+    "status": "Least Concern",
+    "type": "Amphibian",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/b/be/Red_eyed_tree_frog_edit2.jpg",
+    "image_attribution": {
+      "author": "Carey James Balboa",
+      "source": "https://commons.wikimedia.org/wiki/File:Red_eyed_tree_frog_edit2.jpg",
+      "license": "Public Domain"
+    }
+  },
+  {
+    "name": "Goliath Frog",
+    "scientific_name": "Conraua goliath",
+    "status": "Endangered",
+    "type": "Amphibian",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Goliath_Frog.jpg",
+    "image_attribution": {
+      "author": "Ryan Somma",
+      "source": "https://commons.wikimedia.org/wiki/File:Goliath_Frog.jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "name": "Beluga Sturgeon",
+    "scientific_name": "Huso huso",
+    "status": "Critically Endangered",
+    "type": "Fish",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/1/16/Huso_huso.jpg",
+    "image_attribution": {
+      "author": "Krüger",
+      "source": "https://commons.wikimedia.org/wiki/File:Huso_huso.jpg",
+      "license": "Public Domain"
+    }
+  },
+  {
+    "name": "Electric Eel",
+    "scientific_name": "Electrophorus electricus",
+    "status": "Least Concern",
+    "type": "Fish",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Electrophorus_electricus_3.jpg",
+    "image_attribution": {
+      "author": "Stan Shebs",
+      "source": "https://commons.wikimedia.org/wiki/File:Electrophorus_electricus_3.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "name": "Manta Ray",
+    "scientific_name": "Mobula birostris",
+    "status": "Vulnerable",
+    "type": "Fish",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Giant_oceanic_manta_ray_with_diver.jpg",
+    "image_attribution": {
+      "author": "Elias Levy",
+      "source": "https://commons.wikimedia.org/wiki/File:Giant_oceanic_manta_ray_with_diver.jpg",
+      "license": "CC BY 2.0"
+    }
+  },
+  {
+    "name": "Blue Tang",
+    "scientific_name": "Paracanthurus hepatus",
+    "status": "Least Concern",
+    "type": "Fish",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Paracanthurus-hepatus-paletten-doktorfisch.jpg",
+    "image_attribution": {
+      "author": "Holger Krisp",
+      "source": "https://commons.wikimedia.org/wiki/File:Paracanthurus-hepatus-paletten-doktorfisch.jpg",
+      "license": "CC BY 3.0"
+    }
+  },
+  {
+    "name": "Wolf Eel",
+    "scientific_name": "Anarrhichthys ocellatus",
+    "status": "Least Concern",
+    "type": "Fish",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Anarrhichthys_ocellatus.jpg",
+    "image_attribution": {
+      "author": "Chad King",
+      "source": "https://commons.wikimedia.org/wiki/File:Anarrhichthys_ocellatus.jpg",
+      "license": "Public Domain"
+    }
+  },
+  {
+    "name": "Harpy Eagle",
+    "scientific_name": "Harpia harpyja",
+    "status": "Near Threatened",
+    "type": "Bird",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Harpy_Eagle_-_Harpia_harpyja%2C_Belize_Zoo%2C_Belize.jpg",
+    "image_attribution": {
+      "author": "Judy Gallagher",
+      "source": "https://commons.wikimedia.org/wiki/File:Harpy_Eagle_-_Harpia_harpyja,_Belize_Zoo,_Belize.jpg",
+      "license": "CC BY 2.0"
+    }
+  },
+  {
+    "name": "Scarlet Macaw",
+    "scientific_name": "Ara macao",
+    "status": "Least Concern",
+    "type": "Bird",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/4/47/Scarlet_macaw_%28Ara_macao_cyanopterus%29_Copan.jpg",
+    "image_attribution": {
+      "author": "Charles J. Sharp ",
+      "source": "https://commons.wikimedia.org/wiki/File:Scarlet_macaw_(Ara_macao_cyanopterus)_Copan.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Bateleur Eagle",
+    "scientific_name": "Terathopius ecaudatus",
+    "status": "Near Threatened",
+    "type": "Bird",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/3/37/Bateleur_%28Terathopius_ecaudatus%29_male_..._-_54493360573.jpg",
+    "image_attribution": {
+      "author": "Bernard Dupont",
+      "source": "https://commons.wikimedia.org/wiki/File:Bateleur_(Terathopius_ecaudatus)_male_..._-_54493360573.jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "name": "White Stork",
+    "scientific_name": "Ciconia ciconia",
+    "status": "Least Concern",
+    "type": "Bird",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/4/4e/White_Stork_Wei%C3%9Fstorch_Ciconia_ciconia.jpg",
+    "image_attribution": {
+      "author": "Richard Bart",
+      "source": "https://commons.wikimedia.org/wiki/File:White_Stork_Wei%C3%9Fstorch_Ciconia_ciconia.jpg",
+      "license": "CC BY-SA 2.5"
+    }
+  },
+  {
+    "name": "Crested Caracara",
+    "scientific_name": "Caracara plancus",
+    "status": "Least Concern",
+    "type": "Bird",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Schopfkarakara.jpg",
+    "image_attribution": {
+      "author": "Andreas Trepte",
+      "source": "https://commons.wikimedia.org/wiki/File:Schopfkarakara.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Mandarin Duck",
+    "scientific_name": "Aix galericulata",
+    "status": "Least Concern",
+    "type": "Bird",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Aix_galericulata_%28male%29.jpg",
+    "image_attribution": {
+      "author": "Hans Hillewaert",
+      "source": "https://commons.wikimedia.org/wiki/File:Aix_galericulata_(male).jpg",
+      "license": "©"
+    }
+  },
+  {
+    "name": "King Vulture",
+    "scientific_name": "Sarcoramphus papa",
+    "status": "Least Concern",
+    "type": "Bird",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/d/da/Sarcoramphus_papa_441774682.jpg",
+    "image_attribution": {
+      "author": "Anthony Batista",
+      "source": "https://commons.wikimedia.org/wiki/File:Sarcoramphus_papa_441774682.jpg",
+      "license": "CC BY 4.0"
+    }
+  },
+  {
+    "name": "Peafowl (Indian Peafowl)",
+    "scientific_name": "Pavo cristatus",
+    "status": "Least Concern",
+    "type": "Bird",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/f/fb/023_Indian_peafowl_in_Jim_Corbett_National_Park_Photo_by_Giles_Laurent.jpg",
+    "image_attribution": {
+      "author": "Giles Laurent",
+      "source": "https://commons.wikimedia.org/wiki/File:023_Indian_peafowl_in_Jim_Corbett_National_Park_Photo_by_Giles_Laurent.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Golden Pheasant",
+    "scientific_name": "Chrysolophus pictus",
+    "status": "Least Concern",
+    "type": "Bird",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Chrysolophus_pictus_%28golden_pheasant%29.jpg",
+    "image_attribution": {
+      "author": "James St. John",
+      "source": "https://commons.wikimedia.org/wiki/File:Chrysolophus_pictus_(golden_pheasant).jpg",
+      "license": "CC BY 2.0"
+    }
+  },
+  {
+    "name": "Cassowary (Southern)",
+    "scientific_name": "Casuarius casuarius",
+    "status": "Least Concern",
+    "type": "Bird",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Double-Wattled_Cassowary_%28Casuarius_bicarunculatus%29.jpg",
+    "image_attribution": {
+      "author": "Jim Kuhn",
+      "source": "https://commons.wikimedia.org/wiki/File:Double-Wattled_Cassowary_(Casuarius_bicarunculatus).jpg",
+      "license": "CC BY 2.0"
+    }
+  },
+  {
+    "name": "Bearded Vulture",
+    "scientific_name": "Gypaetus barbatus",
+    "status": "Near Threatened",
+    "type": "Bird",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/2/23/Bartgeier_Gypaetus_barbatus_front_Richard_Bartz.jpg",
+    "image_attribution": {
+      "author": "Richard Bartz",
+      "source": "https://commons.wikimedia.org/wiki/File:Bartgeier_Gypaetus_barbatus_front_Richard_Bartz.jpg",
+      "license": "CC BY-SA 2.5"
+    }
+  },
+  {
+    "name": "Gila Monster",
+    "scientific_name": "Heloderma suspectum",
+    "status": "Near Threatened",
+    "type": "Reptile",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/8/80/AZ_Gila_Monster_01.jpg",
+    "image_attribution": {
+      "author": "Josh Olander",
+      "source": "https://commons.wikimedia.org/wiki/File:AZ_Gila_Monster_01.jpg",
+      "license": "CC BY 4.0"
+    }
+  },
+  {
+    "name": "Blue-Tongued Skink",
+    "scientific_name": "Tiliqua scincoides",
+    "status": "Least Concern",
+    "type": "Reptile",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Eastern_blue-tongued_lizard_-_Tiliqua_scincoides_scincoides_-_6.jpg",
+    "image_attribution": {
+      "author": "Simon_sees",
+      "source": "https://commons.wikimedia.org/wiki/File:Eastern_blue-tongued_lizard_-_Tiliqua_scincoides_scincoides_-_6.jpg",
+      "license": "CC BY 2.0"
+    }
+  },
+  {
+    "name": "Chameleon (Panther Chameleon)",
+    "scientific_name": "Furcifer pardalis",
+    "status": "Least Concern",
+    "type": "Reptile",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/1/16/Furcifer_pardalis_002.jpg",
+    "image_attribution": {
+      "author": "Christophe German",
+      "source": "https://commons.wikimedia.org/wiki/File:Furcifer_pardalis_002.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Ball Python",
+    "scientific_name": "Python regius",
+    "status": "Least Concern",
+    "type": "Reptile",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Python_regius_%28Balla_python%29.jpg",
+    "image_attribution": {
+      "author": "James St. John",
+      "source": "https://commons.wikimedia.org/wiki/File:Python_regius_(Balla_python).jpg",
+      "license": "CC BY 2.0"
+    }
+  },
+  {
+    "name": "Burmese Python",
+    "scientific_name": "Python bivittatus",
+    "status": "Vulnerable",
+    "type": "Reptile",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Python_bivittatus_in_Ouwehands_Dierenpark_01.jpg",
+    "image_attribution": {
+      "author": "FakirNL",
+      "source": "https://commons.wikimedia.org/wiki/File:Python_bivittatus_in_Ouwehands_Dierenpark_01.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "California Kingsnake",
+    "scientific_name": "Lampropeltis californiae",
+    "status": "Least Concern",
+    "type": "Reptile",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Lampropeltis_getula_californiae.jpg",
+    "image_attribution": {
+      "author": "Haplochromis",
+      "source": "https://commons.wikimedia.org/wiki/File:Lampropeltis_getula_californiae.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "name": "Cobra (Indian Cobra)",
+    "scientific_name": "Naja naja",
+    "status": "Least Concern",
+    "type": "Reptile",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Indian_Cobra_Naja_naja_by_Dr_Raju_Kasambe_DSCN4991_%2817%29.jpg",
+    "image_attribution": {
+      "author": "Dr. Raju Kasambe",
+      "source": "https://commons.wikimedia.org/wiki/File:Indian_Cobra_Naja_naja_by_Dr_Raju_Kasambe_DSCN4991_(17).jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Garter Snake",
+    "scientific_name": "Thamnophis sirtalis",
+    "status": "Least Concern",
+    "type": "Reptile",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Thamnophis_sirtalis_sirtalis_Wooster.jpg",
+    "image_attribution": {
+      "author": "Wilson44691",
+      "source": "https://commons.wikimedia.org/wiki/File:Thamnophis_sirtalis_sirtalis_Wooster.jpg",
+      "license": "Public Domain"
+    }
+  },
+  {
+    "name": "Anaconda (Green Anaconda)",
+    "scientific_name": "Eunectes murinus",
+    "status": "Least Concern",
+    "type": "Reptile",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/1/19/Eunectes_murinus_4698322.jpg",
+    "image_attribution": {
+      "author": "Glynn Morris",
+      "source": "https://commons.wikimedia.org/wiki/File:Eunectes_murinus_4698322.jpg",
+      "license": "CC BY 4.0"
+    }
+  },
+  {
+    "name": "Newt (Eastern Newt)",
+    "scientific_name": "Notophthalmus viridescens",
+    "status": "Least Concern",
+    "type": "Amphibian",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/4/49/Notophthalmus_viridescensPCCA20040816-3983A.jpg",
+    "image_attribution": {
+      "author": "Patrick Coin",
+      "source": "https://commons.wikimedia.org/wiki/File:Notophthalmus_viridescensPCCA20040816-3983A.jpg",
+      "license": "CC BY-SA 2.5"
+    }
+  },
+  {
+    "name": "Salamander (Tiger Salamander)",
+    "scientific_name": "Ambystoma tigrinum",
+    "status": "Least Concern",
+    "type": "Amphibian",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/8/88/Tiger_Salamander_%28Ambystoma_tigrinum%29.jpg",
+    "image_attribution": {
+      "author": "USFWS Mountain Prairie",
+      "source": "https://commons.wikimedia.org/wiki/File:Tiger_Salamander_(Ambystoma_tigrinum).jpg",
+      "license": "Public Domain"
+    }
+  },
+  {
+    "name": "Cane Toad",
+    "scientific_name": "Rhinella marina",
+    "status": "Least Concern",
+    "type": "Amphibian",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/1/10/Cane_toad_%28Rhinella_marina%29_Taveuni.jpg",
+    "image_attribution": {
+      "author": "Charles J. Sharp",
+      "source": "https://commons.wikimedia.org/wiki/File:Cane_toad_(Rhinella_marina)_Taveuni.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Giant Salamander (Chinese)",
+    "scientific_name": "Andrias davidianus",
+    "status": "Critically Endangered",
+    "type": "Amphibian",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Velemlok_%C4%8D%C3%ADnsk%C3%BD_zoo_praha_1.jpg",
+    "image_attribution": {
+      "author": "Petr Hamernik",
+      "source": "https://commons.wikimedia.org/wiki/File:Velemlok_%C4%8D%C3%ADnsk%C3%BD_zoo_praha_1.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Piranha (Red-Bellied)",
+    "scientific_name": "Pygocentrus nattereri",
+    "status": "Least Concern",
+    "type": "Fish",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Pygocentrus_nattereri_-_Karlsruhe_Zoo_01.jpg",
+    "image_attribution": {
+      "author": "H. Zell",
+      "source": "https://commons.wikimedia.org/wiki/File:Pygocentrus_nattereri_-_Karlsruhe_Zoo_01.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "name": "Zebra Shark",
+    "scientific_name": "Stegostoma tigrinum",
+    "status": "Endangered",
+    "type": "Fish",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Stegostomatidae_Stegostoma_fasciatum_1.jpg",
+    "image_attribution": {
+      "author": "NasserHalaweh",
+      "source": "https://commons.wikimedia.org/wiki/File:Stegostomatidae_Stegostoma_fasciatum_1.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Barracuda",
+    "scientific_name": "Sphyraena barracuda",
+    "status": "Least Concern",
+    "type": "Fish",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Sphyraena_barracuda_1.jpg",
+    "image_attribution": {
+      "author": "Karlj",
+      "source": "https://commons.wikimedia.org/wiki/File:Sphyraena_barracuda_1.jpg",
+      "license": "Public Domain"
+    }
+  },
+  {
+    "name": "Atlantic Bluefin Tuna",
+    "scientific_name": "Thunnus thynnus",
+    "status": "Endangered",
+    "type": "Fish",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Thunnus_thynnus_2.jpg",
+    "image_attribution": {
+      "author": "Fisheries Service NOAA",
+      "source": "https://commons.wikimedia.org/wiki/File:Thunnus_thynnus_2.jpg",
+      "license": "Public Domain"
+    }
+  },
+  {
+    "name": "Moray Eel",
+    "scientific_name": "Muraenidae",
+    "status": "Least Concern",
+    "type": "Fish",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Moray_Eel_%2816257889549%29.jpg",
+    "image_attribution": {
+      "author": "shankar s. from sharjah, UAE",
+      "source": "https://commons.wikimedia.org/wiki/File:Moray_Eel_(16257889549).jpg",
+      "license": "CC BY 2.0"
+    }
+  },
+  {
+    "name": "Stingray",
+    "scientific_name": "Dasyatidae",
+    "status": "Least Concern",
+    "type": "Fish",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Baby_Stingray_in_Fish_Aquarium.jpg",
+    "image_attribution": {
+      "author": "richard_clyborne",
+      "source": "https://commons.wikimedia.org/wiki/File:Baby_Stingray_in_Fish_Aquarium.jpg",
+      "license": "CC BY 2.0"
+    }
+  },
+  {
+    "name": "Swordfish",
+    "scientific_name": "Xiphias gladius",
+    "status": "Least Concern",
+    "type": "Fish",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Xiphias_gladius2.jpg",
+    "image_attribution": {
+      "author": "Werner",
+      "source": "https://commons.wikimedia.org/wiki/File:Xiphias_gladius2.jpg",
+      "license": "Public Domain"
+    }
+  },
+  {
+    "name": "Mako Shark",
+    "scientific_name": "Isurus oxyrinchus",
+    "status": "Endangered",
+    "type": "Fish",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/7/74/Isurus_oxyrinchus_by_mark_conlin.jpg",
+    "image_attribution": {
+      "author": "Mark Conlin",
+      "source": "https://commons.wikimedia.org/wiki/File:Isurus_oxyrinchus_by_mark_conlin.jpg",
+      "license": "Public Domain"
+    }
+  },
+  {
+    "name": "Lionfish",
+    "scientific_name": "Pterois",
+    "status": "Least Concern",
+    "type": "Fish",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/3/36/MC_Rotfeuerfisch.jpg",
+    "image_attribution": {
+      "author": "Christian Mehlführer",
+      "source": "https://commons.wikimedia.org/wiki/File:MC_Rotfeuerfisch.jpg",
+      "license": "CC BY 2.5"
+    }
+  },
+  {
+    "name": "Bottlenose Dolphin",
+    "scientific_name": "Tursiops truncatus",
+    "status": "Least Concern",
+    "type": "Mammal",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/1/10/Tursiops_truncatus_01.jpg",
+    "image  _attribution": {
+      "author": "NASA",
+      "source": "https://commons.wikimedia.org/wiki/File:Tursiops_truncatus_01.jpg",
+      "license": "Public Domain"
+    }
+  },
+  {
+    "name": "Narwhal",
+    "scientific_name": "Monodon monoceros",
+    "status": "Near Threatened",
+    "type": "Mammal",
+    "image_link": "https://commons.wikimedia.org/wiki/File:%D0%9D%D0%B0%D1%80%D0%B2%D0%B0%D0%BB_%D0%B2_%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9_%D0%90%D1%80%D0%BA%D1%82%D0%B8%D0%BA%D0%B5.jpg",
+    "image_attribution": {
+      "author": "пресс-служба ПАО \"Газпром нефть\" ",
+      "source": "https://commons.wikimedia.org/wiki/File:%D0%9D%D0%B0%D1%80%D0%B2%D0%B0%D0%BB_%D0%B2_%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9_%D0%90%D1%80%D0%BA%D1%82%D0%B8%D0%BA%D0%B5.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Beluga Whale",
+    "scientific_name": "Delphinapterus leucas",
+    "status": "Near Threatened",
+    "type": "Mammal",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Delphinapterus_leucas_16.jpg",
+    "image_attribution": {
+      "author": "https://www.flickr.com/photos/iwona_kellie/",
+      "source": "https://commons.wikimedia.org/wiki/File:Delphinapterus_leucas_16.jpg",
+      "license": "CC BY 2.0"
+    }
+  },
+  {
+    "name": "Sea Otter",
+    "scientific_name": "Enhydra lutris",
+    "status": "Endangered",
+    "type": "Mammal",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/1/15/Sea_otter_cropped.jpg",
+    "image_attribution": {
+      "author": "Michael L. Baird",
+      "source": "https://commons.wikimedia.org/wiki/File:Sea_otter_cropped.jpg",
+      "license": "CC BY 2.0"
+    }
+  },
+  {
+    "name": "Leatherback Sea Turtle",
+    "scientific_name": "Dermochelys coriacea",
+    "status": "Vulnerable",
+    "type": "Reptile",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Penyu_Belimbing_%28Dermochelys_coriacea%29.jpg",
+    "image_attribution": {
+      "author": "Ghofar Ismail Putra",
+      "source": "https://commons.wikimedia.org/wiki/File:Penyu_Belimbing_(Dermochelys_coriacea).jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Galápagos Tortoise",
+    "scientific_name": "Chelonoidis nigra",
+    "status": "Vulnerable",
+    "type": "Reptile",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Chelonoidis_nigra_%283837355845%29.jpg",
+    "image_attribution": {
+      "author": "RAF-YYC from Calgary, CA",
+      "source": "https://commons.wikimedia.org/wiki/File:Chelonoidis_nigra.jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "name": "Saltwater Crocodile",
+    "scientific_name": "Crocodylus porosus",
+    "status": "Least Concern",
+    "type": "Reptile",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Crocodylus_porosus_-_Wilhelma.jpg",
+    "image_attribution": {
+      "author": "H. Zell",
+      "source": "https://commons.wikimedia.org/wiki/File:Crocodylus_porosus_-_Wilhelma.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "name": "Great White Shark",
+    "scientific_name": "Carcharodon carcharias",
+    "status": "Vulnerable",
+    "type": "Fish",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/5/56/White_shark.jpg",
+    "image_attribution": {
+      "author": "Terry Goss",
+      "source": "https://commons.wikimedia.org/wiki/File:White_shark.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "name": "Whale Shark",
+    "scientific_name": "Rhincodon typus",
+    "status": "Endangered",
+    "type": "Fish",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Whale_shark%2C_Rhincodon_typus%2C_at_Daedalus_in_the_Egyptian_Red_Sea._%2835827412321%29.jpg",
+    "image_attribution": {
+      "author": "Derek Keats from Johannesburg, South Africa",
+      "source": "https://commons.wikimedia.org/wiki/File:Whale_shark,_Rhincodon_typus,_at_Daedalus_in_the_Egyptian_Red_Sea._(35827412321).jpg",
+      "license": "CC BY 2.0"
+    }
+  },
+  {
+    "name": "Clown Triggerfish",
+    "scientific_name": "Balistoides conspicillum",
+    "status": "Least Concern",
+    "type": "Fish",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/9/99/Balistoides_conspicillum_01.jpg",
+    "image_attribution": {
+      "author": "H. Zell",
+      "source": "https://commons.wikimedia.org/wiki/File:Balistoides_conspicillum_01.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "name": "Anglerfish",
+    "scientific_name": "Lophiiformes",
+    "status": "Least Concern",
+    "type": "Fish",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Caulophryne_pelagica.jpg",
+    "image_attribution": {
+      "author": "D. Shale",
+      "source": "https://commons.wikimedia.org/wiki/File:Caulophryne_pelagica.jpg",
+      "license": "CC BY 2.0"
+    }
+  },
+  {
+    "name": "Blue Morpho Butterfly",
+    "scientific_name": "Morpho peleides",
+    "status": "Not Evaluated",
+    "type": "Insect",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/6/68/Morpho_peleides_2.jpg",
+    "image_attribution": {
+      "author": "Thomas Bresson",
+      "source": "https://commons.wikimedia.org/wiki/File:Morpho_peleides_2.jpg",
+      "license": "CC BY 3.0"
+    }
+  },
+  {
+    "name": "Atlas Moth",
+    "scientific_name": "Attacus atlas",
+    "status": "Not Evaluated",
+    "type": "Insect",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Attacus_atlas_qtl3.jpg",
+    "image_attribution": {
+      "author": "Qtl1",
+      "source": "https://commons.wikimedia.org/wiki/File:Attacus_atlas_qtl3.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "name": "Giant African Millipede",
+    "scientific_name": "Archispirostreptus gigas",
+    "status": "Not Evaluated",
+    "type": "Invertebrate",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Archispirostreptus-Gigas-Amphitheatre.jpg",
+    "image_attribution": {
+      "author": "Bjørn Christian Tørrissen",
+      "source": "https://commons.wikimedia.org/wiki/File:Archispirostreptus-Gigas-Amphitheatre.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "name": "Japanese Spider Crab",
+    "scientific_name": "Macrocheira kaempferi",
+    "status": "Not Evaluated",
+    "type": "Invertebrate",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Macrocheira_kaempferi.jpg",
+    "image_attribution": {
+      "author": "Lycaon (Hans Hillewaert)",
+      "source": "https://commons.wikimedia.org/wiki/File:Macrocheira_kaempferi.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
     "name": "Giant Panda",
     "scientific_name": "Ailuropoda melanoleuca",
-    "image_link": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Grosser_Panda.JPG",
     "status": "Vulnerable",
-    "type": "Mammal"
+    "type": "Mammal",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+    "image_attribution": {
+      "author": "Giles Laurent",
+      "source": "https://commons.wikimedia.org/wiki/File:020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+      "license": "CC BY-SA 4.0"
+    }
   },
   {
     "name": "Snow Leopard",
     "scientific_name": "Panthera uncia",
-    "image_link": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Snow_Leopard_Panthera_uncia.jpg",
     "status": "Vulnerable",
-    "type": "Mammal"
+    "type": "Mammal",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Snow_leopard_%28Panthera_uncia%29_female_2.jpg",
+    "image_attribution": {
+      "author": "Charles J. Sharp",
+      "source": "https://commons.wikimedia.org/wiki/File:Snow_leopard_(Panthera_uncia)_female_2.jpg",
+      "license": "CC BY-SA 4.0"
+    }
   },
   {
     "name": "Black Rhinoceros",
     "scientific_name": "Diceros bicornis",
-    "image_link": "https://upload.wikimedia.org/wikipedia/commons/7/71/Black_Rhinoceros_in_South_Africa.jpg",
     "status": "Critically Endangered",
-    "type": "Mammal"
+    "type": "Mammal",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ngorongoro_Spitzmaulnashorn.jpg",
+    "image_attribution": {
+      "author": "Ikiwaner",
+      "source": "https://commons.wikimedia.org/wiki/File:Ngorongoro_Spitzmaulnashorn.jpg",
+      "license": "GFDL 1.2"
+    }
   },
   {
     "name": "Hawksbill Turtle",
     "scientific_name": "Eretmochelys imbricata",
-    "image_link": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Eretmochelys_imbricata_head.jpg",
     "status": "Critically Endangered",
-    "type": "Reptile"
+    "type": "Reptile",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Tortuga_carey_%28Eretmochelys_imbricata%29%2C_parque_nacional_Ras_Muhammad%2C_Egipto%2C_2022-03-28%2C_DD_56.jpg",
+    "image_attribution": {
+      "author": "Diego Delso",
+      "source": "https://commons.wikimedia.org/wiki/File:Tortuga_carey_(Eretmochelys_imbricata),_parque_nacional_Ras_Muhammad,_Egipto,_2022-03-28,_DD_56.jpg",
+      "license": "CC BY-SA 4.0"
+    }
   },
   {
     "name": "Sumatran Tiger",
     "scientific_name": "Panthera tigris sumatrae",
-    "image_link": "https://upload.wikimedia.org/wikipedia/commons/5/58/Sumatran_tiger_%28Panthera_tigris_sumatrae%29_2.jpg",
     "status": "Critically Endangered",
-    "type": "Mammal"
+    "type": "Mammal",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/6/62/Panthera_tigris_sumatran_subspecies.jpg",
+    "image_attribution": {
+      "author": "Monka Betley",
+      "source": "https://commons.wikimedia.org/wiki/File:Panthera_tigris_sumatran_subspecies.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "name": "Red Panda",
+    "scientific_name": "Ailurus fulgens",
+    "status": "Endangered",
+    "type": "Mammal",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Red_Panda_%2824986761703%29.jpg",
+    "image_attribution": {
+      "author": "Mathias Appel",
+      "source": "https://commons.wikimedia.org/wiki/File:Red_Panda_(24986761703).jpg",
+      "license": "CC0"
+    }
+  },
+  {
+    "name": "African Forest Elephant",
+    "scientific_name": "Loxodonta cyclotis",
+    "status": "Critically Endangered",
+    "type": "Mammal",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/9/98/Loxodonta_cyclotis_110278379.jpg",
+    "image_attribution": {
+      "author": "Jean-Paul Boerekamps",
+      "source": "https://commons.wikimedia.org/wiki/File:Loxodonta_cyclotis_110278379.jpg",
+      "license": "CC0"
+    }
+  },
+  {
+    "name": "Green Sea Turtle",
+    "scientific_name": "Chelonia mydas",
+    "status": "Endangered",
+    "type": "Reptile",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+    "image_attribution": {
+      "author": "Giles Laurent",
+      "source": "https://commons.wikimedia.org/wiki/File:020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Blue Whale",
+    "scientific_name": "Balaenoptera musculus",
+    "status": "Endangered",
+    "type": "Mammal",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/7/7e/202501_Blue_whale.svg",
+    "image_attribution": {
+      "author": "DataBase Center for Life Science (DBCLS)",
+      "source": "https://commons.wikimedia.org/wiki/File:202501_Blue_whale.svg",
+      "license": "CC BY 4.0"
+    }
+  },
+  {
+    "name": "Mountain Gorilla",
+    "scientific_name": "Gorilla beringei beringei",
+    "status": "Endangered",
+    "type": "Mammal",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/1/14/Gorila_de_monta%C3%B1a_%28Gorilla_beringei_beringei%29%2C_parque_nacional_de_la_Selva_Impenetrable_de_Bwindi%2C_Uganda%2C_2024-02-02%2C_DD_04.jpg",
+    "image_attribution": {
+      "author": "Diego Delso",
+      "source": "https://commons.wikimedia.org/wiki/File:Gorila_de_monta%C3%B1a_(Gorilla_beringei_beringei),_parque_nacional_de_la_Selva_Impenetrable_de_Bwindi,_Uganda,_2024-02-02,_DD_04.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+
+  {
+    "name": "Saola",
+    "scientific_name": "Pseudoryx nghetinhensis",
+    "status": "Critically Endangered",
+    "type": "Mammal",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/7/73/Pseudoryx_nghetinhensis%2C_b.PNG",
+    "image_attribution": {
+      "author": "Silviculture at Vietnamese Wikipedia",
+      "source": "https://commons.wikimedia.org/wiki/File:Pseudoryx_nghetinhensis,_b.PNG",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "name": "Amur Leopard",
+    "scientific_name": "Panthera pardus orientalis",
+    "status": "Critically Endangered",
+    "type": "Mammal",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/0/00/Amur_Leopard_Panthera_pardus_orientalis_Facing_Forward_1761px.jpg",
+    "image_attribution": {
+      "author": "Photo by Derek Ramsey (Ram-Man)",
+      "source": "https://commons.wikimedia.org/wiki/File:Amur_Leopard_Panthera_pardus_orientalis_Facing_Forward_1761px.jpg",
+      "license": "CC BY-SA 2.5"
+    }
+  },
+  {
+    "name": "Bornean Orangutan",
+    "scientific_name": "Pongo pygmaeus",
+    "status": "Critically Endangered",
+    "type": "Mammal",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/0/04/Bornean_orangutan_%28Pongo_pygmaeus%29%2C_Tanjung_Putting_National_Park_07.jpg",
+    "image_attribution": {
+      "author": "Thomas Fuhrmann",
+      "source": "https://commons.wikimedia.org/wiki/File:Bornean_orangutan_(Pongo_pygmaeus),_Tanjung_Putting_National_Park_07.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Yangtze Finless Porpoise",
+    "scientific_name": "Neophocaena asiaeorientalis",
+    "status": "Critically Endangered",
+    "type": "Mammal",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Yangtze_finless_porpoise%2C_10_November_2006.jpg",
+    "image_attribution": {
+      "author": "Huangdan2060",
+      "source": "https://commons.wikimedia.org/wiki/File:Yangtze_finless_porpoise,_10_November_2006.jpg",
+      "license": "CC BY 3.0"
+    }
+  },
+  {
+    "name": "Philippine Eagle",
+    "scientific_name": "Pithecophaga jefferyi",
+    "status": "Critically Endangered",
+    "type": "Bird",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Pamarayeg_IIIx2.jpg",
+    "image_attribution": {
+      "author": "Aimee Valencia",
+      "source": "https://commons.wikimedia.org/wiki/File:Pamarayeg_IIIx2.jpg",
+      "license": "CC BY 4.0"
+    }
+  },
+
+  {
+    "name": "Vaquita",
+    "scientific_name": "Phocoena sinus",
+    "status": "Critically Endangered",
+    "type": "Mammal",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/1/18/Vaquita_swimming_through_the_void._%28Phocoena_Sinus%29_2.png",
+    "image_attribution": {
+      "author": "좀비 브렌다",
+      "source": "https://commons.wikimedia.org/wiki/File:Vaquita_swimming_through_the_void._(Phocoena_Sinus)_2.png",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Javan Rhino",
+    "scientific_name": "Rhinoceros sondaicus",
+    "status": "Critically Endangered",
+    "type": "Mammal",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Lesser_One_Horned_Rhinoceros_Rhinoceros_Sondaicus_%2853549614%29.jpeg",
+    "image_attribution": {
+      "author": "Scott Nelson",
+      "source": "https://commons.wikimedia.org/wiki/File:Lesser_One_Horned_Rhinoceros_Rhinoceros_Sondaicus_(53549614).jpeg",
+      "license": "CC BY 3.0"
+    }
+  },
+  {
+    "name": "African Wild Dog",
+    "scientific_name": "Lycaon pictus",
+    "status": "Endangered",
+    "type": "Mammal",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/b/ba/African_wild_dog_%28Lycaon_pictus_pictus%29.jpg",
+    "image_attribution": {
+      "author": "Charles J. Sharp",
+      "source": "https://commons.wikimedia.org/wiki/File:African_wild_dog_(Lycaon_pictus_pictus).jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Addax",
+    "scientific_name": "Addax nasomaculatus",
+    "status": "Critically Endangered",
+    "type": "Mammal",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/8/8d/A_big_male_Addax_showing_as_the_power_of_his_horns.jpg",
+    "image_attribution": {
+      "author": "HaytemBouchri93",
+      "source": "https://commons.wikimedia.org/wiki/File:A_big_male_Addax_showing_as_the_power_of_his_horns.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "name": "Asian Elephant",
+    "scientific_name": "Elephas maximus",
+    "status": "Endangered",
+    "type": "Mammal",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/9/98/Elephas_maximus_%28Bandipur%29.jpg",
+    "image_attribution": {
+      "author": "Yathin S Krishnappa",
+      "source": "https://commons.wikimedia.org/wiki/File:Elephas_maximus_(Bandipur).jpg",
+      "license": "CC BY-SA 3.0"
+    }
   }
-  
 ]

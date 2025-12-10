@@ -8,100 +8,83 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Leaflet (required for GBIF map) -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
   <script type="module" src="js/main.js"></script>
 </head>
+
 <body>
-  <header>
-    <header class="divider" id="dy-header">
-      <!-- Dynamic header -->
-    </header>
 
+<header class="divider" id="dy-header"></header>
 
-    <!-- LEFT SIDE CONTENT -->
-    <section class="details-left">
+<main class="details-layout">
 
-        <h2 id="species-common-name">[Species Common Name]</h2>
-        <p id="species-scientific-name" class="scientific-name">[Species Scientific Name]</p>
+  <!-- LEFT SIDE CONTENT -->
+  <section class="details-left">
 
-        <div class="species-header">
-            <div class="species-image">
-                <img src="lion-placeholder.png" alt="Species Image" />
-            </div>
+      <h2 id="species-common-name">[Species Common Name]</h2>
+      <p id="species-scientific-name" class="scientific-name">[Species Scientific Name]</p>
 
-            <div class="status-box">
-                <span id="species-status">Endangered</span>
-            </div>
-        </div>
+      <div class="species-header">
+          <div class="species-image">
+              <img id="species-image" src="img/fallback-image.png" alt="Species Image" />
+          </div>
 
-        <div class="info-block">
-            <h3>Habitat & Diet</h3>
-            <p id="habitat-diet">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit...
-            </p>
-        </div>
+          <div class="status-box">
+              <span id="species-status">Loading...</span>
+          </div>
+      </div>
 
-        <div class="info-block">
-            <h3>Lifespan & Facts</h3>
-            <p id="lifespan-facts">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit...
-            </p>
-        </div>
+      <div class="info-block">
+          <h3>Habitat & Diet</h3>
+          <p id="habitat-diet">Loading...</p>
+      </div>
 
-        <div class="info-block">
-            <h3>Conservation Efforts</h3>
-            <p id="conservation-efforts">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit...
-            </p>
-        </div>
+      <div class="info-block">
+          <h3>Lifespan & Facts</h3>
+          <p id="lifespan-facts">Loading...</p>
+      </div>
 
-    </section>
+      <div class="info-block">
+          <h3>Conservation Efforts</h3>
+          <p id="conservation-efforts">Loading...</p>
+      </div>
 
-    <!-- RIGHT SIDE CONTENT -->
-    <aside class="details-right">
+  </section>
 
-        <!-- MAP -->
-        <section class="map-section">
-            <h3>Occurrence Map</h3>
-            <div class="map-placeholder">
-                <img src="worldmap-placeholder.png" alt="Occurrence Map" />
-            </div>
-        </section>
+  <!-- RIGHT SIDE CONTENT -->
+  <aside class="details-right">
 
-        <!-- SIMILAR ANIMALS -->
-        <section class="similar-section">
-            <h3>Similar Critters</h3>
+      <!-- MAP -->
+      <section class="map-section">
+          <h3>Occurrence Map</h3>
+          <div id="species-map" style="height: 350px; width: 100%;"></div>
+      </section>
 
-            <div class="similar-list">
+      <!-- SIMILAR ANIMALS -->
+      <section class="similar-section">
+          <h3>Similar Critters</h3>
+          <div id="similar-list" class="similar-list"></div>
+      </section>
 
-                <div class="similar-item">
-                    <img src="placeholder.png" alt="" />
-                    <span>Red Panda</span>
-                </div>
+      <!-- UPVOTE BUTTON -->
+      <button class="upvote-btn">
+          ❤️ Up Vote this Animal!
+      </button>
 
-                <div class="similar-item">
-                    <img src="placeholder.png" alt="" />
-                    <span>Fossa</span>
-                </div>
-
-                <div class="similar-item">
-                    <img src="placeholder.png" alt="" />
-                    <span>Clouded Leopard</span>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- UPVOTE BUTTON -->
-        <button class="upvote-btn">
-            ❤️ Up Vote this Animal!
-        </button>
-
-    </aside>
+  </aside>
 
 </main>
-    <footer id="dy-footer">
-    <!-- Dynamic footer -->
-    </footer>
+
+<footer id="dy-footer"></footer>
+
+<!-- Species detail logic -->
+<script type="module" src="js/species_details.js"></script>
+
 </body>
 </html>

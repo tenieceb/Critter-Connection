@@ -49,3 +49,10 @@ export function createEl(tag, className) {
 export function showError(msg) {
   alert(msg);
 }
+
+export function getQueryParam(param) {
+  const urlParams = new URLSearchParams(window.location.search);
+  return urlParams.get(param);
+}
+
+
