@@ -1,7 +1,7 @@
 export async function loadHeaderFooter() {
   try {
-    const headerTemplate = await loadTemplate("../partials/header.html");
-    const footerTemplate = await loadTemplate("../partials/footer.html");
+    const headerTemplate = await loadTemplate("./partials/header.html");
+    const footerTemplate = await loadTemplate("./partials/footer.html");
 
     const headerElement = document.querySelector("#dy-header");
     const footerElement = document.querySelector("#dy-footer");
@@ -10,7 +10,7 @@ export async function loadHeaderFooter() {
       renderWithTemplate(headerTemplate, headerElement);
     } else {
       console.warn("Header element '#dy-header' not found");
-    }
+    } 
 
     if (footerElement) {
       renderWithTemplate(footerTemplate, footerElement);
@@ -27,14 +27,10 @@ export async function loadTemplate(path) {
   return template;
 }
 
-export function renderWithTemplate(template, parentElement, data, callback) {
-
+export function renderWithTemplate(template, parentElement, { data = null, callback } = {}) {
   parentElement.innerHTML = template;
-  if(callback) {
-    callback(data);
-  }
+  if (callback) callback(data);
 }
-
 
 export function qs(selector) {
   return document.querySelector(selector);
@@ -54,5 +50,3 @@ export function getQueryParam(param) {
   const urlParams = new URLSearchParams(window.location.search);
   return urlParams.get(param);
 }
-
-

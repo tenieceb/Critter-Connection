@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
-  <script type="module" src="js/main.js"></script>
+  <script type="module" src="js/species_details.js"></script>
 </head>
 
 <body>
@@ -32,28 +32,14 @@
 
       <div class="species-header">
           <div class="species-image">
-              <img id="species-image" src="img/fallback-image.png" alt="Species Image" />
+              <img id="species-image" src="img/fallback-image.png" alt="Species Image" width="400"/>
           </div>
 
-          <div class="status-box">
-              <span id="species-status">Loading...</span>
-          </div>
-      </div>
+        <div class="info-block">
+            <h3>Critter Info</h3>
+            <p id="species-info">Loading...</p>
+        </div>
 
-      <div class="info-block">
-          <h3>Habitat & Diet</h3>
-          <p id="habitat-diet">Loading...</p>
-      </div>
-
-      <div class="info-block">
-          <h3>Lifespan & Facts</h3>
-          <p id="lifespan-facts">Loading...</p>
-      </div>
-
-      <div class="info-block">
-          <h3>Conservation Efforts</h3>
-          <p id="conservation-efforts">Loading...</p>
-      </div>
 
   </section>
 
@@ -82,9 +68,6 @@
 </main>
 
 <footer id="dy-footer"></footer>
-
-<!-- Species detail logic -->
-<script type="module" src="js/species_details.js"></script>
 
 </body>
 </html>

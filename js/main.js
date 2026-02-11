@@ -1,5 +1,5 @@
-import { loadLocalAnimals, getSpotlightAnimal, filterAnimals } from './animals.js';
-import { loadHeaderFooter } from './utils.js';
+import { loadLocalAnimals, getSpotlightAnimal, filterAnimals } from './animals.mjs';
+import { loadHeaderFooter } from './utils.mjs';
 
 loadHeaderFooter();
 
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       spotlightContainer.innerHTML = `
         <h3>${spotlightAnimal.name}</h3>
         <img src="${spotlightAnimal.image_link || 'img/fallback-image.png'}" 
-             alt="${spotlightAnimal.name}">
+             alt="${spotlightAnimal.name}" width="300">
         <p><strong>Status:</strong> ${spotlightAnimal.status}</p>
         <p><strong>Type:</strong> ${spotlightAnimal.type}</p>
       `;
@@ -108,7 +108,7 @@ function renderAnimals(animals, container) {
       <div class="animal-card" data-name="${animal.name}" style="cursor:pointer;">
         <h4>${animal.name}</h4>
         <img src="${animal.image_link || 'img/fallback-image.png'}" 
-             alt="${animal.name}">
+             alt="${animal.name}" width="200">
         <p><strong>Status:</strong> ${animal.status}</p>
         <p><strong>Type:</strong> ${animal.type}</p>
       </div>
