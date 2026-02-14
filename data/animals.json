@@ -18,7 +18,18 @@
       "family": "Felidae",
       "genus": "Panthera",
       "species": "Panthera leo"
-    }
+    },
+    "description": "The African lion is a large carnivorous feline with a majestic mane, native to sub-Saharan Africa. Males are instantly recognizable for their impressive manes.",
+    "information": {
+      "habitat": "Savannas, grasslands, and open woodlands across sub-Saharan Africa, especially in national parks and reserves.",
+      "diet": "Primarily large herbivores like zebras, wildebeests, and buffalo. Lions also scavenge or hunt smaller animals when necessary.",
+      "behavior": "Lions are social animals, living in prides that typically consist of related females, their offspring, and a few adult males."
+    },
+    "facts": [
+      "A lion's roar can be heard up to 8 kilometers away.",
+      "Lions are the only big cats that live in social groups called prides.",
+      "A pride usually consists of related females and their offspring, plus a small number of adult males."
+    ]
   },
   {
     "name": "Bengal Tiger",
@@ -39,7 +50,18 @@
       "family": "Felidae",
       "genus": "Panthera",
       "species": "Panthera tigris"
-    }
+    },
+    "description": "The Bengal tiger is a large striped feline native to India, Bangladesh, Nepal, and Bhutan. It has a bright orange coat with black stripes.",
+    "information": {
+      "habitat": "Tropical and subtropical forests, grasslands, and mangroves in the Indian subcontinent.",
+      "diet": "Carnivorous, hunting deer, wild boar, and other large mammals; also opportunistic scavengers.",
+      "behavior": "Primarily solitary and territorial, marking large areas to avoid encounters with other tigers."
+    },
+    "facts": [
+      "Bengal tigers can swim well and often cool off in lakes and rivers.",
+      "No two tigers have the same stripe pattern, just like human fingerprints.",
+      "Tigers can run at speeds up to 60 km/h in short bursts."
+    ]
   },
   {
     "name": "Gray Wolf",
@@ -60,7 +82,18 @@
       "family": "Canidae",
       "genus": "Canis",
       "species": "Canis lupus"
-    }
+    },
+    "description": "The gray wolf is a large wild canine with a thick coat of fur, typically gray with variations of brown and white.",
+    "information": {
+      "habitat": "Forests, tundras, mountains, and grasslands across North America, Europe, and Asia.",
+      "diet": "Carnivorous, hunting ungulates such as deer, elk, and moose, and sometimes small mammals or birds.",
+      "behavior": "Highly social, living in packs with strict hierarchies, usually led by an alpha pair."
+    },
+    "facts": [
+      "Wolves communicate through howls, body language, and scent marking.",
+      "A wolf pack typically consists of a family group led by an alpha pair.",
+      "Gray wolves can cover up to 30 miles in a single day while hunting."
+    ]
   },
   {
     "name": "Red Fox",
@@ -81,7 +114,18 @@
       "family": "Canidae",
       "genus": "Vulpes",
       "species": "Vulpes vulpes"
-    }
+    },
+    "description": "The red fox is a small to medium-sized canine with a bushy tail and a reddish-orange coat, often with white underparts and black markings.",
+    "information": {
+      "habitat": "Diverse habitats including forests, grasslands, mountains, and urban areas across the Northern Hemisphere.",
+      "diet": "Omnivorous, feeding on small mammals, birds, insects, fruits, and human food waste.",
+      "behavior": "Solitary hunters but may form small family groups; known for their cunning and adaptability."
+    },
+    "facts": [
+      "Red foxes have excellent hearing and can detect small animals underground.",
+      "They are known for their adaptability and can thrive in urban environments.",
+      "A group of foxes is called a 'skulk' or 'leash'."
+    ]
   },
   {
     "name": "Cheetah",
@@ -102,7 +146,18 @@
       "family": "Felidae",
       "genus": "Acinonyx",
       "species": "Acinonyx jubatus"
-    }
+    },
+    "description": "The cheetah is a slender, long-legged feline known for its incredible speed, with a tan coat covered in black spots and distinctive 'tear marks' running from the eyes to the mouth.",
+    "information": {
+      "habitat": "Open savannas and grasslands in sub-Saharan Africa, with small populations in Iran.",
+      "diet": "Carnivorous, primarily hunting small to medium-sized ungulates like gazelles and impalas.",
+      "behavior": "Solitary or found in small groups; known for their incredible speed, reaching up to 60-70 mph in short bursts."
+    },
+    "facts": [
+      "Cheetahs are the fastest land animals, capable of reaching speeds up to 60-70 mph.",
+      "They have a unique body structure with long legs and a flexible spine that allows for incredible stride length.",
+      "Unlike other big cats, cheetahs cannot roar but can purr and make chirping sounds."
+    ]
   },
   {
     "name": "African Elephant",
@@ -123,7 +178,18 @@
       "family": "Elephantidae",
       "genus": "Loxodonta",
       "species": "Loxodonta africana"
-    }
+    },
+    "description": "The African elephant is the largest living land animal, characterized by its massive body, large ears that dissipate heat, and a versatile trunk.",
+    "information": {
+      "habitat": "Found across various African landscapes including savannas, forests, and deserts.",
+      "diet": "Herbivorous, consuming grass, leaves, bark, and fruit.",
+      "behavior": "Highly social and intelligent animals that live in matriarchal herds led by an older female."
+    },
+    "facts": [
+      "Their ears are shaped like the continent of Africa.",
+      "An elephant's trunk has about 40,000 muscles in it.",
+      "They can communicate over long distances using low-frequency sounds."
+    ]
   },
   {
     "name": "Asian Elephant",
@@ -144,7 +210,18 @@
       "family": "Elephantidae",
       "genus": "Elephas",
       "species": "Elephas maximus"
-    }
+    },
+    "description": "The Asian elephant is a large mammal with smaller ears than its African counterpart, a more rounded back, and a single finger-like projection on the trunk tip.",
+    "information": {
+      "habitat": "Tropical and subtropical forests, grasslands, and scrublands across South and Southeast Asia.",
+      "diet": "Herbivorous, feeding on grasses, leaves, fruits, and bark.",
+      "behavior": "Social animals living in matriarchal herds led by older females."
+    },
+    "facts": [
+      "Asian elephants have smaller ears than African elephants, which helps them stay cool in their forest habitats.",
+      "They are known for their intelligence and strong social bonds within their herds.",
+      "Asian elephants can live up to 60 years in the wild."
+    ]
   },
   {
     "name": "Giraffe",
@@ -165,7 +242,18 @@
       "family": "Giraffidae",
       "genus": "Giraffa",
       "species": "Giraffa camelopardalis"
-    }
+    },
+    "description": "The giraffe is the tallest land animal, known for its long neck and legs, distinctive coat patterns, and ossicones on its head.",
+    "information": {
+      "habitat": "Savannas, grasslands, and open woodlands in Africa.",
+      "diet": "Herbivorous, primarily feeding on leaves, flowers, and fruits from tall trees.",
+      "behavior": "Social animals often found in loose herds; known for their gentle nature and unique walking gait."
+    },
+    "facts": [
+      "Giraffes have the longest necks of any land animal, which helps them reach high foliage.",
+      "They have a prehensile tongue that can be up to 18 inches long.",
+      "Giraffes can run at speeds up to 35 mph over short distances."
+    ]
   },
   {
     "name": "Zebra",
@@ -186,7 +274,18 @@
       "family": "Equidae",
       "genus": "Equus",
       "species": "Equus quagga"
-    }
+    },
+    "description": "Zebras are known for their distinctive black and white striped coats, which provide camouflage and help regulate body temperature.",
+    "information": {
+      "habitat": "Savannas, grasslands, and open woodlands in Africa.",
+      "diet": "Herbivorous, primarily grazing on grasses but also consuming leaves and shoots.",
+      "behavior": "Social animals that live in herds; known for their strong family bonds and vocalizations."
+    },
+    "facts": [
+      "Each zebra's stripe pattern is unique, much like human fingerprints.",
+      "Zebras can run at speeds up to 65 km/h to escape predators.",
+      "They have excellent eyesight and hearing, which helps them detect danger."
+    ]
   },
   {
     "name": "Hippopotamus",
@@ -202,7 +301,18 @@
       "family": "Hippopotamidae",
       "genus": "Hippopotamus",
       "species": "Hippopotamus amphibius"
-    }
+    },
+    "description": "The hippopotamus is a large, mostly herbivorous mammal known for its barrel-shaped body, large mouth, and amphibious lifestyle.",
+    "information": {
+      "habitat": "Rivers, lakes, and swamps in sub-Saharan Africa.",
+      "diet": "Primarily herbivorous, feeding on grasses and aquatic plants.",
+      "behavior": "Semi-aquatic animals that spend much of their time in water to keep cool; known for their aggressive behavior when threatened."
+    },
+    "facts": [
+      "Hippos can hold their breath underwater for up to 5 minutes.",
+      "Despite their bulky appearance, hippos can run up to 30 km/h on land.",
+      "They secrete a natural sunscreen substance that is red-colored, often referred to as 'blood sweat'."
+    ]
   },
   {
     "name": "Gorilla",
@@ -223,7 +333,18 @@
       "family": "Hominidae",
       "genus": "Gorilla",
       "species": "Gorilla beringei"
-    }
+    },
+    "description": "Gorillas are large, ground-dwelling primates with a robust build, known for their intelligence and social behavior. They have a thick coat of fur and are primarily herbivorous.",
+    "information": {
+      "habitat": "Tropical and subtropical forests in central Africa.",
+      "diet": "Primarily herbivorous, feeding on leaves, stems, fruits, and bamboo shoots.",
+      "behavior": "Live in family groups led by a dominant silverback male; known for their intelligence and social interactions."
+    },
+    "facts": [
+      "Gorillas are the largest primates in the world.",
+      "They use tools in the wild, such as sticks to measure water depth.",
+      "Gorillas communicate through a variety of vocalizations, body postures, and facial expressions."
+    ]
   },
   {
     "name": "Chimpanzee",
@@ -244,7 +365,18 @@
       "family": "Hominidae",
       "genus": "Pan",
       "species": "Pan troglodytes"
-    }
+    },
+    "description": "Chimpanzees are intelligent primates closely related to humans, known for their complex social structures and use of tools. They have a black coat of fur and are primarily omnivorous.",
+    "information": {
+      "habitat": "Tropical forests and savannas in central and West Africa.",
+      "diet": "Omnivorous, feeding on fruits, leaves, insects, and occasionally small mammals.",
+      "behavior": "Live in large social groups with complex hierarchies; known for their intelligence and ability to use tools."
+    },
+    "facts": [
+      "Chimpanzees are our closest living relatives, sharing about 98-99% of our DNA.",
+      "They use a variety of tools in the wild, including sticks to extract termites from mounds and leaves to soak up water.",
+      "Chimpanzees have complex social structures and engage in cooperative hunting and food sharing."
+    ]
   },
   {
     "name": "Ring-Tailed Lemur",
@@ -257,15 +389,17 @@
       "source": "https://commons.wikimedia.org/wiki/File:Ring-tailed_lemur,_Lemur_catta.jpg",
       "license": "CC BY-SA 4.0"
     },
-    "taxonomy": {
-      "kingdom": "Animalia",
-      "phylum": "Chordata",
-      "class": "Mammalia",
-      "order": "Primates",
-      "family": "Lemuridae",
-      "genus": "Lemur",
-      "species": "Lemur catta"
-    }
+    "description": "Ring-tailed lemurs are social primates known for their distinctive black and white ringed tails. They are primarily herbivorous and live in large groups called troops.",
+    "information": {
+      "habitat": "Dry forests and bush areas of Madagascar.",
+      "diet": "Primarily herbivorous, feeding on fruits, leaves, flowers, and bark.",
+      "behavior": "Live in large social groups called troops; known for their vocal communication and sunbathing behavior."
+    },
+    "facts": [
+      "Ring-tailed lemurs have a highly developed sense of smell, which they use for communication.",
+      "They are one of the few primates that spend a significant amount of time on the ground.",
+      "Ring-tailed lemurs use their tails for balance and communication within their social groups."
+    ]
   },
   {
     "name": "Koala",
@@ -286,7 +420,18 @@
       "family": "Phascolarctidae",
       "genus": "Phascolarctos",
       "species": "Phascolarctos cinereus"
-    }
+    },
+    "description": "Koalas are arboreal marsupials native to Australia, known for their fluffy ears, large noses, and slow movements. They primarily feed on eucalyptus leaves.",
+    "information": {
+      "habitat": "Eucalyptus forests and woodlands in eastern Australia.",
+      "diet": "Specialized herbivores that feed almost exclusively on eucalyptus leaves.",
+      "behavior": "Mostly nocturnal and spend most of their time sleeping in trees; known for their strong claws and ability to climb."
+    },
+    "facts": [
+      "Koalas can sleep up to 18-22 hours a day due to their low-energy diet.",
+      "They have a specialized digestive system that allows them to detoxify the chemicals in eucalyptus leaves.",
+      "Koalas are not bears; they are marsupials, which means they carry their young in a pouch."
+    ]
   },
   {
     "name": "Kangaroo",
@@ -307,7 +452,17 @@
       "family": "Macropodidae",
       "genus": "Macropus",
       "species": "Macropus giganteus"
-    }
+    },
+    "description": "Kangaroos are large marsupials native to Australia, known for their powerful hind legs, long tails, and ability to hop at high speeds. They are herbivorous and live in groups called mobs.",
+    "information": {
+      "habitat": "Grasslands, savannas, and open woodlands across Australia.",
+      "diet": "Herbivorous, feeding on grasses, leaves, and shoots.",
+      "behavior": "Social animals that live in groups called mobs; known for their powerful hind legs and ability to hop at speeds up to 70 km/h."
+    },
+    "facts": [
+      "Kangaroos can hop at speeds up to 70 km/h and can cover distances of up to 9 meters in a single leap.",
+      "They have a unique reproductive system where females can pause the development of an embryo until environmental conditions are favorable."
+    ]
   },
   {
     "name": "Polar Bear",
@@ -328,7 +483,18 @@
       "family": "Ursidae",
       "genus": "Ursus",
       "species": "Ursus maritimus"
-    }
+    },
+    "description": "Polar bears are large carnivorous mammals native to the Arctic, known for their white fur, which provides camouflage in their snowy environment. They are excellent swimmers and primarily hunt seals.",
+    "information": {
+      "habitat": "Arctic regions, including sea ice and coastal areas.",
+      "diet": "Carnivorous, primarily hunting seals but also consuming fish, birds, and carrion.",
+      "behavior": "Solitary animals that are excellent swimmers; known for their ability to survive in extreme cold conditions."
+    },
+    "facts": [
+      "Polar bears have black skin under their white fur, which helps them absorb heat from the sun.",
+      "They are the largest land carnivores in the world, with males weighing up to 700 kg (1,500 lbs).",
+      "Polar bears can swim for long distances, sometimes over 100 km, in search of food."
+    ]
   },
   {
     "name": "Brown Bear",
@@ -349,7 +515,18 @@
       "family": "Ursidae",
       "genus": "Ursus",
       "species": "Ursus arctos"
-    }
+    },
+    "description": "Brown bears are large mammals found across North America, Europe, and Asia. They have a thick coat of fur that can range in color from light brown to almost black. Brown bears are omnivorous and have a varied diet.",
+    "information": {
+      "habitat": "Forests, mountains, and tundra across North America, Europe, and Asia.",
+      "diet": "Omnivorous, feeding on a variety of foods including berries, roots, insects, fish, and small mammals.",
+      "behavior": "Solitary animals that are known for their strength and adaptability; they hibernate during the winter months in colder regions."
+    },
+    "facts": [
+      "Brown bears can run at speeds up to 40 km/h despite their large size.",
+      "They have an excellent sense of smell, which they use to locate food from miles away.",
+      "Brown bears are known for their ability to climb trees, especially when they are young."
+    ]
   },
   {
     "name": "Giant Anteater",
@@ -370,7 +547,18 @@
       "family": "Myrmecophagidae",
       "genus": "Myrmecophaga",
       "species": "Myrmecophaga tridactyla"
-    }
+    },
+    "description": "The giant anteater is a large insectivorous mammal native to Central and South America, known for its long snout, bushy tail, and powerful forelimbs with sharp claws used for digging into ant and termite mounds.",
+    "information": {
+      "habitat": "Grasslands, savannas, and forests across Central and South America.",
+      "diet": "Insectivorous, primarily feeding on ants and termites using their long, sticky tongue.",
+      "behavior": "Solitary animals that are mostly nocturnal; they use their strong forelimbs to break open insect nests and can consume up to 30,000 insects in a single day."
+    },
+    "facts": [
+      "Giant anteaters have a tongue that can be up to 60 cm long and can flick in and out of their mouth up to 160 times per minute.",
+      "They have no teeth and rely on their strong stomach muscles to grind up the insects they consume.",
+      "Giant anteaters can defend themselves with their powerful forelimbs and sharp claws, which can cause serious injuries to predators."
+    ]
   },
   {
     "name": "Sloth",
@@ -391,7 +579,18 @@
       "family": "Bradypodidae",
       "genus": "Bradypus",
       "species": "Bradypus variegatus"
-    }
+    },
+    "description": "The brown-throated three-toed sloth is an arboreal mammal known for its extremely slow movements and sedentary lifestyle in the rainforest canopy.",
+    "information": {
+      "habitat": "Tropical rainforests of Central and South America.",
+      "diet": "Primarily folivorous, eating leaves, shoots, and buds.",
+      "behavior": "Spends most of its life hanging upside down from trees; it descends to the ground only once a week to defecate."
+    },
+    "facts": [
+      "Sloths have such a slow metabolism that it can take up to a month to digest a single meal.",
+      "They are surprisingly good swimmers and can move through water much faster than they can on land.",
+      "Algae often grows on their fur, providing camouflage against the green leaves of the forest."
+    ]
   },
   {
     "name": "Meerkat",
@@ -412,7 +611,18 @@
       "family": "Herpestidae",
       "genus": "Suricata",
       "species": "Suricata suricatta"
-    }
+    },
+    "description": "Meerkats are small, social mammals native to the deserts of southern Africa. They have a slender body, pointed snout, and distinctive dark patches around their eyes. Meerkats live in large groups called mobs and are known for their cooperative behavior.",
+    "information": {
+      "habitat": "Deserts and arid regions of southern Africa.",
+      "diet": "Omnivorous, feeding on insects, small mammals, birds, and plants.",
+      "behavior": "Highly social animals that live in large groups called mobs; known for their cooperative behavior, including sentinel duty where one meerkat stands guard while others forage."
+    },
+    "facts": [
+      "Meerkats have a complex social structure and communicate with a variety of vocalizations and body language.",
+      "They are excellent diggers and create extensive burrow systems for shelter and protection.",
+      "Meerkats have a high tolerance for venom and can survive bites from scorpions and snakes."
+    ]
   },
   {
     "name": "Bald Eagle",
@@ -433,7 +643,18 @@
       "family": "Accipitridae",
       "genus": "Haliaeetus",
       "species": "Haliaeetus leucocephalus"
-    }
+    },
+    "description": "The bald eagle is a large bird of prey found in North America, known for its iconic white head and tail feathers, yellow beak, and powerful talons.",
+    "information": {
+      "habitat": "Near large bodies of open water with an abundant food supply and old-growth trees for nesting.",
+      "diet": "Mainly fish, but also hunts waterfowl and small mammals; also a scavenger of carrion.",
+      "behavior": "Diurnal hunters that build the largest nests of any North American bird."
+    },
+    "facts": [
+      "Bald eagles are not actually bald; the name comes from an old English word, 'piebald', meaning white headed.",
+      "Their nests can be up to 13 feet deep and 8 feet wide.",
+      "They can fly at speeds up to 30 mph and dive at 100 mph."
+    ]
   },
   {
     "name": "Peregrine Falcon",
@@ -454,7 +675,18 @@
       "family": "Falconidae",
       "genus": "Falco",
       "species": "Falco peregrinus"
-    }
+    },
+    "description": "The peregrine falcon is a widespread bird of prey known for its incredible speed, especially during its characteristic hunting dive.",
+    "information": {
+      "habitat": "Found on every continent except Antarctica, from tundra and deserts to urban skyscrapers.",
+      "diet": "Specializes in hunting other birds, which it catches mid-air.",
+      "behavior": "Visual hunters that utilize tall structures for nesting and spotting prey."
+    },
+    "facts": [
+      "The peregrine falcon is the fastest animal in the world, reaching speeds of over 200 mph during a dive.",
+      "They have specialized baffles in their nostrils to help them breathe while flying at high speeds.",
+      "They have adapted well to urban life, using skyscrapers to mimic cliffside nests."
+    ]
   },
   {
     "name": "Great Horned Owl",
@@ -475,7 +707,18 @@
       "family": "Strigidae",
       "genus": "Bubo",
       "species": "Bubo virginianus"
-    }
+    },
+    "description": "A powerful nocturnal predator with prominent ear tufts and large yellow eyes, common across the Americas.",
+    "information": {
+      "habitat": "Extremely adaptable, found in forests, deserts, and suburban areas.",
+      "diet": "Incredibly varied, including mammals like rabbits and skunks, and other birds.",
+      "behavior": "Nocturnal hunters with silent flight and excellent low-light vision."
+    },
+    "facts": [
+      "The 'horns' are actually just tufts of feathers and not their actual ears.",
+      "They are one of the only regular predators of skunks because they have a poor sense of smell.",
+      "They can exert over 28 pounds of pressure with their talons."
+    ]
   },
   {
     "name": "Snowy Owl",
@@ -496,7 +739,18 @@
       "family": "Strigidae",
       "genus": "Bubo",
       "species": "Bubo scandiacus"
-    }
+    },
+    "description": "A large, white owl species native to the Arctic regions, uniquely adapted for the cold tundra.",
+    "information": {
+      "habitat": "Arctic tundra during breeding, migrating south to open fields and shorelines in winter.",
+      "diet": "Mainly lemmings, though they will also eat other small mammals and water birds.",
+      "behavior": "Unlike most owls, they are diurnal, meaning they hunt during the day as well as night."
+    },
+    "facts": [
+      "They are the heaviest owl in North America because of their thick insulating feathers.",
+      "The whiter the owl, the more likely it is to be a male; females have more dark spots.",
+      "They have feathers on their feet that act like snowshoes."
+    ]
   },
   {
     "name": "Macaw",
@@ -517,7 +771,18 @@
       "family": "Psittacidae",
       "genus": "Ara",
       "species": "Ara macao"
-    }
+    },
+    "description": "Large, colorful parrots known for their vibrant plumage and long tails, native to Central and South America.",
+    "information": {
+      "habitat": "Humid lowland rainforests and open woodlands.",
+      "diet": "Fruits, nuts, and seeds; their strong beaks can crack very hard shells.",
+      "behavior": "Highly social birds that mate for life and are often seen in pairs or small flocks."
+    },
+    "facts": [
+      "Macaws can live for up to 60 years in the wild and even longer in captivity.",
+      "They are known to eat clay at riverbanks, which helps neutralize toxins in the fruit they eat.",
+      "They are highly intelligent and capable of mimicking human speech."
+    ]
   },
   {
     "name": "Penguin",
@@ -538,7 +803,18 @@
       "family": "Spheniscidae",
       "genus": "Aptenodytes",
       "species": "Aptenodytes forsteri"
-    }
+    },
+    "description": "Flightless marine birds with tuxedo-like coloring, expertly adapted for life in the ocean and cold climates.",
+    "information": {
+      "habitat": "Antarctic ice and surrounding cold waters.",
+      "diet": "Marine predators that eat fish, krill, and squid.",
+      "behavior": "Highly social, nesting in large colonies and huddling together for warmth."
+    },
+    "facts": [
+      "Emperor penguins are the largest of all penguin species.",
+      "They can dive to depths of over 1,800 feet.",
+      "Male Emperor penguins incubate the egg on their feet for months while the female is at sea."
+    ]
   },
   {
     "name": "Flamingo",
@@ -559,7 +835,18 @@
       "family": "Phoenicopteridae",
       "genus": "Phoenicopterus",
       "species": "Phoenicopterus roseus"
-    }
+    },
+    "description": "A tall wading bird known for its pink plumage, long neck, and unique downward-curved bill used for filter-feeding.",
+    "information": {
+      "habitat": "Alkaline and saline lakes, lagoons, and estuaries.",
+      "diet": "Feeds on brine shrimp, algae, and small mollusks.",
+      "behavior": "Highly social birds that live in massive colonies and are known for standing on one leg."
+    },
+    "facts": [
+      "Their pink color comes from the carotenoid pigments in the food they eat.",
+      "They feed with their heads upside down.",
+      "Flamingo chicks are born with gray or white feathers."
+    ]
   },
   {
     "name": "Saltwater Crocodile",
@@ -580,7 +867,18 @@
       "family": "Crocodylidae",
       "genus": "Crocodylus",
       "species": "Crocodylus porosus"
-    }
+    },
+    "description": "The world's largest living reptile, this apex predator is known for its extreme power and ability to thrive in both saltwater and freshwater.",
+    "information": {
+      "habitat": "Mangrove swamps, estuaries, and river mouths across Southeast Asia and Northern Australia.",
+      "diet": "Carnivorous, eating anything from fish and birds to large mammals like water buffalo.",
+      "behavior": "Solitary and territorial, they are ambush predators that use stealth to surprise prey."
+    },
+    "facts": [
+      "They have the strongest bite force of any living animal.",
+      "Adult males can grow up to 6 or 7 meters in length.",
+      "They can travel hundreds of miles across the open ocean."
+    ]
   },
   {
     "name": "Komodo Dragon",
@@ -601,7 +899,18 @@
       "family": "Varanidae",
       "genus": "Varanus",
       "species": "Varanus komodoensis"
-    }
+    },
+    "description": "The largest lizard in the world, found only on a few islands in Indonesia, known for its heavy build and toxic bite.",
+    "information": {
+      "habitat": "Dry savannas and tropical forests on the islands of Komodo, Rinca, Flores, and Gili Motang.",
+      "diet": "Carnivores that hunt deer, wild boar, and water buffalo; also known for scavenging.",
+      "behavior": "Solitary and patient ambush predators that use their keen sense of smell to track prey."
+    },
+    "facts": [
+      "Komodo dragons have venom glands that release toxins that prevent blood from clotting.",
+      "They can eat up to 80 percent of their body weight in a single sitting.",
+      "Young Komodo dragons spend much of their time in trees to avoid being eaten by adults."
+    ]
   },
   {
     "name": "Green Iguana",
@@ -622,7 +931,18 @@
       "family": "Iguanidae",
       "genus": "Iguana",
       "species": "Iguana iguana"
-    }
+    },
+    "description": "A large, arboreal lizard species native to Central and South America, distinguished by its green scales and long tail.",
+    "information": {
+      "habitat": "Tropical rainforest canopies, often near water sources.",
+      "diet": "Primarily herbivorous, feeding on leaves, flowers, and fruits.",
+      "behavior": "Diurnal and skilled swimmers; they use their long tails as a defensive whip."
+    },
+    "facts": [
+      "Iguanas have a 'third eye' on the top of their head that detects changes in light and movement.",
+      "They can survive a fall of up to 40 feet onto solid ground without injury.",
+      "Despite their name, they can range in color from green to orange or even blue."
+    ]
   },
   {
     "name": "Ball Python",
@@ -643,7 +963,18 @@
       "family": "Pythonidae",
       "genus": "Python",
       "species": "Python regius"
-    }
+    },
+    "description": "A small to medium-sized constrictor snake native to West and Central Africa, named for its habit of curling into a ball when stressed.",
+    "information": {
+      "habitat": "Grasslands, savannas, and sparsely wooded areas.",
+      "diet": "Strictly carnivorous, feeding on small mammals like rodents.",
+      "behavior": "Nocturnal and relatively docile; they rely on constriction to kill their prey."
+    },
+    "facts": [
+      "Ball pythons can live for up to 30 years or more with proper care.",
+      "They possess heat-sensing pits along their lips to help them locate warm-blooded prey in the dark.",
+      "They are one of the most popular pet snakes in the world due to their calm temperament."
+    ]
   },
   {
     "name": "Clownfish",
@@ -664,28 +995,18 @@
       "family": "Pomacentridae",
       "genus": "Amphiprion",
       "species": "Amphiprion ocellaris"
-    }
-  },
-  {
-    "name": "Great White Shark",
-    "scientific_name": "Carcharodon carcharias",
-    "type": "Fish",
-    "status": "Vulnerable",
-    "image_link": "https://upload.wikimedia.org/wikipedia/commons/5/56/White_shark.jpg",
-    "image_attribution": {
-      "author": "Terry Goss",
-      "source": "https://commons.wikimedia.org/wiki/File:White_shark.jpg",
-      "license": "CC BY-SA 3.0"
     },
-    "taxonomy": {
-      "kingdom": "Animalia",
-      "phylum": "Chordata",
-      "class": "Elasmobranchii",
-      "order": "Lamniformes",
-      "family": "Lamnidae",
-      "genus": "Carcharodon",
-      "species": "Carcharodon carcharias"
-    }
+    "description": "Small, brightly colored marine fish known for their symbiotic relationship with sea anemones.",
+    "information": {
+      "habitat": "Coral reefs of the Indo-Pacific region.",
+      "diet": "Omnivores that eat zooplankton, algae, and leftovers from the anemone's meals.",
+      "behavior": "Highly territorial fish that live in small groups within an anemone host."
+    },
+    "facts": [
+      "All clownfish are born male; they have the ability to change sex to become the dominant female of a group.",
+      "They have a special mucus layer on their skin that protects them from the anemone's stinging tentacles.",
+      "They communicate by making clicking and popping sounds."
+    ]
   },
   {
     "name": "Orca",
@@ -706,7 +1027,18 @@
       "family": "Delphinidae",
       "genus": "Orcinus",
       "species": "Orcinus orca"
-    }
+    },
+    "description": "The largest member of the dolphin family, also known as the killer whale, easily identified by its black-and-white patterned body.",
+    "information": {
+      "habitat": "Found in all of the world's oceans, from the icy Arctic and Antarctic to tropical seas.",
+      "diet": "Diverse carnivores that hunt fish, seals, and even other whale species.",
+      "behavior": "Highly intelligent and social, living in complex family groups called pods with unique dialects."
+    },
+    "facts": [
+      "Orcas are apex predators, meaning they have no natural predators themselves.",
+      "They use sophisticated echolocation to navigate and find food.",
+      "Individual orcas can be identified by their dorsal fins and the 'saddle patch' behind them."
+    ]
   },
   {
     "name": "Dolphin",
@@ -727,7 +1059,18 @@
       "family": "Delphinidae",
       "genus": "Tursiops",
       "species": "Tursiops truncatus"
-    }
+    },
+    "description": "Highly intelligent marine mammals known for their sleek bodies, curved dorsal fins, and 'smiling' mouths.",
+    "information": {
+      "habitat": "Temperate and tropical oceans worldwide, ranging from deep sea to coastal waters.",
+      "diet": "Carnivorous, primarily feeding on fish and squid.",
+      "behavior": "Social animals living in pods; known for their playfulness and ability to use echolocation."
+    },
+    "facts": [
+      "Dolphins have individual 'signature whistles' that act like names for each other.",
+      "They are known to use tools, such as sponges, to protect their noses while foraging.",
+      "Dolphins sleep with one eye open and half their brain awake to watch for predators."
+    ]
   },
   {
     "name": "Octopus",
@@ -748,7 +1091,18 @@
       "family": "Octopodidae",
       "genus": "Octopus",
       "species": "Octopus vulgaris"
-    }
+    },
+    "description": "A highly intelligent soft-bodied mollusk with eight arms, three hearts, and the ability to change color and texture.",
+    "information": {
+      "habitat": "Coral reefs, pelagic waters, and the ocean floor across the world's oceans.",
+      "diet": "Carnivorous, preying on crabs, clams, and small fish.",
+      "behavior": "Solitary and reclusive; they use ink and jet propulsion to escape predators."
+    },
+    "facts": [
+      "An octopus has nine brains—one central brain and a mini-brain in each of its eight arms.",
+      "Their blood is blue because it uses copper-based hemocyanin to transport oxygen.",
+      "They can squeeze through any opening that is larger than their beak."
+    ]
   },
   {
     "name": "Emperor Scorpion",
@@ -769,7 +1123,18 @@
       "family": "Scorpionidae",
       "genus": "Pandinus",
       "species": "Pandinus imperator"
-    }
+    },
+    "description": "One of the largest scorpions in the world, with a shiny black body and powerful pincers.",
+    "information": {
+      "habitat": "Rainforests and savannas of West Africa.",
+      "diet": "Carnivores that eat insects, other arachnids, and occasionally small vertebrates.",
+      "behavior": "Nocturnal and relatively shy; they prefer to burrow or hide under logs and rocks."
+    },
+    "facts": [
+      "Emperor scorpions glow a bright blue-green under ultraviolet (UV) light.",
+      "Their sting is comparable to a bee sting and is not usually lethal to humans.",
+      "They carry their young on their backs until the babies' first molt."
+    ]
   },
   {
     "name": "Red Kangaroo",
@@ -790,7 +1155,18 @@
       "family": "Macropodidae",
       "genus": "Macropus",
       "species": "Macropus rufus"
-    }
+    },
+    "description": "The largest of all kangaroos and the largest terrestrial mammal native to Australia, known for its powerful hop.",
+    "information": {
+      "habitat": "Open grasslands and savannas of arid and semi-arid Australia.",
+      "diet": "Herbivorous, grazing on a variety of grasses and flowering plants.",
+      "behavior": "Crepuscular or nocturnal social animals that live in groups called mobs."
+    },
+    "facts": [
+      "A male red kangaroo can leap over 8 meters in a single bound.",
+      "They can go for long periods without drinking water, getting moisture from their food.",
+      "Kangaroos cannot walk backward."
+    ]
   },
   {
     "name": "Arctic Fox",
@@ -811,7 +1187,18 @@
       "family": "Canidae",
       "genus": "Vulpes",
       "species": "Vulpes lagopus"
-    }
+    },
+    "description": "A small fox native to the Arctic regions, possessing thick fur that changes color with the seasons.",
+    "information": {
+      "habitat": "Arctic tundra and coastal regions of the Northern Hemisphere.",
+      "diet": "Omnivorous, eating lemmings, voles, birds, eggs, and occasionally berries or seaweed.",
+      "behavior": "Solitary hunters that build complex underground dens for shelter."
+    },
+    "facts": [
+      "Their fur changes from brown/gray in summer to snowy white in winter for camouflage.",
+      "They have the warmest pelt of any animal in the Arctic, surviving temperatures as low as -50°C.",
+      "Arctic foxes have short ears and a short snout to minimize heat loss."
+    ]
   },
   {
     "name": "Moose",
@@ -832,7 +1219,18 @@
       "family": "Cervidae",
       "genus": "Alces",
       "species": "Alces alces"
-    }
+    },
+    "description": "The largest and heaviest species in the deer family, distinguished by the broad, palmate antlers of the males.",
+    "information": {
+      "habitat": "Boreal and mixed deciduous forests of the Northern Hemisphere.",
+      "diet": "Herbivores that consume terrestrial and aquatic vegetation.",
+      "behavior": "Solitary animals that are surprisingly fast runners and excellent swimmers."
+    },
+    "facts": [
+      "A male's antlers can spread up to 6 feet from tip to tip.",
+      "The flap of skin hanging from a moose's throat is called a 'bell'.",
+      "They can stay underwater for up to 30 seconds."
+    ]
   },
   {
     "name": "White-Tailed Deer",
@@ -853,7 +1251,18 @@
       "family": "Cervidae",
       "genus": "Odocoileus",
       "species": "Odocoileus virginianus"
-    }
+    },
+    "description": "A medium-sized deer native to North, Central, and South America, named for the white underside of its tail.",
+    "information": {
+      "habitat": "Forests, farmlands, and brushy areas throughout the Americas.",
+      "diet": "Herbivorous, eating leaves, twigs, fruits, and acorns.",
+      "behavior": "Cunning and fast, they raise their tail to flag danger to other deer."
+    },
+    "facts": [
+      "They can run up to 30 miles per hour and leap over an 8-foot fence.",
+      "Only the males (bucks) grow antlers, which they shed every winter.",
+      "Fawns are born with white spots that provide camouflage in the forest."
+    ]
   },
   {
     "name": "Bison",
@@ -861,7 +1270,7 @@
     "type": "Mammal",
     "status": "Near Threatened",
     "image_link": "https://upload.wikimedia.org/wikipedia/commons/8/8d/American_bison_k5680-1.jpg",
-    "image  _attribution": {
+    "image_attribution": {
       "author": "Jack Dykinga",
       "source": "https://commons.wikimedia.org/wiki/File:American_bison_k5680-1.jpg",
       "license": "Public Domain"
@@ -874,7 +1283,18 @@
       "family": "Bovidae",
       "genus": "Bison",
       "species": "Bison bison"
-    }
+    },
+    "description": "The largest land mammal in North America, characterized by its shaggy brown coat and massive head.",
+    "information": {
+      "habitat": "Grasslands and plains across North America.",
+      "diet": "Herbivores that primarily graze on grasses and sedges.",
+      "behavior": "Social animals that live in herds and communicate through grunts and body language."
+    },
+    "facts": [
+      "Bison can reach speeds of up to 35 mph and are surprisingly agile.",
+      "They were almost hunted to extinction in the 19th century but have made a significant recovery.",
+      "A bison's hump is made of muscle supported by long vertebrae, helping them use their heads as snowplows."
+    ]
   },
   {
     "name": "Camel",
@@ -895,7 +1315,18 @@
       "family": "Camelidae",
       "genus": "Camelus",
       "species": "Camelus dromedarius"
-    }
+    },
+    "description": "A large even-toed ungulate with a distinctive hump on its back, specifically the one-humped dromedary.",
+    "information": {
+      "habitat": "Arid regions and deserts of the Middle East, North Africa, and South Asia.",
+      "diet": "Herbivores that eat grass, grains, and even thorny desert plants.",
+      "behavior": "Social animals that can travel long distances and go without water for weeks."
+    },
+    "facts": [
+      "A camel's hump stores fat, not water, which it uses as an energy source.",
+      "They have three sets of eyelids and two rows of eyelashes to keep out sand.",
+      "Camels can drink up to 40 gallons of water in a single sitting."
+    ]
   },
   {
     "name": "Boar",
@@ -916,7 +1347,18 @@
       "family": "Suidae",
       "genus": "Sus",
       "species": "Sus scrofa"
-    }
+    },
+    "description": "A large, tusked wild pig species native to Eurasia and North Africa, and widely introduced elsewhere.",
+    "information": {
+      "habitat": "Forests, scrublands, and agricultural areas.",
+      "diet": "Omnivorous, eating roots, nuts, fruits, insects, and small vertebrates.",
+      "behavior": "Social animals that live in groups called sounders, led by a matriarch."
+    },
+    "facts": [
+      "Boars use their tusks for defense and to dig for food.",
+      "They are excellent swimmers and can cross large rivers.",
+      "A wild boar's sense of smell is so keen they are sometimes used for truffle hunting."
+    ]
   },
   {
     "name": "Hyena",
@@ -937,7 +1379,18 @@
       "family": "Hyaenidae",
       "genus": "Crocuta",
       "species": "Crocuta crocuta"
-    }
+    },
+    "description": "The spotted hyena is a highly successful carnivore in Africa, known for its powerful jaws and distinctive 'laughing' call.",
+    "information": {
+      "habitat": "Savannas, grasslands, and woodlands of sub-Saharan Africa.",
+      "diet": "Primarily hunters that kill their own prey, but also efficient scavengers.",
+      "behavior": "Live in large social groups called clans, which are dominated by females."
+    },
+    "facts": [
+      "Hyenas have one of the strongest bite forces in the animal kingdom, capable of crushing bone.",
+      "Despite looking like dogs, they are more closely related to cats and mongooses.",
+      "The 'laugh' of a spotted hyena is actually a sign of social stress or excitement."
+    ]
   },
   {
     "name": "Warthog",
@@ -958,7 +1411,18 @@
       "family": "Suidae",
       "genus": "Phacochoerus",
       "species": "Phacochoerus africanus"
-    }
+    },
+    "description": "A wild member of the pig family found in Africa, named for the protective wart-like bumps on its face.",
+    "information": {
+      "habitat": "Savannas, grasslands, and open woodlands.",
+      "diet": "Herbivorous, grazing on grasses and using their snouts to dig for roots and tubers.",
+      "behavior": "Diurnal animals that live in family groups and use burrows to escape predators."
+    },
+    "facts": [
+      "Warthogs run with their tails held straight up like an antenna.",
+      "They often kneel on their front wrists while grazing.",
+      "They use abandoned aardvark burrows to sleep and raise their young."
+    ]
   },
   {
     "name": "Armadillo",
@@ -979,7 +1443,18 @@
       "family": "Dasypodidae",
       "genus": "Dasypus",
       "species": "Dasypus novemcinctus"
-    }
+    },
+    "description": "The nine-banded armadillo is a small mammal known for its protective bony armor plates.",
+    "information": {
+      "habitat": "Found in a variety of habitats across North, Central, and South America.",
+      "diet": "Insectivorous, using their long claws to dig for ants, termites, and grubs.",
+      "behavior": "Nocturnal and solitary animals that are excellent diggers and can swim by inflating their intestines."
+    },
+    "facts": [
+      "Nine-banded armadillos almost always give birth to identical quadruplets.",
+      "When startled, they can jump straight into the air.",
+      "They are the only mammals besides humans known to carry the bacteria that causes leprosy."
+    ]
   },
   {
     "name": "Emu",
@@ -1000,7 +1475,18 @@
       "family": "Dromaiidae",
       "genus": "Dromaius",
       "species": "Dromaius novaehollandiae"
-    }
+    },
+    "description": "The second-largest living bird by height, native to Australia, with long legs and flightless wings.",
+    "information": {
+      "habitat": "Found across most of Australia in savannas, woodlands, and forests.",
+      "diet": "Omnivorous, eating plants, fruits, seeds, and insects.",
+      "behavior": "Nomadic birds that can travel long distances to find food; they are powerful runners."
+    },
+    "facts": [
+      "Emus can reach speeds of up to 30 mph.",
+      "They have two sets of eyelids, one for blinking and one to keep out dust.",
+      "The male emu sits on the eggs and raises the chicks without help from the female."
+    ]
   },
   {
     "name": "Ostrich",
@@ -1021,7 +1507,18 @@
       "family": "Struthionidae",
       "genus": "Struthio",
       "species": "Struthio camelus"
-    }
+    },
+    "description": "The largest and heaviest living bird, native to Africa, famous for its speed and massive eggs.",
+    "information": {
+      "habitat": "Arid and semi-arid savannas and open woodlands in Africa.",
+      "diet": "Primarily herbivorous, but also eats insects and small vertebrates.",
+      "behavior": "Live in nomadic groups and rely on their speed to escape predators."
+    },
+    "facts": [
+      "Ostriches are the fastest birds on land, running up to 43 mph.",
+      "They have the largest eyes of any land vertebrate, even larger than their brain.",
+      "A single ostrich egg is equivalent to about two dozen chicken eggs."
+    ]
   },
   {
     "name": "Peacock",
@@ -1042,7 +1539,18 @@
       "family": "Phasianidae",
       "genus": "Pavo",
       "species": "Pavo cristatus"
-    }
+    },
+    "description": "The male Indian peafowl, renowned for its iridescent blue-green plumage and spectacular tail feathers.",
+    "information": {
+      "habitat": "Forests and scrublands of South Asia, often found near water.",
+      "diet": "Omnivorous, eating seeds, insects, fruits, and small reptiles.",
+      "behavior": "Famous for the male's courtship display where he fans out his massive tail feathers."
+    },
+    "facts": [
+      "The beautiful tail feathers are called a 'train'.",
+      "Peacocks can fly, though they spend most of their time on the ground.",
+      "They are the national bird of India."
+    ]
   },
   {
     "name": "Turkey",
@@ -1063,7 +1571,18 @@
       "family": "Phasianidae",
       "genus": "Meleagris",
       "species": "Meleagris gallopavo"
-    }
+    },
+    "description": "A large bird native to North America, known for its fanned tail and the fleshy growth on its beak called a snood.",
+    "information": {
+      "habitat": "Open woodlands and agricultural areas.",
+      "diet": "Omnivorous, feeding on nuts, seeds, berries, and insects.",
+      "behavior": "Social birds that forage in groups; males make a distinct 'gobbling' sound."
+    },
+    "facts": [
+      "Wild turkeys can fly at speeds up to 55 mph and run up to 25 mph.",
+      "Benjamin Franklin famously preferred the turkey over the bald eagle as the national symbol.",
+      "They have excellent peripheral vision, seeing about 270 degrees."
+    ]
   },
   {
     "name": "Canadian Goose",
@@ -1084,7 +1603,18 @@
       "family": "Anatidae",
       "genus": "Branta",
       "species": "Branta canadensis"
-    }
+    },
+    "description": "A large wild goose with a black head and neck, white patches on the face, and a brownish-gray body.",
+    "information": {
+      "habitat": "Found near lakes, rivers, and ponds throughout North America.",
+      "diet": "Primarily herbivores that eat grasses, aquatic plants, and grains.",
+      "behavior": "Highly social birds that fly in a distinctive V-formation during migration."
+    },
+    "facts": [
+      "Canada geese mate for life and are known to be protective of their partners and young.",
+      "They can travel more than 600 miles in a single day during migration.",
+      "A group of geese on the ground is called a gaggle; in the air, they are a skein."
+    ]
   },
   {
     "name": "Swan",
@@ -1105,7 +1635,18 @@
       "family": "Anatidae",
       "genus": "Cygnus",
       "species": "Cygnus olor"
-    }
+    },
+    "description": "Large, graceful waterfowl known for their long S-shaped necks and typically white plumage.",
+    "information": {
+      "habitat": "Lakes, ponds, and slow-moving rivers across the Northern Hemisphere.",
+      "diet": "Omnivorous, feeding on aquatic vegetation, insects, and small fish.",
+      "behavior": "Mute swans are highly territorial and known for their aggressive defense of nesting areas."
+    },
+    "facts": [
+      "Swans have over 25,000 feathers on their bodies.",
+      "They are among the largest flying birds in the world.",
+      "Swans can fly as fast as 60 miles per hour."
+    ]
   },
   {
     "name": "Parrot",
@@ -1126,7 +1667,18 @@
       "family": "Psittacidae",
       "genus": "Ara",
       "species": "Ara ararauna"
-    }
+    },
+    "description": "The Blue-and-yellow Macaw is a large, colorful parrot known for its blue top and yellow underparts.",
+    "information": {
+      "habitat": "Woodlands and tropical rainforests of South America.",
+      "diet": "Fruits, nuts, and seeds; their strong beaks can crack hard shells.",
+      "behavior": "Highly intelligent and social; they mate for life and are often seen in pairs."
+    },
+    "facts": [
+      "They can mimic human speech and are very vocal in the wild.",
+      "In the wild, they often congregate at clay licks to neutralize toxins in their food.",
+      "They have zygodactyl feet, meaning two toes face forward and two face backward."
+    ]
   },
   {
     "name": "Toucan",
@@ -1147,7 +1699,18 @@
       "family": "Ramphastidae",
       "genus": "Ramphastos",
       "species": "Ramphastos toco"
-    }
+    },
+    "description": "The Toco toucan is the largest toucan species, famous for its oversized, colorful orange-red bill.",
+    "information": {
+      "habitat": "Tropical rainforests and savannas across Central and South America.",
+      "diet": "Mainly fruit, but they also eat insects, eggs, and small reptiles.",
+      "behavior": "Social birds that live in small groups and nest in hollow tree cavities."
+    },
+    "facts": [
+      "The toucan's bill is hollow and very light, made of keratin.",
+      "They use their bills to reach fruit on branches too thin to support their weight.",
+      "The bill also acts as a cooling system to regulate the bird's body temperature."
+    ]
   },
   {
     "name": "Sparrow",
@@ -1168,7 +1731,18 @@
       "family": "Passeridae",
       "genus": "Passer",
       "species": "Passer domesticus"
-    }
+    },
+    "description": "The House Sparrow is a small, ubiquitous bird found near human settlements worldwide.",
+    "information": {
+      "habitat": "Found in cities, towns, and agricultural areas, rarely far from people.",
+      "diet": "Omnivorous, feeding on seeds, grains, and insects.",
+      "behavior": "Highly social birds that forage in groups and are known for their loud chirping."
+    },
+    "facts": [
+      "House sparrows are not native to North America; they were introduced in the 1850s.",
+      "They frequently take dust baths to keep their feathers clean.",
+      "They can survive for long periods without drinking water by eating moist food."
+    ]
   },
   {
     "name": "Blue Jay",
@@ -1189,7 +1763,18 @@
       "family": "Corvidae",
       "genus": "Cyanocitta",
       "species": "Cyanocitta cristata"
-    }
+    },
+    "description": "A striking blue-colored songbird native to North America, known for its intelligence and noisy calls.",
+    "information": {
+      "habitat": "Forests, woodlands, and suburban gardens.",
+      "diet": "Omnivorous, eating nuts, seeds, insects, and occasionally small vertebrates.",
+      "behavior": "Highly social and family-oriented birds; they are known for their complex communication."
+    },
+    "facts": [
+      "Blue Jays can mimic the calls of hawks to scare other birds away from food.",
+      "The blue color in their feathers is not a pigment, but a structural color caused by light interference.",
+      "They are famous for caching acorns, which helps the growth of oak forests."
+    ]
   },
   {
     "name": "Alligator",
@@ -1210,7 +1795,18 @@
       "family": "Alligatoridae",
       "genus": "Alligator",
       "species": "Alligator mississippiensis"
-    }
+    },
+    "description": "Large semi-aquatic reptiles native to the Southeastern United States, known for their broad snouts and dark color.",
+    "information": {
+      "habitat": "Freshwater wetlands, such as marshes, swamps, and lakes.",
+      "diet": "Carnivores that eat fish, turtles, birds, and small mammals.",
+      "behavior": "Nocturnal hunters that use their powerful tails to propel themselves through water."
+    },
+    "facts": [
+      "Alligators can stay underwater for over an hour if they are resting.",
+      "They have between 74 and 80 teeth in their mouth at any given time.",
+      "Unlike crocodiles, alligators have a U-shaped snout and their bottom teeth are hidden when their mouth is closed."
+    ]
   },
   {
     "name": "Tortoise",
@@ -1231,7 +1827,18 @@
       "family": "Testudinidae",
       "genus": "Testudo",
       "species": "Testudo graeca"
-    }
+    },
+    "description": "The Spur-thighed tortoise is a long-lived land reptile with a high-domed shell and sturdy, elephant-like legs.",
+    "information": {
+      "habitat": "Arid regions, grasslands, and scrublands across Southern Europe, North Africa, and the Middle East.",
+      "diet": "Herbivorous, feeding on a variety of plants, weeds, and grasses.",
+      "behavior": "Diurnal animals that hibernate during cold winters and are known for their slow movement."
+    },
+    "facts": [
+      "They can live for well over 100 years.",
+      "The age of a tortoise can sometimes be estimated by counting the rings on its shell plates (scutes).",
+      "They have a very hard shell that protects them from most predators."
+    ]
   },
   {
     "name": "Chameleon",
@@ -1252,7 +1859,18 @@
       "family": "Chamaeleonidae",
       "genus": "Chamaeleo",
       "species": "Chamaeleo chamaeleon"
-    }
+    },
+    "description": "A specialized lizard known for its ability to change color, zygodactyl feet, and independently moving eyes.",
+    "information": {
+      "habitat": "Shrublands and coastal regions of North Africa, Southern Europe, and the Middle East.",
+      "diet": "Insectivorous, using its long, sticky tongue to catch prey.",
+      "behavior": "Arboreal and slow-moving, they use their prehensile tail for balance in trees."
+    },
+    "facts": [
+      "Chameleons change color for communication and temperature regulation, not just for camouflage.",
+      "Their eyes can rotate 360 degrees independently of each other.",
+      "A chameleon's tongue can be up to twice as long as its body."
+    ]
   },
   {
     "name": "Gecko",
@@ -1273,7 +1891,18 @@
       "family": "Gekkonidae",
       "genus": "Gekko",
       "species": "Gekko gecko"
-    }
+    },
+    "description": "The Tokay gecko is a large, colorful lizard known for its distinctive loud barking call and spots.",
+    "information": {
+      "habitat": "Tropical rainforests and human dwellings in Southeast Asia.",
+      "diet": "Mainly insects, but also small vertebrates like birds and mice.",
+      "behavior": "Nocturnal and highly territorial; known for their ability to walk on vertical surfaces."
+    },
+    "facts": [
+      "They have specialized toe pads that allow them to climb up smooth surfaces like glass.",
+      "Tokay geckos do not have eyelids and clean their eyes by licking them.",
+      "They can drop their tails to distract predators and later regrow them."
+    ]
   },
   {
     "name": "King Cobra",
@@ -1294,7 +1923,18 @@
       "family": "Elapidae",
       "genus": "Ophiophagus",
       "species": "Ophiophagus hannah"
-    }
+    },
+    "description": "The world's longest venomous snake, recognized by its impressive hood and large size.",
+    "information": {
+      "habitat": "Forests and plains of Southeast Asia and India.",
+      "diet": "Primarily other snakes, including both venomous and non-venomous species.",
+      "behavior": "Diurnal hunters that are generally shy but can be highly aggressive if cornered."
+    },
+    "facts": [
+      "A single bite can deliver enough neurotoxin to kill an elephant.",
+      "They are the only snakes in the world that build nests for their eggs.",
+      "King cobras can grow up to 18 feet long."
+    ]
   },
   {
     "name": "Goldfish",
@@ -1315,7 +1955,18 @@
       "family": "Cyprinidae",
       "genus": "Carassius",
       "species": "Carassius auratus"
-    }
+    },
+    "description": "A small domesticated freshwater fish in the carp family, one of the most popular aquarium pets.",
+    "information": {
+      "habitat": "Originally from East Asia; now found in aquariums and garden ponds worldwide.",
+      "diet": "Omnivorous, feeding on crustaceans, insects, and plant matter.",
+      "behavior": "Social fish that thrive in groups and are capable of learning simple tasks."
+    },
+    "facts": [
+      "Goldfish can live for over 40 years if kept in proper conditions.",
+      "They have been bred into hundreds of different shapes and colors.",
+      "Contrary to popular belief, they have a memory span of months, not seconds."
+    ]
   },
   {
     "name": "Betta Fish",
@@ -1336,7 +1987,18 @@
       "family": "Osphronemidae",
       "genus": "Betta",
       "species": "Betta splendens"
-    }
+    },
+    "description": "Also known as Siamese fighting fish, they are famous for their vibrant colors and long, flowing fins.",
+    "information": {
+      "habitat": "Originally found in shallow rice paddies and marshes of Southeast Asia.",
+      "diet": "Carnivores that feed on insects and larvae.",
+      "behavior": "Highly aggressive toward other males; they possess a labyrinth organ that allows them to breathe air."
+    },
+    "facts": [
+      "Male bettas build 'bubble nests' on the surface of the water to protect their eggs.",
+      "They are called Siamese fighting fish because of their history as competitive fighting animals in Thailand.",
+      "They can survive in low-oxygen water because they can gulp air from the surface."
+    ]
   },
   {
     "name": "Jellyfish",
@@ -1357,7 +2019,18 @@
       "family": "Ulmaridae",
       "genus": "Aurelia",
       "species": "Aurelia aurita"
-    }
+    },
+    "description": "The Moon Jellyfish is a translucent marine invertebrate with a saucer-like shape and short stinging tentacles.",
+    "information": {
+      "habitat": "Coastal waters and oceans worldwide, particularly in temperate and tropical regions.",
+      "diet": "Carnivorous, feeding on plankton, small mollusks, and crustaceans.",
+      "behavior": "They move with a pulsating motion of the bell and rely on ocean currents for travel."
+    },
+    "facts": [
+      "Jellyfish are about 95% water and have no brain, heart, or blood.",
+      "Moon jellyfish use their tentacles to catch prey and move it toward their mouth.",
+      "Their sting is generally harmless to humans, often feeling like a mild itch."
+    ]
   },
   {
     "name": "Starfish",
@@ -1378,7 +2051,18 @@
       "family": "Asteriidae",
       "genus": "Asterias",
       "species": "Asterias rubens"
-    }
+    },
+    "description": "The Common Starfish is a marine invertebrate typically possessing five radiating arms and a rough skin.",
+    "information": {
+      "habitat": "Intertidal and subtidal zones of the Atlantic Ocean and North Sea.",
+      "diet": "Carnivorous, primarily preying on mollusks like mussels and clams.",
+      "behavior": "They move slowly using tiny tube feet on their underside and can regenerate lost limbs."
+    },
+    "facts": [
+      "Starfish do not have a brain or a centralized nervous system.",
+      "They have a unique way of eating by pushing their stomach out through their mouth to digest prey externally.",
+      "They can have an eye at the end of each arm that detects light and dark."
+    ]
   },
   {
     "name": "Lobster",
@@ -1399,7 +2083,18 @@
       "family": "Nephropidae",
       "genus": "Homarus",
       "species": "Homarus americanus"
-    }
+    },
+    "description": "The American lobster is a large crustacean with a hard shell and two large, powerful claws.",
+    "information": {
+      "habitat": "Cold coastal waters of the Atlantic Ocean, particularly off the coast of North America.",
+      "diet": "Omnivorous, eating fish, mollusks, and even other lobsters.",
+      "behavior": "Nocturnal bottom-dwellers that prefer rocky shelters."
+    },
+    "facts": [
+      "Lobsters can live for over 100 years.",
+      "They taste with their legs and smell with their antennae.",
+      "A lobster's blood is colorless until it is exposed to oxygen, when it turns blue."
+    ]
   },
   {
     "name": "Crab",
@@ -1420,7 +2115,18 @@
       "family": "Brachyura",
       "genus": "Cancer",
       "species": "Cancer pagurus"
-    }
+    },
+    "description": "The Edible Crab is a robust crustacean with a heavy 'pie-crust' shell and large black-tipped claws.",
+    "information": {
+      "habitat": "Rocky and sandy sea beds of the Atlantic and North Sea.",
+      "diet": "Carnivores that eat mollusks and other small crustaceans.",
+      "behavior": "Nocturnal scavengers that walk sideways and bury themselves in sand for protection."
+    },
+    "facts": [
+      "Crabs use their claws for feeding, defense, and social signaling.",
+      "They can communicate by drumming or waving their pincers.",
+      "Like lobsters, they must molt (shed their shell) to grow larger."
+    ]
   },
   {
     "name": "Butterfly",
@@ -1441,7 +2147,18 @@
       "family": "Nymphalidae",
       "genus": "Danaus",
       "species": "Danaus plexippus"
-    }
+    },
+    "description": "The Monarch butterfly is a large, iconic butterfly with bright orange wings laced with black veins and white spots.",
+    "information": {
+      "habitat": "Open fields and meadows across North America during breeding; overwintering in forests of Mexico.",
+      "diet": "Caterpillars eat milkweed; adults drink nectar from flowers.",
+      "behavior": "Famous for their massive multi-generational migration across North America."
+    },
+    "facts": [
+      "Monarchs are poisonous to birds because of the milkweed they eat as caterpillars.",
+      "They can fly as fast as 12 to 25 miles per hour.",
+      "The migration to Mexico can span over 3,000 miles."
+    ]
   },
   {
     "name": "Honeybee",
@@ -1462,7 +2179,18 @@
       "family": "Apidae",
       "genus": "Apis",
       "species": "Apis mellifera"
-    }
+    },
+    "description": "The Western honey bee is a social insect famous for its role in pollination and the production of honey.",
+    "information": {
+      "habitat": "Found in forests, meadows, and agricultural areas worldwide.",
+      "diet": "Feed on nectar and pollen from flowers.",
+      "behavior": "Live in complex colonies with a single queen, thousands of workers, and a few drones."
+    },
+    "facts": [
+      "Honeybees communicate the location of flowers through a 'waggle dance'.",
+      "They are the only insect that produces food eaten by humans.",
+      "A honeybee visits 50 to 100 flowers during a single collection trip."
+    ]
   },
   {
     "name": "Ladybug",
@@ -1483,7 +2211,18 @@
       "family": "Coccinellidae",
       "genus": "Coccinella",
       "species": "Coccinella septempunctata"
-    }
+    },
+    "description": "The Seven-spot ladybird is a small beetle with a characteristic red shell and seven black spots.",
+    "information": {
+      "habitat": "Gardens, meadows, and agricultural fields.",
+      "diet": "Carnivorous, primarily feeding on aphids and other soft-bodied garden pests.",
+      "behavior": "They use their bright colors to warn predators they taste bad and can secrete foul fluid."
+    },
+    "facts": [
+      "A single ladybug can eat up to 5,000 aphids in its lifetime.",
+      "They hibernate in large groups during the winter months.",
+      "In many cultures, ladybugs are considered symbols of good luck."
+    ]
   },
   {
     "name": "Ant",
@@ -1504,7 +2243,18 @@
       "family": "Formicidae",
       "genus": "Formica",
       "species": "Formica rufa"
-    }
+    },
+    "description": "The Red Wood Ant is a social insect that builds large mound-shaped nests out of pine needles and twigs.",
+    "information": {
+      "habitat": "Coniferous and mixed forests across Europe.",
+      "diet": "Omnivorous, feeding on insects and the honeydew produced by aphids.",
+      "behavior": "Highly organized workers that use pheromone trails to communicate and defend the nest."
+    },
+    "facts": [
+      "Ants can carry objects that are 50 times their own body weight.",
+      "They communicate using chemicals called pheromones.",
+      "They are famous for 'farming' aphids to collect the sweet honeydew they produce."
+    ]
   },
   {
     "name": "Dragonfly",
@@ -1525,7 +2275,18 @@
       "family": "Libellulidae",
       "genus": "Sympetrum",
       "species": "Sympetrum flaveolum"
-    }
+    },
+    "description": "The Yellow-winged darter is a predatory insect known for its two pairs of strong wings and agile flight.",
+    "information": {
+      "habitat": "Found near ponds, lakes, and marshes where they lay their eggs.",
+      "diet": "Carnivorous, hunting other insects like mosquitoes mid-flight.",
+      "behavior": "Expert fliers that can move in any direction and even hover in place."
+    },
+    "facts": [
+      "Dragonflies have nearly 360-degree vision due to their massive compound eyes.",
+      "They were among the first winged insects to evolve over 300 million years ago.",
+      "They spend most of their lives as aquatic nymphs before molting into adults."
+    ]
   },
   {
     "name": "Frog",
@@ -1546,7 +2307,18 @@
       "family": "Ranidae",
       "genus": "Lithobates",
       "species": "Lithobates clamitans"
-    }
+    },
+    "description": "The Green Frog is a common North American amphibian with green to brownish coloring and large eardrums (tympana).",
+    "information": {
+      "habitat": "Near permanent bodies of water like ponds, lakes, and marshes.",
+      "diet": "Carnivorous, eating insects, spiders, and other small invertebrates.",
+      "behavior": "Mainly solitary; males have a call that sounds like the pluck of a banjo string."
+    },
+    "facts": [
+      "Frogs can breathe through their skin as well as their lungs.",
+      "A group of frogs is called an 'army'.",
+      "They use their powerful hind legs for long leaps to escape predators."
+    ]
   },
   {
     "name": "Toad",
@@ -1567,7 +2339,18 @@
       "family": "Bufonidae",
       "genus": "Bufo",
       "species": "Bufo bufo"
-    }
+    },
+    "description": "The Common Toad is a stout amphibian with warty skin and short legs, typically brownish in color.",
+    "information": {
+      "habitat": "Gardens, forests, and agricultural lands, returning to water only to breed.",
+      "diet": "Feed on insects, slugs, snails, and worms.",
+      "behavior": "Nocturnal animals that move with a slow crawl or short hops and produce toxins for defense."
+    },
+    "facts": [
+      "Toads can secrete a bitter-tasting toxin from their skin to deter predators.",
+      "Contrary to myth, you cannot get warts from touching a toad.",
+      "They hibernate in soil or under logs during the winter."
+    ]
   },
   {
     "name": "Musk Ox",
@@ -1588,7 +2371,18 @@
       "family": "Bovidae",
       "genus": "Ovibos",
       "species": "Ovibos moschatus"
-    }
+    },
+    "description": "An Arctic mammal known for its thick coat and the strong odor emitted by males during the rut.",
+    "information": {
+      "habitat": "The Arctic tundra of Canada, Greenland, and Alaska.",
+      "diet": "Herbivorous, feeding on grasses, sedges, and willow shoots.",
+      "behavior": "Social animals that form herds and use a defensive circle to protect themselves from wolves."
+    },
+    "facts": [
+      "They have a thick undercoat called 'qiviut' which is softer than cashmere.",
+      "Musk oxen are more closely related to sheep and goats than to cattle.",
+      "Both males and females have impressive curved horns."
+    ]
   },
   {
     "name": "Ocelot",
@@ -1609,7 +2403,18 @@
       "family": "Felidae",
       "genus": "Leopardus",
       "species": "Leopardus pardalis"
-    }
+    },
+    "description": "A medium-sized wild cat with a beautiful coat of spots and stripes, native to the Americas.",
+    "information": {
+      "habitat": "Tropical forests, thorn scrubs, and mangrove swamps across the Americas.",
+      "diet": "Carnivorous, hunting small mammals, birds, and reptiles.",
+      "behavior": "Nocturnal and solitary hunters that are also excellent climbers and swimmers."
+    },
+    "facts": [
+      "Each ocelot has a unique coat pattern, similar to human fingerprints.",
+      "They were once highly hunted for their beautiful fur.",
+      "Ocelots have a very strong sense of smell and sight adapted for night hunting."
+    ]
   },
   {
     "name": "Tasmanian Devil",
@@ -1630,7 +2435,18 @@
       "family": "Dasyuridae",
       "genus": "Sarcophilus",
       "species": "Sarcophilus harrisii"
-    }
+    },
+    "description": "The world's largest carnivorous marsupial, known for its black fur and loud, screeching screams.",
+    "information": {
+      "habitat": "Found only in the wild on the island state of Tasmania, Australia.",
+      "diet": "Carnivorous scavengers that eat carrion, including bones and fur.",
+      "behavior": "Nocturnal and solitary animals that are known for their aggressive behavior during feeding."
+    },
+    "facts": [
+      "Tasmanian devils have the strongest bite force for their size of any mammal.",
+      "They store fat in their tails; a thick tail is a sign of a healthy devil.",
+      "They face a major threat from a contagious cancer called Devil Facial Tumor Disease."
+    ]
   },
   {
     "name": "Brown Hyena",
@@ -1651,7 +2467,18 @@
       "family": "Hyaenidae",
       "genus": "Hyaena",
       "species": "Hyaena brunnea"
-    }
+    },
+    "description": "A shaggy-haired member of the hyena family, adapted to desert and arid environments.",
+    "information": {
+      "habitat": "Arid regions and deserts of Southern Africa.",
+      "diet": "Primarily scavengers that eat carrion, but also fruit and insects.",
+      "behavior": "Nocturnal and solitary foragers that live in small clans led by a dominant female."
+    },
+    "facts": [
+      "Brown hyenas have a shaggy brown coat and striped legs.",
+      "They rely heavily on their sense of smell to find food in the desert.",
+      "They are much more solitary than their cousins, the spotted hyenas."
+    ]
   },
   {
     "name": "Arctic Hare",
@@ -1672,7 +2499,18 @@
       "family": "Leporidae",
       "genus": "Lepus",
       "species": "Lepus arcticus"
-    }
+    },
+    "description": "A large hare species adapted to the Arctic environment with thick fur and a compact body.",
+    "information": {
+      "habitat": "The tundra regions of Greenland and Northern Canada.",
+      "diet": "Herbivorous, eating woody plants, mosses, and lichens.",
+      "behavior": "They often gather in large groups for warmth and protection from predators."
+    },
+    "facts": [
+      "Like the Arctic fox, their fur changes from grayish-brown in summer to white in winter.",
+      "They can run at speeds of up to 40 miles per hour.",
+      "Arctic hares have relatively short ears compared to other hares to reduce heat loss."
+    ]
   },
   {
     "name": "Secretary Bird",
@@ -1693,7 +2531,18 @@
       "family": "Sagittariidae",
       "genus": "Sagittarius",
       "species": "Sagittarius serpentarius"
-    }
+    },
+    "description": "A large, terrestrial bird of prey in Africa with eagle-like features and long, crane-like legs.",
+    "information": {
+      "habitat": "Open savannas and grasslands across sub-Saharan Africa.",
+      "diet": "Carnivorous, hunting insects, small mammals, and especially snakes.",
+      "behavior": "Diurnal hunters that walk long distances on the ground to find prey, which they kill by stomping."
+    },
+    "facts": [
+      "The name comes from the long crest feathers that resemble quill pens used by secretaries in the past.",
+      "A secretary bird can kick with a force five times its own body weight.",
+      "They are famous for hunting venomous snakes like cobras and puff adders."
+    ]
   },
   {
     "name": "Kea",
@@ -1714,7 +2563,18 @@
       "family": "Psittacidae",
       "genus": "Nestor",
       "species": "Nestor notabilis"
-    }
+    },
+    "description": "A large, olive-green parrot native to New Zealand, famous for its intelligence and curiosity.",
+    "information": {
+      "habitat": "Alpine and forested regions of New Zealand's South Island.",
+      "diet": "Omnivorous, eating plants, seeds, insects, and even carrion.",
+      "behavior": "Highly social and inquisitive; they are known for investigating human belongings and cars."
+    },
+    "facts": [
+      "The kea is the only alpine parrot in the world.",
+      "They are considered one of the most intelligent birds, capable of solving complex puzzles.",
+      "Keas are known to use tools in the wild."
+    ]
   },
   {
     "name": "Golden Eagle",
@@ -1735,7 +2595,18 @@
       "family": "Accipitridae",
       "genus": "Aquila",
       "species": "Aquila chrysaetos"
-    }
+    },
+    "description": "One of the best-known birds of prey in the Northern Hemisphere, with dark brown feathers and golden-brown plumage on its nape.",
+    "information": {
+      "habitat": "Open and semi-open country, mountains, and cliffs across North America, Europe, and Asia.",
+      "diet": "Carnivorous, hunting small mammals like hares and ground squirrels, and occasionally other birds.",
+      "behavior": "Visual hunters that soar at high altitudes and dive at great speeds to catch prey."
+    },
+    "facts": [
+      "Golden eagles can reach speeds of up to 150-200 mph during a hunting dive.",
+      "They can have a wingspan of over 7 feet.",
+      "They mate for life and often return to the same nest site for many years."
+    ]
   },
   {
     "name": "Shoebill",
@@ -1756,7 +2627,18 @@
       "family": "Balaenicipitidae",
       "genus": "Balaeniceps",
       "species": "Balaeniceps rex"
-    }
+    },
+    "description": "A large, prehistoric-looking wading bird in Africa with a massive, shoe-shaped bill.",
+    "information": {
+      "habitat": "Freshwater swamps and marshes of Central and East Africa.",
+      "diet": "Carnivorous, primarily eating lungfish, but also eels, lizards, and small crocodiles.",
+      "behavior": "Solitary and patient hunters that stand motionless for long periods before striking prey."
+    },
+    "facts": [
+      "The shoebill's massive bill is used to decapitate and consume large prey.",
+      "They are famous for their bill-clattering sound, which they use for communication.",
+      "A shoebill can stand up to 5 feet tall."
+    ]
   },
   {
     "name": "Gharial",
@@ -1777,7 +2659,18 @@
       "family": "Gavialidae",
       "genus": "Gavialis",
       "species": "Gavialis gangeticus"
-    }
+    },
+    "description": "A unique crocodilian native to India, easily identified by its extremely long, narrow snout and sharp teeth.",
+    "information": {
+      "habitat": "Deep, fast-flowing rivers of the Indian subcontinent.",
+      "diet": "Primarily piscivorous, meaning they eat almost exclusively fish.",
+      "behavior": "They spend most of their time in the water and are not well-suited for moving on land."
+    },
+    "facts": [
+      "Males have a bulbous growth at the end of their snout called a 'ghara'.",
+      "They are one of the most critically endangered crocodilians in the world.",
+      "Gharials use their long snouts to snap up fish with a quick side-to-side motion."
+    ]
   },
   {
     "name": "Frilled Lizard",
@@ -1798,7 +2691,18 @@
       "family": "Agamidae",
       "genus": "Chlamydosaurus",
       "species": "Chlamydosaurus kingii"
-    }
+    },
+    "description": "A lizard native to Australia and New Guinea, famous for the large frill around its neck used for intimidation.",
+    "information": {
+      "habitat": "Humid forests and woodlands of Northern Australia and New Guinea.",
+      "diet": "Insectivorous, eating a variety of beetles, termites, and spiders.",
+      "behavior": "Arboreal lizards that use their frill and loud hissing to scare away predators."
+    },
+    "facts": [
+      "The frill can be up to 12 inches across.",
+      "When threatened, they can run on their hind legs at high speeds.",
+      "The color of the frill often matches the lizard's environment for camouflage."
+    ]
   },
   {
     "name": "Horned Lizard",
@@ -1819,7 +2723,18 @@
       "family": "Phrynosomatidae",
       "genus": "Phrynosoma",
       "species": "Phrynosoma cornutum"
-    }
+    },
+    "description": "A small, flattened lizard found in North America with spines around its head and body.",
+    "information": {
+      "habitat": "Arid and semi-arid regions and deserts of the United States and Mexico.",
+      "diet": "Specialized diet consisting almost entirely of harvester ants.",
+      "behavior": "Docile and slow-moving, they rely on their spiny appearance and camouflage for protection."
+    },
+    "facts": [
+      "Some species can squirt blood from their eyes to startle predators.",
+      "Their body shape and color allow them to blend in perfectly with sandy soil.",
+      "They are often called 'horned toads' despite being reptiles."
+    ]
   },
   {
     "name": "Olive Ridley Turtle",
@@ -1840,7 +2755,18 @@
       "family": "Cheloniidae",
       "genus": "Lepidochelys",
       "species": "Lepidochelys olivacea"
-    }
+    },
+    "description": "The most abundant sea turtle species, known for its heart-shaped shell and olive-green color.",
+    "information": {
+      "habitat": "Warm and tropical waters of the Pacific, Indian, and Atlantic Oceans.",
+      "diet": "Omnivorous, eating jellyfish, shrimp, crabs, and snails.",
+      "behavior": "Famous for their massive synchronous nesting events called 'arribadas'."
+    },
+    "facts": [
+      "Arribada nesting can involve thousands of turtles nesting on the same beach at once.",
+      "They are the smallest of all the sea turtles.",
+      "Olive ridleys take about 15 years to reach maturity."
+    ]
   },
   {
     "name": "Axolotl",
@@ -1861,7 +2787,18 @@
       "family": "Ambystomatidae",
       "genus": "Ambystoma",
       "species": "Ambystoma mexicanum"
-    }
+    },
+    "description": "A unique salamander from Mexico that retains its larval features throughout its entire life.",
+    "information": {
+      "habitat": "Only found in the wild in the Xochimilco canal system near Mexico City.",
+      "diet": "Carnivorous, eating small fish, insects, and worms.",
+      "behavior": "They are neotenic, meaning they live their entire lives in the water and keep their external gills."
+    },
+    "facts": [
+      "Axolotls have the amazing ability to regenerate lost limbs and even parts of their brain and heart.",
+      "They are also known as the 'Mexican walking fish', though they are amphibians.",
+      "Axolotls are critically endangered in the wild due to habitat loss and pollution."
+    ]
   },
   {
     "name": "Poison Dart Frog",
@@ -1882,7 +2819,18 @@
       "family": "Dendrobatidae",
       "genus": "Dendrobates",
       "species": "Dendrobates tinctorius"
-    }
+    },
+    "description": "Small, brightly colored tropical frogs known for their highly toxic skin secretions.",
+    "information": {
+      "habitat": "Tropical rainforests of Central and South America.",
+      "diet": "Feed on ants, termites, and other small insects that give them their toxicity.",
+      "behavior": "Diurnal frogs that use their bright colors to warn predators of their toxicity."
+    },
+    "facts": [
+      "The name comes from indigenous people using the frog's toxin on the tips of blowdarts.",
+      "In captivity, they lose their toxicity because they don't eat the same insects as they do in the wild.",
+      "Poison dart frogs are excellent parents, often carrying their tadpoles on their backs."
+    ]
   },
   {
     "name": "Red-Eyed Tree Frog",
@@ -1903,7 +2851,18 @@
       "family": "Phyllomedusidae",
       "genus": "Agalychnis",
       "species": "Agalychnis callidryas"
-    }
+    },
+    "description": "A striking tropical frog known for its bright green body, blue-and-yellow striped sides, and large red eyes.",
+    "information": {
+      "habitat": "Tropical rainforests of Central America, from Mexico to Panama.",
+      "diet": "Insects such as crickets, moths, and flies.",
+      "behavior": "Nocturnal frogs that spend most of their time in the trees and sleep during the day on the underside of leaves."
+    },
+    "facts": [
+      "Their large red eyes are used as a startle defense to temporarily distract predators.",
+      "Despite their bright colors, red-eyed tree frogs are not venomous.",
+      "They have sticky pads on their toes that help them climb and stay on leaves."
+    ]
   },
   {
     "name": "Goliath Frog",
@@ -1924,7 +2883,18 @@
       "family": "Conrauidae",
       "genus": "Conraua",
       "species": "Conraua goliath"
-    }
+    },
+    "description": "The largest living frog in the world, capable of reaching over a foot in length.",
+    "information": {
+      "habitat": "Fast-flowing rivers and waterfalls in the rainforests of Cameroon and Equatorial Guinea.",
+      "diet": "Carnivorous, eating insects, small crustaceans, and even other frogs.",
+      "behavior": "They are extremely shy and rely on their powerful legs to leap away from any disturbance."
+    },
+    "facts": [
+      "Goliath frogs can weigh as much as 7 pounds.",
+      "They build their own nesting pools out of stones along riverbanks.",
+      "They have a very small range and are threatened by habitat loss and hunting."
+    ]
   },
   {
     "name": "Beluga Sturgeon",
@@ -1945,7 +2915,18 @@
       "family": "Acipenseridae",
       "genus": "Huso",
       "species": "Huso huso"
-    }
+    },
+    "description": "One of the largest and longest-lived species of freshwater fish, famous for its high-quality caviar.",
+    "information": {
+      "habitat": "Primarily found in the Caspian and Black Sea basins.",
+      "diet": "Carnivorous, with adults feeding on other fish and occasionally water birds.",
+      "behavior": "They are migratory fish that swim upriver to spawn and can live for over 100 years."
+    },
+    "facts": [
+      "Beluga sturgeons can grow up to 24 feet in length and weigh over 3,000 pounds.",
+      "They have remained largely unchanged for millions of years, often called 'living fossils'.",
+      "Overfishing for their caviar has led them to the brink of extinction."
+    ]
   },
   {
     "name": "Electric Eel",
@@ -1966,7 +2947,18 @@
       "family": "Gymnotidae",
       "genus": "Electrophorus",
       "species": "Electrophorus electricus"
-    }
+    },
+    "description": "A unique fish from the Amazon that can generate powerful electric shocks for hunting and defense.",
+    "information": {
+      "habitat": "Freshwater basins of the Amazon and Orinoco rivers in South America.",
+      "diet": "Carnivorous, eating fish, amphibians, and even small birds.",
+      "behavior": "Nocturnal hunters that use low-level electric pulses for navigation and high-level shocks to stun prey."
+    },
+    "facts": [
+      "Despite their name, electric eels are not actually eels; they are a type of knifefish.",
+      "They can generate a shock of over 600 to 800 volts.",
+      "They must come to the surface to breathe air regularly."
+    ]
   },
   {
     "name": "Manta Ray",
@@ -1987,7 +2979,18 @@
       "family": "Myliobatidae",
       "genus": "Mobula",
       "species": "Mobula birostris"
-    }
+    },
+    "description": "Large marine rays with broad fins and horn-like cephalic fins on their heads.",
+    "information": {
+      "habitat": "Tropical and subtropical oceans worldwide.",
+      "diet": "Filter feeders that eat massive amounts of zooplankton.",
+      "behavior": "Intelligent and social animals that are known for leaping out of the water."
+    },
+    "facts": [
+      "Manta rays have the largest brain of any fish.",
+      "Each manta ray has a unique spot pattern on its underside, like a fingerprint.",
+      "They do not have a stinging spine on their tail, unlike some other rays."
+    ]
   },
   {
     "name": "Blue Tang",
@@ -2008,7 +3011,18 @@
       "family": "Acanthuridae",
       "genus": "Paracanthurus",
       "species": "Paracanthurus hepatus"
-    }
+    },
+    "description": "A vibrant blue-colored marine fish with a yellow tail and black markings.",
+    "information": {
+      "habitat": "Coral reefs of the Indo-Pacific region.",
+      "diet": "Omnivorous, feeding on algae and zooplankton.",
+      "behavior": "They play an important role in reef health by grazing on algae; they have sharp spines for defense."
+    },
+    "facts": [
+      "Blue tangs are also known as 'palette surgeonfish' due to their black markings.",
+      "They have sharp, venomous spines at the base of their tail for protection.",
+      "As juveniles, they are bright yellow before turning blue as they mature."
+    ]
   },
   {
     "name": "Wolf Eel",
@@ -2029,7 +3043,18 @@
       "family": "Anarhichadidae",
       "genus": "Anarrhichthys",
       "species": "Anarrhichthys ocellatus"
-    }
+    },
+    "description": "A long, slender fish that resembles an eel but is actually a member of the wolffish family.",
+    "information": {
+      "habitat": "Rocky reefs and caves of the North Pacific Ocean.",
+      "diet": "Carnivorous, eating hard-shelled prey like crabs, snails, and sea urchins.",
+      "behavior": "They are generally docile toward humans and are known to mate for life."
+    },
+    "facts": [
+      "Wolf eels have extremely powerful jaws for crushing shells.",
+      "Despite their fierce look, they are quite curious and friendly toward divers.",
+      "They spend most of their time in rocky crevices or dens."
+    ]
   },
   {
     "name": "Harpy Eagle",
@@ -2050,7 +3075,18 @@
       "family": "Accipitridae",
       "genus": "Harpia",
       "species": "Harpia harpyja"
-    }
+    },
+    "description": "A massive and powerful bird of prey in Central and South America, one of the largest eagles in the world.",
+    "information": {
+      "habitat": "Tropical lowland rainforest canopies across the Americas.",
+      "diet": "Apex predators that hunt sloths and monkeys mid-air.",
+      "behavior": "Visual hunters with massive talons that can reach up to 5 inches in length."
+    },
+    "facts": [
+      "Harpy eagles have talons as large as a grizzly bear's claws.",
+      "They have a distinctive double crest of feathers on their head.",
+      "The females are significantly larger than the males."
+    ]
   },
   {
     "name": "Scarlet Macaw",
@@ -2071,7 +3107,18 @@
       "family": "Psittacidae",
       "genus": "Ara",
       "species": "Ara macao"
-    }
+    },
+    "description": "A large, brightly colored parrot with brilliant red, yellow, and blue plumage and a long tail.",
+    "information": {
+      "habitat": "Tropical lowland rainforests and open woodlands of Central and South America.",
+      "diet": "Mainly fruits, nuts, and seeds; their powerful beaks allow them to crack hard shells.",
+      "behavior": "Highly social birds that mate for life and are often seen in pairs or small flocks."
+    },
+    "facts": [
+      "Scarlet macaws are known to eat clay at riverbanks to help neutralize toxins in their diet.",
+      "They can live for up to 60 years or more.",
+      "They are highly intelligent and can mimic human speech and other sounds."
+    ]
   },
   {
     "name": "Bateleur Eagle",
@@ -2092,7 +3139,18 @@
       "family": "Accipitridae",
       "genus": "Terathopius",
       "species": "Terathopius ecaudatus"
-    }
+    },
+    "description": "A medium-sized African eagle known for its colorful face and extremely short tail.",
+    "information": {
+      "habitat": "Savannas and open woodlands across sub-Saharan Africa.",
+      "diet": "Opportunistic hunters that eat small mammals, birds, reptiles, and carrion.",
+      "behavior": "Famous for their rocking flight style, which is reflected in their name 'Bateleur' (French for tightrope walker)."
+    },
+    "facts": [
+      "They spend about 8 to 9 hours a day in the air searching for food.",
+      "A bateleur eagle's face and legs change color based on its mood.",
+      "They have a very wide wingspan compared to their body size."
+    ]
   },
   {
     "name": "White Stork",
@@ -2113,7 +3171,18 @@
       "family": "Ciconiidae",
       "genus": "Ciconia",
       "species": "Ciconia ciconia"
-    }
+    },
+    "description": "A large, migratory bird with white feathers, black wings, and a long red bill and legs.",
+    "information": {
+      "habitat": "Open wetlands, meadows, and agricultural areas across Europe, Africa, and Asia.",
+      "diet": "Carnivorous, eating insects, frogs, fish, and small mammals.",
+      "behavior": "Social birds that build large stick nests on top of buildings or trees; they are famous for their long-distance migrations."
+    },
+    "facts": [
+      "White storks mate for life and return to the same nest every year.",
+      "They communicate by clattering their bills together, which sounds like a rattle.",
+      "In folklore, storks are often associated with the arrival of new babies."
+    ]
   },
   {
     "name": "Crested Caracara",
@@ -2134,7 +3203,18 @@
       "family": "Falconidae",
       "genus": "Caracara",
       "species": "Caracara plancus"
-    }
+    },
+    "description": "A unique bird of prey in the falcon family that behaves more like a vulture, native to the Americas.",
+    "information": {
+      "habitat": "Open country, including grasslands and savannas, from the Southern US to South America.",
+      "diet": "Opportunistic hunters and scavengers that eat carrion, small vertebrates, and insects.",
+      "behavior": "They are often seen walking or running on the ground searching for food."
+    },
+    "facts": [
+      "Crested caracaras are often called 'Mexican eagles'.",
+      "They have a distinctive crest of feathers on their head and a bare orange face.",
+      "Unlike most falcons, they are not fast aerial hunters."
+    ]
   },
   {
     "name": "Mandarin Duck",
@@ -2155,7 +3235,18 @@
       "family": "Anatidae",
       "genus": "Aix",
       "species": "Aix galericulata"
-    }
+    },
+    "description": "A small, colorful perching duck species native to East Asia, famous for the male's spectacular plumage.",
+    "information": {
+      "habitat": "Wooded lakes and rivers across East Asia, with introduced populations in Europe.",
+      "diet": "Omnivorous, eating seeds, acorns, grains, and aquatic insects.",
+      "behavior": "They are perching ducks that often nest in tree cavities near water."
+    },
+    "facts": [
+      "In many Asian cultures, mandarin ducks are symbols of love and fidelity.",
+      "The male's colorful feathers are used only during the breeding season.",
+      "They are one of the few duck species that can easily perch in trees."
+    ]
   },
   {
     "name": "King Vulture",
@@ -2176,7 +3267,18 @@
       "family": "Cathartidae",
       "genus": "Sarcoramphus",
       "species": "Sarcoramphus papa"
-    }
+    },
+    "description": "A large and colorful New World vulture found in Central and South America.",
+    "information": {
+      "habitat": "Tropical lowland forests across Central and South America.",
+      "diet": "Scavengers that feed almost exclusively on carrion.",
+      "behavior": "Visual scavengers that use their keen eyesight to find food from high altitudes; they are often the dominant vulture at a carcass."
+    },
+    "facts": [
+      "The king vulture is the most colorful of all vulture species.",
+      "They have a very powerful bill adapted for tearing into tough carcasses.",
+      "Like other vultures, they play a vital role in cleaning the environment by eating dead animals."
+    ]
   },
   {
     "name": "Peafowl (Indian Peafowl)",
@@ -2197,7 +3299,18 @@
       "family": "Phasianidae",
       "genus": "Pavo",
       "species": "Pavo cristatus"
-    }
+    },
+    "description": "A large and brightly colored bird native to South Asia, famous for the male's spectacular train of iridescent tail feathers.",
+    "information": {
+      "habitat": "Forests and scrublands, often found near human settlements and water.",
+      "diet": "Omnivorous, feeding on seeds, fruits, insects, and small reptiles.",
+      "behavior": "Ground-dwelling birds that roost in trees at night; males use their train in courtship displays."
+    },
+    "facts": [
+      "The male's train can contain over 200 feathers, each with a colorful eyespot.",
+      "Peafowls are the national bird of India.",
+      "Despite their large size and heavy train, they are capable of flight."
+    ]
   },
   {
     "name": "Golden Pheasant",
@@ -2218,7 +3331,18 @@
       "family": "Phasianidae",
       "genus": "Chrysolophus",
       "species": "Chrysolophus pictus"
-    }
+    },
+    "description": "A spectacularly colored game bird native to the forests of mountainous areas of western China.",
+    "information": {
+      "habitat": "Dense forests and scrublands in the mountains of China.",
+      "diet": "Feed on seeds, berries, and insects.",
+      "behavior": "Shy and elusive ground-dwelling birds that are more easily heard than seen."
+    },
+    "facts": [
+      "The golden pheasant is also known as the Chinese pheasant.",
+      "The male's brilliant colors are used for courtship and camouflage in the forest undergrowth.",
+      "They are popular in aviaries and as ornamental birds worldwide."
+    ]
   },
   {
     "name": "Cassowary (Southern)",
@@ -2239,7 +3363,18 @@
       "family": "Casuariidae",
       "genus": "Casuarius",
       "species": "Casuarius casuarius"
-    }
+    },
+    "description": "A large, flightless bird with black feathers, a blue head, and a distinctive bony crest called a casque.",
+    "information": {
+      "habitat": "Tropical rainforests of Northern Australia, New Guinea, and surrounding islands.",
+      "diet": "Mainly frugivorous, eating a variety of rainforest fruits.",
+      "behavior": "Solitary and territorial birds that are known for their powerful kicks and sharp claws."
+    },
+    "facts": [
+      "Cassowaries are considered the most dangerous birds in the world due to their powerful legs and 4-inch claws.",
+      "They play a vital role in the rainforest by dispersing the seeds of many large fruits.",
+      "The casque on their head is made of a spongy material covered in keratin."
+    ]
   },
   {
     "name": "Bearded Vulture",
@@ -2260,7 +3395,18 @@
       "family": "Accipitridae",
       "genus": "Gypaetus",
       "species": "Gypaetus barbatus"
-    }
+    },
+    "description": "A large and unique bird of prey also known as the Lammergeier, famous for its diet of bones.",
+    "information": {
+      "habitat": "High mountainous regions across Europe, Asia, and Africa.",
+      "diet": "Scavengers that feed primarily on bones, which they drop from great heights to break them.",
+      "behavior": "Visual scavengers with extremely powerful digestive systems capable of breaking down bone."
+    },
+    "facts": [
+      "Bearded vultures are the only animals in the world that eat primarily bone marrow and bone.",
+      "They use red mud to stain their white feathers, a behavior thought to show social status.",
+      "They can have a wingspan of over 9 feet."
+    ]
   },
   {
     "name": "Gila Monster",
@@ -2281,7 +3427,18 @@
       "family": "Helodermatidae",
       "genus": "Heloderma",
       "species": "Heloderma suspectum"
-    }
+    },
+    "description": "A heavy, slow-moving lizard native to the Southwestern United States and Mexico, one of the few venomous lizards in the world.",
+    "information": {
+      "habitat": "Arid regions and deserts of the Southwest US and Northwest Mexico.",
+      "diet": "Carnivores that eat eggs, small birds, and small mammals.",
+      "behavior": "They spend most of their time underground in burrows and are most active in the morning."
+    },
+    "facts": [
+      "Gila monsters store fat in their tails to survive long periods without food.",
+      "Their venom is delivered through grooves in their teeth when they bite.",
+      "The skin of a Gila monster is covered in small, bead-like scales called osteoderms."
+    ]
   },
   {
     "name": "Blue-Tongued Skink",
@@ -2302,7 +3459,18 @@
       "family": "Scincidae",
       "genus": "Tiliqua",
       "species": "Tiliqua scincoides"
-    }
+    },
+    "description": "A medium-sized lizard native to Australia, famous for its bright blue tongue used to startle predators.",
+    "information": {
+      "habitat": "Open woodlands, grasslands, and suburban gardens across Australia.",
+      "diet": "Omnivorous, feeding on insects, snails, fruits, and flowers.",
+      "behavior": "Diurnal and slow-moving lizards that hiss and display their blue tongue when threatened."
+    },
+    "facts": [
+      "Blue-tongued skinks are very popular as pets due to their docile nature.",
+      "They have powerful jaws that can crush snail shells.",
+      "They are live-bearers, meaning they give birth to fully formed young rather than laying eggs."
+    ]
   },
   {
     "name": "Chameleon (Panther Chameleon)",
@@ -2323,28 +3491,18 @@
       "family": "Chamaeleonidae",
       "genus": "Furcifer",
       "species": "Furcifer pardalis"
-    }
-  },
-  {
-    "name": "Ball Python",
-    "scientific_name": "Python regius",
-    "status": "Least Concern",
-    "type": "Reptile",
-    "image_link": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Python_regius_%28Balla_python%29.jpg",
-    "image_attribution": {
-      "author": "James St. John",
-      "source": "https://commons.wikimedia.org/wiki/File:Python_regius_(Balla_python).jpg",
-      "license": "CC BY 2.0"
     },
-    "taxonomy": {
-      "kingdom": "Animalia",
-      "phylum": "Chordata",
-      "class": "Reptilia",
-      "order": "Squamata",
-      "family": "Pythonidae",
-      "genus": "Python",
-      "species": "Python regius"
-    }
+    "description": "A large and vibrantly colored chameleon native to Madagascar, famous for its spectacular color variations.",
+    "information": {
+      "habitat": "Tropical lowland forests and coastal regions of Madagascar.",
+      "diet": "Insectivorous, eating a variety of insects and other small invertebrates.",
+      "behavior": "Diurnal and arboreal lizards that use their long tongue and independent eyes for hunting."
+    },
+    "facts": [
+      "Panther chameleons can exhibit a wide range of colors based on their geographic location.",
+      "Like other chameleons, they have zygodactyl feet and a prehensile tail for climbing.",
+      "They are popular in the pet trade because of their amazing colors."
+    ]
   },
   {
     "name": "Burmese Python",
@@ -2365,7 +3523,18 @@
       "family": "Pythonidae",
       "genus": "Python",
       "species": "Python bivittatus"
-    }
+    },
+    "description": "One of the largest species of snakes in the world, native to Southeast Asia.",
+    "information": {
+      "habitat": "Tropical forests, swamps, and marshes near water in Southeast Asia.",
+      "diet": "Carnivorous, eating birds and mammals of various sizes.",
+      "behavior": "Semi-aquatic and agile climbers, they are nocturnal ambush predators that use constriction."
+    },
+    "facts": [
+      "Burmese pythons can grow up to 16 to 23 feet long.",
+      "They have become an invasive species in the Florida Everglades.",
+      "They are excellent swimmers and can stay underwater for up to 30 minutes."
+    ]
   },
   {
     "name": "California Kingsnake",
@@ -2386,7 +3555,18 @@
       "family": "Colubridae",
       "genus": "Lampropeltis",
       "species": "Lampropeltis californiae"
-    }
+    },
+    "description": "A medium-sized non-venomous snake found in North America, known for its immunity to rattlesnake venom.",
+    "information": {
+      "habitat": "Forests, grasslands, and deserts throughout the Western US and Northern Mexico.",
+      "diet": "Carnivorous, eating small mammals, birds, and other snakes.",
+      "behavior": "Diurnal and relatively docile, they are famous for hunting and eating venomous snakes."
+    },
+    "facts": [
+      "The name 'kingsnake' refers to their habit of eating other snakes, including rattlesnakes.",
+      "They can have a variety of color patterns, with the most common being black and white bands.",
+      "Kingsnakes kill their prey through constriction."
+    ]
   },
   {
     "name": "Cobra (Indian Cobra)",
@@ -2407,7 +3587,18 @@
       "family": "Elapidae",
       "genus": "Naja",
       "species": "Naja naja"
-    }
+    },
+    "description": "A highly venomous snake native to the Indian subcontinent, famous for its spectacle-marked hood.",
+    "information": {
+      "habitat": "Forests, plains, and agricultural areas of India, Pakistan, and Sri Lanka.",
+      "diet": "Carnivorous, eating rodents, birds, and frogs.",
+      "behavior": "When threatened, they lift the front of their body and spread their hood to appear larger."
+    },
+    "facts": [
+      "The Indian cobra is one of the 'Big Four' venomous snakes of South Asia.",
+      "They are revered in many parts of India and associated with the god Shiva.",
+      "The venom of a cobra is primarily neurotoxic, affecting the nervous system."
+    ]
   },
   {
     "name": "Garter Snake",
@@ -2428,7 +3619,18 @@
       "family": "Colubridae",
       "genus": "Thamnophis",
       "species": "Thamnophis sirtalis"
-    }
+    },
+    "description": "A common harmless snake found across North America, typically with longitudinal stripes.",
+    "information": {
+      "habitat": "Found in a wide variety of habitats, including gardens, fields, and forests near water.",
+      "diet": "Carnivorous, eating earthworms, slugs, frogs, and fish.",
+      "behavior": "Diurnal and docile; they are often the first snakes seen in the spring."
+    },
+    "facts": [
+      "Garter snakes are one of the most widely distributed snake species in North America.",
+      "They give birth to fully formed young rather than laying eggs.",
+      "They are harmless to humans, though they can release a foul-smelling musk if threatened."
+    ]
   },
   {
     "name": "Anaconda (Green Anaconda)",
@@ -2449,7 +3651,18 @@
       "family": "Boidae",
       "genus": "Eunectes",
       "species": "Eunectes murinus"
-    }
+    },
+    "description": "The heaviest and one of the longest snake species in the world, native to the Amazon and Orinoco basins.",
+    "information": {
+      "habitat": "Swamps, marshes, and slow-moving rivers across tropical South America.",
+      "diet": "Carnivores that hunt fish, birds, mammals, and even large reptiles like caimans.",
+      "behavior": "Semi-aquatic ambush predators that use their massive weight and constriction to kill prey."
+    },
+    "facts": [
+      "Green anacondas can reach weights of over 500 pounds.",
+      "They spend most of their time in the water, which helps support their massive weight.",
+      "Their eyes and nostrils are on the top of their head so they can breathe and see while submerged."
+    ]
   },
   {
     "name": "Newt (Eastern Newt)",
@@ -2470,7 +3683,18 @@
       "family": "Salamandridae",
       "genus": "Notophthalmus",
       "species": "Notophthalmus viridescens"
-    }
+    },
+    "description": "A small salamander from North America with a unique life cycle involving an aquatic and a terrestrial stage.",
+    "information": {
+      "habitat": "Found in forests and small ponds throughout Eastern North America.",
+      "diet": "Carnivorous, eating insects, worms, and small crustaceans.",
+      "behavior": "They go through three life stages: aquatic larva, terrestrial 'red eft', and aquatic adult."
+    },
+    "facts": [
+      "The terrestrial stage, called a red eft, is bright orange and very toxic to predators.",
+      "Adult newts return to the water and develop a flatter tail for swimming.",
+      "Newts can live for up to 15 years in the wild."
+    ]
   },
   {
     "name": "Salamander (Tiger Salamander)",
@@ -2491,7 +3715,18 @@
       "family": "Ambystomatidae",
       "genus": "Ambystoma",
       "species": "Ambystoma tigrinum"
-    }
+    },
+    "description": "One of the largest land-dwelling salamanders in North America, named for its tiger-like yellow spots or stripes.",
+    "information": {
+      "habitat": "Found in a variety of habitats, including grasslands and forests near water across North America.",
+      "diet": "Carnivorous, eating insects, earthworms, and small vertebrates.",
+      "behavior": "They spend most of their time underground in burrows and are most active after rain."
+    },
+    "facts": [
+      "Tiger salamanders can grow up to 14 inches in length.",
+      "They are excellent diggers and spend much of their lives below ground.",
+      "They return to the same breeding ponds every year to lay their eggs."
+    ]
   },
   {
     "name": "Cane Toad",
@@ -2512,7 +3747,18 @@
       "family": "Bufonidae",
       "genus": "Rhinella",
       "species": "Rhinella marina"
-    }
+    },
+    "description": "A large, heavily built toad native to South and Central America, and famously invasive in Australia.",
+    "information": {
+      "habitat": "Found in various habitats, from grasslands to urban areas, near water.",
+      "diet": "Voracious omnivores that eat almost anything they can swallow, including insects and small mammals.",
+      "behavior": "Nocturnal and highly adaptable; they have large poison glands on their shoulders."
+    },
+    "facts": [
+      "Cane toads are toxic at all stages of their life, from egg to adult.",
+      "They were introduced to Australia in the 1930s to control sugar cane pests but became a major ecological problem.",
+      "They can live up to 15 years in the wild."
+    ]
   },
   {
     "name": "Giant Salamander (Chinese)",
@@ -2533,7 +3779,18 @@
       "family": "Cryptobranchidae",
       "genus": "Andrias",
       "species": "Andrias davidianus"
-    }
+    },
+    "description": "The largest amphibian in the world, capable of reaching over 5 feet in length.",
+    "information": {
+      "habitat": "Cold, fast-flowing mountain streams and lakes in China.",
+      "diet": "Carnivorous, eating fish, frogs, and aquatic insects.",
+      "behavior": "Highly aquatic and nocturnal, they rely on vibrations and smell to catch prey."
+    },
+    "facts": [
+      "Giant salamanders have been around for over 170 million years.",
+      "They are critically endangered due to habitat loss and overexploitation for food.",
+      "They can breathe through their skin as well as their lungs."
+    ]
   },
   {
     "name": "Piranha (Red-Bellied)",
@@ -2554,7 +3811,18 @@
       "family": "Serrasalmidae",
       "genus": "Pygocentrus",
       "species": "Pygocentrus nattereri"
-    }
+    },
+    "description": "A well-known species of piranha from South America, famous for its sharp teeth and red belly.",
+    "information": {
+      "habitat": "Freshwater rivers and lakes of the Amazon and Orinoco basins.",
+      "diet": "Omnivorous, eating fish, insects, seeds, and fruit.",
+      "behavior": "Social fish that live in large shoals for protection and efficient foraging."
+    },
+    "facts": [
+      "Piranhas have a single row of razor-sharp teeth that lock together.",
+      "They are much less dangerous to humans than portrayed in movies.",
+      "They play an important role as scavengers in the Amazon river ecosystem."
+    ]
   },
   {
     "name": "Zebra Shark",
@@ -2575,7 +3843,18 @@
       "family": "Stegostomatidae",
       "genus": "Stegostoma",
       "species": "Stegostoma fasciatum"
-    }
+    },
+    "description": "A medium-sized carpet shark species with distinctive spots as adults and stripes as juveniles.",
+    "information": {
+      "habitat": "Found on coral reefs in the tropical waters of the Indo-Pacific.",
+      "diet": "Carnivorous, primarily eating mollusks, crustaceans, and small fish.",
+      "behavior": "Nocturnal and generally docile, they spend most of the day resting on the sea floor."
+    },
+    "facts": [
+      "As juveniles, they have black and white stripes like a zebra, which change to spots as they grow.",
+      "They have a very long tail that can be as long as the rest of their body.",
+      "Zebra sharks are often called 'leopard sharks' in some parts of the world."
+    ]
   },
   {
     "name": "Barracuda",
@@ -2596,7 +3875,18 @@
       "family": "Sphyraenidae",
       "genus": "Sphyraena",
       "species": "Sphyraena barracuda"
-    }
+    },
+    "description": "A large and fierce predatory fish with an elongated body and sharp, prominent teeth.",
+    "information": {
+      "habitat": "Found in tropical and subtropical oceans worldwide, often near coral reefs.",
+      "diet": "Carnivorous apex predators that hunt a variety of fish.",
+      "behavior": "Diurnal and fast-swimming hunters that use a sudden burst of speed to catch prey."
+    },
+    "facts": [
+      "Barracudas can reach speeds of up to 27 miles per hour.",
+      "They are attracted to shiny objects, which they may mistake for the scales of prey.",
+      "Great barracudas can grow up to 6 feet long."
+    ]
   },
   {
     "name": "Atlantic Bluefin Tuna",
@@ -2617,7 +3907,18 @@
       "family": "Scombridae",
       "genus": "Thunnus",
       "species": "Thunnus thynnus"
-    }
+    },
+    "description": "One of the largest, fastest, and most highly prized fish in the ocean, famous for its red meat.",
+    "information": {
+      "habitat": "Found across the North Atlantic Ocean and the Mediterranean Sea.",
+      "diet": "Carnivorous, feeding on a variety of fish, squid, and crustaceans.",
+      "behavior": "They are highly migratory and can swim across entire ocean basins at great speeds."
+    },
+    "facts": [
+      "Atlantic bluefin tuna can grow up to 15 feet long and weigh over 1,500 pounds.",
+      "They are warm-blooded, which allows them to thrive in both warm and very cold waters.",
+      "Overfishing for the sushi and sashimi trade has led to a significant decline in their population."
+    ]
   },
   {
     "name": "Moray Eel",
@@ -2638,7 +3939,18 @@
       "family": "Muraenidae",
       "genus": "Muraena",
       "species": "Helena"
-    }
+    },
+    "description": "The Mediterranean moray is a long, serpent-like fish known for its powerful jaws and lack of scales.",
+    "information": {
+      "habitat": "Rocky reefs and caves across the Mediterranean Sea and Atlantic Ocean.",
+      "diet": "Carnivorous, hunting fish and cephalopods like octopuses.",
+      "behavior": "Nocturnal and reclusive, they spend the day in rocky crevices and use smell to find prey."
+    },
+    "facts": [
+      "Moray eels have a second set of jaws in their throat called pharyngeal jaws to help swallow prey.",
+      "They lack pelvic and pectoral fins, giving them their snake-like appearance.",
+      "Their skin is covered in a protective layer of slippery mucus."
+    ]
   },
   {
     "name": "Stingray",
@@ -2659,7 +3971,18 @@
       "family": "Dasyatidae",
       "genus": "Dasyatis",
       "species": "Pastinaca"
-    }
+    },
+    "description": "The Common Stingray is a cartilaginous fish with a flattened body and a long, whip-like tail with a venomous spine.",
+    "information": {
+      "habitat": "Sandy or muddy bottoms of coastal waters across the Atlantic and Mediterranean.",
+      "diet": "Carnivorous, feeding on crustaceans, mollusks, and small fish.",
+      "behavior": "Benthic (bottom-dwelling) animals that often bury themselves in the sand for camouflage."
+    },
+    "facts": [
+      "Stingrays use their venomous tail spine only for defense.",
+      "They are closely related to sharks, as both have a skeleton made of cartilage.",
+      "They have electroreceptors to help them find prey buried in the sand."
+    ]
   },
   {
     "name": "Swordfish",
@@ -2680,7 +4003,18 @@
       "family": "Xiphiidae",
       "genus": "Xiphias",
       "species": "Xiphias gladius"
-    }
+    },
+    "description": "A large and powerful marine predator easily recognized by its long, flat 'sword' on its snout.",
+    "information": {
+      "habitat": "Found in temperate and tropical oceans worldwide, both in open water and near the coast.",
+      "diet": "Carnivorous, eating a variety of fish and cephalopods like squid.",
+      "behavior": "Highly migratory and extremely fast swimmers that use their sword to slash and stun prey."
+    },
+    "facts": [
+      "Swordfish can swim at speeds of up to 60 miles per hour.",
+      "Their sword is actually an extension of their upper jaw and is used for hunting.",
+      "They are famous for their ability to leap out of the water, a behavior called 'breaching'."
+    ]
   },
   {
     "name": "Mako Shark",
@@ -2701,7 +4035,18 @@
       "family": "Lamnidae",
       "genus": "Isurus",
       "species": "Isurus oxyrinchus"
-    }
+    },
+    "description": "The shortfin mako is a sleek and extremely fast species of shark found in the open ocean.",
+    "information": {
+      "habitat": "Found in temperate and tropical oceans worldwide in offshore waters.",
+      "diet": "Carnivorous apex predators that hunt fast-swimming fish like tuna and swordfish.",
+      "behavior": "Famous for their incredible speed and ability to leap high out of the water."
+    },
+    "facts": [
+      "The mako shark is the fastest species of shark, reaching speeds over 40 mph.",
+      "They are warm-blooded, which helps them maintain high energy levels for fast swimming.",
+      "Shortfin makos can leap up to 20 feet into the air."
+    ]
   },
   {
     "name": "Lionfish",
@@ -2722,7 +4067,18 @@
       "family": "Scorpaenidae",
       "genus": "Pterois",
       "species": "Volitans"
-    }
+    },
+    "description": "A beautiful but venomous marine fish with long fins and distinctive red-and-white stripes.",
+    "information": {
+      "habitat": "Native to the Indo-Pacific but famously invasive in the Atlantic and Caribbean.",
+      "diet": "Voracious predators that eat a variety of small fish and crustaceans.",
+      "behavior": "They use their elaborate fins to herd prey and have venomous spines for protection."
+    },
+    "facts": [
+      "The spines of a lionfish contain a powerful venom that is very painful to humans.",
+      "Lionfish have become a major threat to coral reef ecosystems in the Atlantic.",
+      "They are also known as turkeyfish or butterfly cod."
+    ]
   },
   {
     "name": "Bottlenose Dolphin",
@@ -2730,7 +4086,7 @@
     "status": "Least Concern",
     "type": "Mammal",
     "image_link": "https://upload.wikimedia.org/wikipedia/commons/1/10/Tursiops_truncatus_01.jpg",
-    "image  _attribution": {
+    "image_attribution": {
       "author": "NASA",
       "source": "https://commons.wikimedia.org/wiki/File:Tursiops_truncatus_01.jpg",
       "license": "Public Domain"
@@ -2743,14 +4099,25 @@
       "family": "Delphinidae",
       "genus": "Tursiops",
       "species": "Tursiops truncatus"
-    }
+    },
+    "description": "Highly intelligent and social marine mammals with sleek gray bodies and a curved dorsal fin.",
+    "information": {
+      "habitat": "Found in temperate and tropical oceans worldwide, often in coastal areas.",
+      "diet": "Carnivorous, primarily feeding on fish and squid.",
+      "behavior": "Social animals that live in pods and communicate using a variety of whistles and clicks."
+    },
+    "facts": [
+      "Dolphins have individual 'signature whistles' that act like names.",
+      "They are famous for their playfulness and curiosity toward humans.",
+      "Dolphins use echolocation to navigate and find food."
+    ]
   },
   {
     "name": "Narwhal",
     "scientific_name": "Monodon monoceros",
     "status": "Near Threatened",
     "type": "Mammal",
-    "image_link": "https://commons.wikimedia.org/wiki/File:%D0%9D%D0%B0%D1%80%D0%B2%D0%B0%D0%BB_%D0%B2_%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9_%D0%90%D1%80%D0%BA%D1%82%D0%B8%D0%BA%D0%B5.jpg",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/b/bc/%D0%9D%D0%B0%D1%80%D0%B2%D0%B0%D0%BB_%D0%B2_%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9_%D0%90%D1%80%D0%BA%D1%82%D0%B8%D0%BA%D0%B5.jpg",
     "image_attribution": {
       "author": "пресс-служба ПАО \"Газпром нефть\" ",
       "source": "https://commons.wikimedia.org/wiki/File:%D0%9D%D0%B0%D1%80%D0%B2%D0%B0%D0%BB_%D0%B2_%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9_%D0%90%D1%80%D0%BA%D1%82%D0%B8%D0%BA%D0%B5.jpg",
@@ -2764,7 +4131,18 @@
       "family": "Monodontidae",
       "genus": "Monodon",
       "species": "Monodon monoceros"
-    }
+    },
+    "description": "A medium-sized whale native to the Arctic, famous for the male's long, spiraled tusk.",
+    "information": {
+      "habitat": "The icy waters of the Arctic Ocean, particularly around Canada and Greenland.",
+      "diet": "Carnivorous, eating fish, squid, and shrimp.",
+      "behavior": "Highly social whales that live in pods and are adapted to life in the deep, cold Arctic."
+    },
+    "facts": [
+      "The narwhal's tusk is actually an overgrown tooth that can be up to 10 feet long.",
+      "They are often called the 'unicorns of the sea'.",
+      "The tusk is a sensory organ with millions of nerve endings."
+    ]
   },
   {
     "name": "Beluga Whale",
@@ -2785,7 +4163,18 @@
       "family": "Monodontidae",
       "genus": "Delphinapterus",
       "species": "Delphinapterus leucas"
-    }
+    },
+    "description": "A small and social white whale native to the Arctic and sub-Arctic regions.",
+    "information": {
+      "habitat": "Coastal waters and river estuaries of the Arctic Ocean.",
+      "diet": "Carnivorous, eating a variety of fish, crustaceans, and mollusks.",
+      "behavior": "Highly social animals known as 'canaries of the sea' for their wide range of vocalizations."
+    },
+    "facts": [
+      "Beluga whales are born gray and turn white as they reach maturity.",
+      "They are the only whales that can move their head and neck independently.",
+      "They have a bulbous forehead called a 'melon' used for echolocation."
+    ]
   },
   {
     "name": "Sea Otter",
@@ -2806,7 +4195,18 @@
       "family": "Mustelidae",
       "genus": "Enhydra",
       "species": "Enhydra lutris"
-    }
+    },
+    "description": "A small marine mammal native to the North Pacific, famous for floating on its back and using tools.",
+    "information": {
+      "habitat": "Coastal waters of the North Pacific, particularly in kelp forests.",
+      "diet": "Carnivorous, eating sea urchins, crabs, clams, and snails.",
+      "behavior": "Social animals that often raft together; they use stones to break open hard-shelled prey."
+    },
+    "facts": [
+      "Sea otters have the densest fur of any animal in the world.",
+      "They play a vital role in kelp forest health by controlling sea urchin populations.",
+      "They often wrap themselves in kelp to prevent drifting away while they sleep."
+    ]
   },
   {
     "name": "Leatherback Sea Turtle",
@@ -2827,7 +4227,18 @@
       "family": "Dermochelyidae",
       "genus": "Dermochelys",
       "species": "coriacea"
-    }
+    },
+    "description": "The largest of all living sea turtles, distinguished by its lack of a bony shell, which is replaced by leathery skin.",
+    "information": {
+      "habitat": "Found in all oceans worldwide, often in open water, and migrating long distances to nest.",
+      "diet": "Strictly carnivorous, feeding almost exclusively on jellyfish.",
+      "behavior": "Visual foragers that can dive to incredible depths in search of food."
+    },
+    "facts": [
+      "Leatherbacks can dive to depths of over 4,000 feet.",
+      "They are one of the most widely distributed reptiles on Earth.",
+      "A leatherback's shell is actually made of thousands of small bony plates covered in tough skin."
+    ]
   },
   {
     "name": "Galápagos Tortoise",
@@ -2848,28 +4259,18 @@
       "family": "Testudinidae",
       "genus": "Chelonoidis",
       "species": "Chelonoidis niger"
-    }
-  },
-  {
-    "name": "Saltwater Crocodile",
-    "scientific_name": "Crocodylus porosus",
-    "status": "Least Concern",
-    "type": "Reptile",
-    "image_link": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Crocodylus_porosus_-_Wilhelma.jpg",
-    "image_attribution": {
-      "author": "H. Zell",
-      "source": "https://commons.wikimedia.org/wiki/File:Crocodylus_porosus_-_Wilhelma.jpg",
-      "license": "CC BY-SA 3.0"
     },
-    "taxonomy": {
-      "kingdom": "Animalia",
-      "phylum": "Chordata",
-      "class": "Reptilia",
-      "order": "Crocodylia",
-      "family": "Crocodylidae",
-      "genus": "Crocodylus",
-      "species": "Crocodylus porosus"
-    }
+    "description": "The largest living tortoise species, famous for its long life and native only to the Galápagos Islands.",
+    "information": {
+      "habitat": "Arid and humid regions across the Galápagos Islands.",
+      "diet": "Herbivorous, feeding on a variety of plants, including cacti and grasses.",
+      "behavior": "Extremely slow-moving and long-lived; different islands have tortoises with differently shaped shells."
+    },
+    "facts": [
+      "Galápagos tortoises can live for over 150 years.",
+      "They were a key inspiration for Charles Darwin's theory of evolution.",
+      "They can survive for up to a year without food or water."
+    ]
   },
   {
     "name": "Great White Shark",
@@ -2890,7 +4291,18 @@
       "family": "Lamnidae",
       "genus": "Carcharodon",
       "species": "Carcharodon carcharias"
-    }
+    },
+    "description": "A massive predatory shark species found in coastal surface waters of all major oceans.",
+    "information": {
+      "habitat": "Coastal and offshore temperate and tropical waters worldwide.",
+      "diet": "Carnivorous apex predators that hunt fish, seals, and sea lions.",
+      "behavior": "They are famous for their breaching behavior and have an incredible sense of smell."
+    },
+    "facts": [
+      "They can have up to 300 serrated teeth.",
+      "Great white sharks can detect a drop of blood in 25 gallons of water.",
+      "They are warm-blooded, which helps them move fast and hunt effectively."
+    ]
   },
   {
     "name": "Whale Shark",
@@ -2911,7 +4323,18 @@
       "family": "Rhincodontidae",
       "genus": "Rhincodon",
       "species": "Rhincodon typus"
-    }
+    },
+    "description": "The largest known fish species in the world, known for its gentle nature and unique spotted pattern.",
+    "information": {
+      "habitat": "Warm and tropical oceans worldwide, often found in open water.",
+      "diet": "Filter feeders that primarily eat plankton and small fish.",
+      "behavior": "Gentle giants that are known to be approachable by divers; they move slowly through the water."
+    },
+    "facts": [
+      "Whale sharks can grow up to 40 feet or more.",
+      "Each whale shark has a unique pattern of spots on its skin, like a fingerprint.",
+      "Despite their massive size, they are harmless to humans."
+    ]
   },
   {
     "name": "Clown Triggerfish",
@@ -2932,7 +4355,18 @@
       "family": "Balistidae",
       "genus": "Balistoides",
       "species": "Balistoides conspicillum"
-    }
+    },
+    "description": "A beautifully colored marine fish known for its bold patterns of black, white, and yellow.",
+    "information": {
+      "habitat": "Tropical coral reefs across the Indo-Pacific region.",
+      "diet": "Carnivorous, feeding on crustaceans, mollusks, and sea urchins.",
+      "behavior": "Highly territorial and aggressive fish that use their strong teeth to crush hard shells."
+    },
+    "facts": [
+      "They have a special trigger spine on their back that they use to lock themselves into rocky crevices.",
+      "Clown triggerfish are popular but difficult to keep in aquariums due to their aggression.",
+      "Their bright patterns serve as a warning to other fish."
+    ]
   },
   {
     "name": "Anglerfish",
@@ -2953,7 +4387,18 @@
       "family": "Melanocetidae",
       "genus": "Melanocetus",
       "species": "murrayi"
-    }
+    },
+    "description": "The deep-sea anglerfish is famous for the bioluminescent lure on its head used to attract prey in the dark.",
+    "information": {
+      "habitat": "The dark, cold depths of all the world's oceans.",
+      "diet": "Carnivores that eat other deep-sea fish and crustaceans.",
+      "behavior": "Nocturnal ambush predators that use their glowing lure to attract unsuspecting prey."
+    },
+    "facts": [
+      "Only the females have the glowing lure on their head.",
+      "Male anglerfish are much smaller than females and become parasites by fusing to the female's body.",
+      "They have massive mouths and expandable stomachs to swallow large prey."
+    ]
   },
   {
     "name": "Blue Morpho Butterfly",
@@ -2974,7 +4419,18 @@
       "family": "Nymphalidae",
       "genus": "Morpho",
       "species": "Morpho peleides"
-    }
+    },
+    "description": "A stunning tropical butterfly with iridescent blue wings and dark borders.",
+    "information": {
+      "habitat": "Tropical rainforests of Central and South America.",
+      "diet": "Feed on rotting fruit and tree sap as adults.",
+      "behavior": "Famous for the brilliant blue color of their wings, which is structural rather than pigmented."
+    },
+    "facts": [
+      "The blue color is caused by the way light reflects off the tiny scales on their wings.",
+      "The underside of their wings is brown with eyespots for camouflage.",
+      "They have a wingspan that can reach up to 8 inches."
+    ]
   },
   {
     "name": "Atlas Moth",
@@ -2995,7 +4451,18 @@
       "family": "Saturniidae",
       "genus": "Attacus",
       "species": "Attacus atlas"
-    }
+    },
+    "description": "One of the largest moth species in the world, native to Southeast Asia.",
+    "information": {
+      "habitat": "Tropical and subtropical forests of Southeast Asia.",
+      "diet": "Adult moths do not have mouths and do not eat; caterpillars feed on a variety of leaves.",
+      "behavior": "Nocturnal insects known for their massive wingspan and snake-like wing patterns."
+    },
+    "facts": [
+      "Atlas moths have a wingspan that can reach over 10 inches.",
+      "The tips of their wings are said to resemble snake heads to deter predators.",
+      "They live as adults for only one to two weeks."
+    ]
   },
   {
     "name": "Giant African Millipede",
@@ -3016,7 +4483,18 @@
       "family": "Spirostreptidae",
       "genus": "Archispirostreptus",
       "species": "Archispirostreptus gigas"
-    }
+    },
+    "description": "The Giant African Millipede is one of the largest species of millipede, growing up to 12 inches in length. It has a dark, cylindrical body with numerous segments and two pairs of legs per segment.",
+    "information": {
+      "habitat": "Tropical and subtropical rainforests and coastal habitats in East Africa.",
+      "diet": "Herbivorous, primarily feeding on decaying organic matter, such as rotting wood and fallen leaves.",
+      "behavior": "Generally slow-moving and non-aggressive; they roll into a tight spiral when threatened and can secrete a pungent liquid from their segments to deter predators."
+    },
+    "facts": [
+      "The Giant African Millipede can have up to 300 to 400 legs, despite the name 'millipede' meaning a thousand feet.",
+      "They have a symbiotic relationship with tiny mites that live on their exoskeleton and help keep it clean.",
+      "In the wild, they play a crucial role as decomposers, breaking down dead plant material."
+    ]
   },
   {
     "name": "Japanese Spider Crab",
@@ -3037,7 +4515,18 @@
       "family": "Macrocheiridae",
       "genus": "Macrocheira",
       "species": "Macrocheira kaempferi"
-    }
+    },
+    "description": "The Japanese spider crab has the largest leg span of any arthropod, reaching up to 12 feet from claw to claw. It has a bumpy, orange exoskeleton with white spots.",
+    "information": {
+      "habitat": "Found on the seabed in the Pacific Ocean around Japan, typically at depths of 150 to 1,000 feet.",
+      "diet": "Omnivorous and opportunistic, feeding on animal carcasses, shellfish, and algae.",
+      "behavior": "Known for their slow movements and longevity; they often decorate their shells with sponges or other marine life for camouflage."
+    },
+    "facts": [
+      "Japanese spider crabs can live for up to 100 years.",
+      "Despite their intimidating size, they are known to have a gentle disposition.",
+      "They are considered a delicacy in Japan but are subject to fishing regulations to protect their population."
+    ]
   },
   {
     "name": "Giant Panda",
@@ -3058,7 +4547,18 @@
       "family": "Ursidae",
       "genus": "Ailuropoda",
       "species": "Ailuropoda melanoleuca"
-    }
+    },
+    "description": "The giant panda is a bear native to south-central China, easily recognized by its large black patches around its eyes, over the ears, and across its round body.",
+    "information": {
+      "habitat": "Mountainous regions in central China, primarily in Sichuan, but also in neighboring Shaanxi and Gansu provinces.",
+      "diet": "Herbivorous, with bamboo making up more than 99% of its diet, though it may occasionally eat other grasses or small rodents.",
+      "behavior": "Solitary animals that spend most of their day eating and resting; they are excellent climbers and can swim if necessary."
+    },
+    "facts": [
+      "A giant panda's digestive system is more similar to that of a carnivore, despite its almost exclusive bamboo diet.",
+      "Newborn pandas are incredibly small, weighing about the same as a stick of butter.",
+      "Pandas have a 'sixth toe' on their paws, which is actually a modified wrist bone that helps them grip bamboo."
+    ]
   },
   {
     "name": "Snow Leopard",
@@ -3079,7 +4579,18 @@
       "family": "Felidae",
       "genus": "Uncia",
       "species": "Uncia uncia"
-    }
+    },
+    "description": "The snow leopard is a large cat with a thick, cream-colored coat featuring large black rosettes. It has an exceptionally long tail used for balance and warmth.",
+    "information": {
+      "habitat": "Alpine and subalpine zones in the mountain ranges of Central and South Asia, including the Himalayas.",
+      "diet": "Carnivorous, primarily hunting wild sheep and goats like bharal and ibex, as well as smaller mammals.",
+      "behavior": "Solitary and elusive 'ghosts of the mountains,' they are highly adapted for cold environments and steep terrain."
+    },
+    "facts": [
+      "Snow leopards cannot roar due to the physiology of their throats; instead, they make sounds like chuffs, mews, and growls.",
+      "Their long tails can be as long as their bodies and are used for balance on steep cliffs and as blankets in the cold.",
+      "Snow leopards have large, fur-covered paws that act as natural snowshoes."
+    ]
   },
   {
     "name": "Black Rhinoceros",
@@ -3100,7 +4611,18 @@
       "family": "Rhinocerotidae",
       "genus": "Diceros",
       "species": "Diceros bicornis"
-    }
+    },
+    "description": "The black rhinoceros is a large herbivore distinguished by its hooked upper lip, which is adapted for browsing on shrubs and trees.",
+    "information": {
+      "habitat": "Savannas, grasslands, and tropical bushlands in eastern and southern Africa.",
+      "diet": "Herbivorous browser, eating a wide variety of plants, including leafy plants, branches, and thorny wood bushes.",
+      "behavior": "Generally solitary and more aggressive than the white rhino; they have a keen sense of smell and hearing but poor eyesight."
+    },
+    "facts": [
+      "Black rhinos are actually gray, just like white rhinos.",
+      "They use their horns for defense, digging for water, and breaking branches.",
+      "Black rhinos can run at speeds up to 55 km/h."
+    ]
   },
   {
     "name": "Hawksbill Turtle",
@@ -3121,7 +4643,18 @@
       "family": "Cheloniidae",
       "genus": "Eretmochelys",
       "species": "Eretmochelys imbricata"
-    }
+    },
+    "description": "The hawksbill turtle is a sea turtle known for its hawk-like beak and unique shell pattern of overlapping scales, often harvested for tortoiseshell jewelry.",
+    "information": {
+      "habitat": "Tropical and subtropical waters of the Atlantic, Pacific, and Indian Oceans, often found in coral reefs.",
+      "diet": "Omnivorous, but primarily feeds on sea sponges; it also eats jellyfish and sea anemones.",
+      "behavior": "Migratory creatures that return to the same beaches where they were born to lay their eggs."
+    },
+    "facts": [
+      "Hawksbill turtles play a vital role in maintaining the health of coral reefs by eating sea sponges.",
+      "Their shells change color slightly depending on the temperature of the water.",
+      "They can live up to 30-50 years in the wild."
+    ]
   },
   {
     "name": "Sumatran Tiger",
@@ -3142,7 +4675,18 @@
       "family": "Felidae",
       "genus": "Panthera",
       "species": "Panthera tigris"
-    }
+    },
+    "description": "The Sumatran tiger is the smallest surviving tiger subspecies, with darker orange fur and thicker black stripes than other subspecies.",
+    "information": {
+      "habitat": "Isolated pockets of tropical rainforest, mountains, and swamp forests on the island of Sumatra, Indonesia.",
+      "diet": "Carnivorous, hunting wild boar, deer, and monkeys.",
+      "behavior": "Solitary and territorial hunters; they are strong swimmers and may use water to corner prey."
+    },
+    "facts": [
+      "Sumatran tigers have webbed skin between their toes, which makes them excellent swimmers.",
+      "They are the only tiger subspecies found only on the island of Sumatra.",
+      "There are estimated to be fewer than 400 Sumatran tigers left in the wild."
+    ]
   },
   {
     "name": "Red Panda",
@@ -3163,7 +4707,18 @@
       "family": "Ailuridae",
       "genus": "Ailurus",
       "species": "Ailurus fulgens"
-    }
+    },
+    "description": "The red panda is a small mammal with reddish-brown fur, a long shaggy tail, and a waddling gait due to its shorter front legs.",
+    "information": {
+      "habitat": "High-altitude temperate forests with bamboo understories in the Himalayas and other high mountains.",
+      "diet": "Primarily herbivorous, eating bamboo, but also berries, fruits, and occasionally eggs or small birds.",
+      "behavior": "Solitary and primarily nocturnal or crepuscular; they spend most of their time in trees and are highly agile."
+    },
+    "facts": [
+      "Red pandas are not closely related to giant pandas; they belong to their own unique family, Ailuridae.",
+      "They use their long, bushy tails for balance and as blankets to keep warm in the cold.",
+      "Red pandas have a 'false thumb,' which is an extension of the wrist bone that helps them grip bamboo."
+    ]
   },
   {
     "name": "African Forest Elephant",
@@ -3184,7 +4739,18 @@
       "family": "Elephantidae",
       "genus": "Loxodonta",
       "species": "Loxodonta cyclotis"
-    }
+    },
+    "description": "The African forest elephant is smaller than the bush elephant, with straighter tusks and more rounded ears.",
+    "information": {
+      "habitat": "Humid tropical forests of Central and West Africa.",
+      "diet": "Herbivorous, consuming a variety of fruits, leaves, and bark; they play a crucial role in seed dispersal.",
+      "behavior": "Live in smaller family groups than bush elephants; they are essential 'ecosystem engineers' of the rainforest."
+    },
+    "facts": [
+      "African forest elephants are a distinct species from African bush elephants.",
+      "They have straighter tusks that point downward, which helps them move through dense forest vegetation.",
+      "Forest elephants have a slower reproductive rate than other elephant species."
+    ]
   },
   {
     "name": "Green Sea Turtle",
@@ -3205,7 +4771,18 @@
       "family": "Cheloniidae",
       "genus": "Chelonia",
       "species": "Chelonia mydas"
-    }
+    },
+    "description": "The green sea turtle is a large sea turtle with a wide, smooth shell; it is named for the green color of its fat, which comes from its diet.",
+    "information": {
+      "habitat": "Tropical and subtropical coastal waters around the world.",
+      "diet": "Herbivorous as adults, feeding mainly on seagrasses and algae.",
+      "behavior": "Known for long-distance migrations between feeding grounds and nesting beaches."
+    },
+    "facts": [
+      "Green sea turtles can stay underwater for up to five hours.",
+      "They are one of the largest species of sea turtles.",
+      "The gender of their offspring is determined by the temperature of the sand where the eggs are laid."
+    ]
   },
   {
     "name": "Blue Whale",
@@ -3226,7 +4803,18 @@
       "family": "Balaenopteridae",
       "genus": "Balaenoptera",
       "species": "Balaenoptera musculus"
-    }
+    },
+    "description": "The blue whale is the largest animal ever known to have existed, with a long, slender body that can be various shades of bluish-gray.",
+    "information": {
+      "habitat": "Found in all of the world's oceans except the Arctic.",
+      "diet": "Carnivorous, feeding almost exclusively on tiny shrimp-like animals called krill.",
+      "behavior": "Usually solitary or found in pairs; they communicate through loud, low-frequency sounds that can travel hundreds of miles."
+    },
+    "facts": [
+      "A blue whale's tongue can weigh as much as an elephant.",
+      "Their heart is the size of a bumper car.",
+      "Blue whales can consume up to 4 tons of krill in a single day."
+    ]
   },
   {
     "name": "Mountain Gorilla",
@@ -3247,7 +4835,18 @@
       "family": "Hominidae",
       "genus": "Gorilla",
       "species": "Gorilla beringei"
-    }
+    },
+    "description": "The mountain gorilla has thicker and longer fur than other gorilla species, which helps it survive in high-altitude habitats.",
+    "information": {
+      "habitat": "Mountainous forests of central Africa.",
+      "diet": "Primarily herbivorous, feeding on leaves, stems, and bamboo shoots.",
+      "behavior": "Social animals living in family groups led by a dominant silverback."
+    },
+    "facts": [
+      "Mountain gorillas are one of our closest living relatives, sharing about 98% of our DNA.",
+      "They are highly intelligent and have been observed using tools and communicating through complex vocalizations.",
+      "The total population of mountain gorillas is estimated to be over 1,000 individuals."
+    ]
   },
   {
     "name": "Saola",
@@ -3268,7 +4867,18 @@
       "family": "Bovidae",
       "genus": "Pseudoryx",
       "species": "Pseudoryx nghetinhensis"
-    }
+    },
+    "description": "Known as the 'Asian Unicorn,' the saola is a rare bovine with long, straight horns and striking white markings on its face.",
+    "information": {
+      "habitat": "Annamite Range forests of Vietnam and Laos.",
+      "diet": "Herbivorous, browsing on small leafy plants and bushes.",
+      "behavior": "Shy and secretive, rarely seen by humans; they are thought to be solitary or live in small groups."
+    },
+    "facts": [
+      "The saola was only discovered by scientists in 1992.",
+      "It is one of the rarest large mammals in the world.",
+      "Saolas have large scent glands on their muzzles used for marking territory."
+    ]
   },
   {
     "name": "Amur Leopard",
@@ -3289,7 +4899,18 @@
       "family": "Felidae",
       "genus": "Panthera",
       "species": "Panthera pardus"
-    }
+    },
+    "description": "The Amur leopard is a rare leopard subspecies with a thick, pale coat and large, widely spaced rosettes.",
+    "information": {
+      "habitat": "Temperate forests of the Russian Far East and Northeast China.",
+      "diet": "Carnivorous, primarily hunting roe deer and sika deer.",
+      "behavior": "Solitary and nocturnal; they are incredibly agile and known for their ability to carry heavy prey into trees."
+    },
+    "facts": [
+      "Amur leopards are one of the rarest big cats in the world.",
+      "Their thick fur can grow up to 7 cm long to help them survive harsh winters.",
+      "They are excellent climbers and can leap up to 19 feet horizontally."
+    ]
   },
   {
     "name": "Bornean Orangutan",
@@ -3310,7 +4931,18 @@
       "family": "Hominidae",
       "genus": "Pongo",
       "species": "Pongo pygmaeus"
-    }
+    },
+    "description": "The Bornean orangutan is a large ape with distinctive orange fur and a face that becomes more pronounced in adult males with cheek pads.",
+    "information": {
+      "habitat": "Tropical and subtropical moist broadleaf forests on the island of Borneo.",
+      "diet": "Omnivorous, but primarily frugivorous, eating fruits like durian, as well as leaves and insects.",
+      "behavior": "Primarily arboreal and solitary; they are highly intelligent and known for using tools."
+    },
+    "facts": [
+      "Orangutans share about 97% of their DNA with humans.",
+      "They have the longest childhood of any non-human animal, staying with their mothers for up to 8 years.",
+      "The name 'orangutan' comes from the Malay words 'orang' (person) and 'hutan' (forest)."
+    ]
   },
   {
     "name": "Yangtze Finless Porpoise",
@@ -3331,7 +4963,18 @@
       "family": "Phocoenidae",
       "genus": "Neophocaena",
       "species": "Neophocaena asiaeorientalis"
-    }
+    },
+    "description": "This porpoise is unique for lacking a dorsal fin and having a highly developed intelligence, often referred to as the 'smiling angel' of the Yangtze.",
+    "information": {
+      "habitat": "The Yangtze River in China and its connecting lakes.",
+      "diet": "Carnivorous, feeding on a variety of small fish and shrimp.",
+      "behavior": "Social animals that live in small groups; they use echolocation to navigate and find food in murky water."
+    },
+    "facts": [
+      "Yangtze finless porpoises are one of the few species of freshwater porpoises.",
+      "They are known for their high intelligence, which is comparable to that of a gorilla.",
+      "Their population has been severely impacted by pollution, overfishing, and habitat loss."
+    ]
   },
   {
     "name": "Philippine Eagle",
@@ -3352,7 +4995,18 @@
       "family": "Accipitridae",
       "genus": "Pithecophaga",
       "species": "Pithecophaga jefferyi"
-    }
+    },
+    "description": "One of the largest and most powerful eagles in the world, with a shaggy crest and a massive blue-gray beak.",
+    "information": {
+      "habitat": "Old-growth tropical forests on the islands of the Philippines.",
+      "diet": "Carnivorous, hunting monkeys, flying lemurs, and various reptiles.",
+      "behavior": "Territorial and long-lived; they are loyal to their mates and typically raise only one chick every two years."
+    },
+    "facts": [
+      "The Philippine eagle is the national bird of the Philippines.",
+      "They have a wingspan that can reach up to 7 feet.",
+      "They are often referred to as 'monkey-eating eagles,' although their diet is more varied."
+    ]
   },
   {
     "name": "Vaquita",
@@ -3373,7 +5027,18 @@
       "family": "Phocoenidae",
       "genus": "Phocoena",
       "species": "Phocoena sinus"
-    }
+    },
+    "description": "The vaquita is the world's smallest and most endangered cetacean, with dark rings around its eyes and mouth.",
+    "information": {
+      "habitat": "The northernmost part of the Gulf of California, Mexico.",
+      "diet": "Carnivorous, feeding on small fish, squid, and crustaceans.",
+      "behavior": "Extremely shy and elusive; they are often caught as bycatch in illegal gillnets."
+    },
+    "facts": [
+      "The vaquita is the rarest marine mammal in the world.",
+      "They were only discovered in 1958.",
+      "The name 'vaquita' means 'little cow' in Spanish."
+    ]
   },
   {
     "name": "Javan Rhino",
@@ -3394,7 +5059,18 @@
       "family": "Rhinocerotidae",
       "genus": "Rhinoceros",
       "species": "Rhinoceros sondaicus"
-    }
+    },
+    "description": "A small rhinoceros with a single horn and skin that has loose folds, giving it an 'armored' appearance.",
+    "information": {
+      "habitat": "Dense tropical rainforests with plenty of water and mud wallows, currently only found in Ujung Kulon National Park, Indonesia.",
+      "diet": "Herbivorous browser, feeding on a wide variety of plants and fruits.",
+      "behavior": "Solitary and secretive; they are very dependent on wallowing in mud to regulate their body temperature."
+    },
+    "facts": [
+      "The Javan rhino is the rarest of the five rhino species.",
+      "Only the males have horns.",
+      "They are excellent swimmers and can cross rivers and even small stretches of ocean."
+    ]
   },
   {
     "name": "African Wild Dog",
@@ -3415,7 +5091,18 @@
       "family": "Canidae",
       "genus": "Lycaon",
       "species": "Lycaon pictus"
-    }
+    },
+    "description": "Also known as the painted dog, it has a unique coat of irregular patches of yellow, black, and white fur and large, rounded ears.",
+    "information": {
+      "habitat": "Savannas, grasslands, and open woodlands in sub-Saharan Africa.",
+      "diet": "Carnivorous, hunting medium-sized ungulates like impalas and gazelles.",
+      "behavior": "Highly social, living in packs with a complex social structure and cooperative hunting techniques."
+    },
+    "facts": [
+      "No two African wild dogs have the same coat pattern.",
+      "They are one of the most successful hunters in the animal kingdom, with a success rate of over 60%.",
+      "They are known for their complex vocalizations, including 'hoots' and 'chirps.'"
+    ]
   },
   {
     "name": "Addax",
@@ -3436,27 +5123,17 @@
       "family": "Bovidae",
       "genus": "Addax",
       "species": "Addax nasomaculatus"
-    }
-  },
-  {
-    "name": "Asian Elephant",
-    "scientific_name": "Elephas maximus",
-    "status": "Endangered",
-    "type": "Mammal",
-    "image_link": "https://upload.wikimedia.org/wikipedia/commons/9/98/Elephas_maximus_%28Bandipur%29.jpg",
-    "image_attribution": {
-      "author": "Yathin S Krishnappa",
-      "source": "https://commons.wikimedia.org/wiki/File:Elephas_maximus_(Bandipur).jpg",
-      "license": "CC BY-SA 3.0"
     },
-    "taxonomy": {
-      "kingdom": "Animalia",
-      "phylum": "Chordata",
-      "class": "Mammalia",
-      "order": "Proboscidea",
-      "family": "Elephantidae",
-      "genus": "Elephas",
-      "species": "Elephas maximus"
-    }
+    "description": "A desert antelope with long, spiral horns and a coat that changes color from grayish-brown in winter to white in summer.",
+    "information": {
+      "habitat": "The Sahara Desert, adapted to survive in extreme arid conditions.",
+      "diet": "Herbivorous, feeding on desert grasses and shrubs; they can survive for long periods without water.",
+      "behavior": "Nomadic, traveling long distances in search of sparse vegetation; they are typically most active at night."
+    },
+    "facts": [
+      "Addax are highly adapted to life in the desert and can go for months without drinking water.",
+      "Their broad, flat hooves help them walk on soft sand without sinking.",
+      "Addax were once found across much of North Africa but are now restricted to a few small populations."
+    ]
   }
 ]
