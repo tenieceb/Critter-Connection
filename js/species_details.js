@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   // --------------------------
   // Populate text info
   // --------------------------
+  doccument.getElementById('description').textContent = species.description || "No description available.";
   document.getElementById('species-common-name').textContent = species.name;
   document.getElementById('species-scientific-name').textContent = species.scientific_name || "";
   document.getElementById('habitat').textContent = species.information?.habitat || "Unknown Habitat";
