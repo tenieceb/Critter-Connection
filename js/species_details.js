@@ -16,14 +16,17 @@ document.addEventListener('DOMContentLoaded', async () => {
   if (!speciesName) return;
 
   // DOM Elements
-  const speciesInfoEl = document.getElementById("species-info");
-  const conservationEl = document.getElementById("conservation-efforts");
+  const funFactsListEl = document.getElementById("fun-facts-list");
+  const conservationEl = document.getElementById("conservation");
+  const habitatEl = document.getElementById("habitat");
+  const dietEl = document.getElementById("diet");
+  const behaviorEl = document.getElementById("behavior");
   const speciesImageEl = document.getElementById("species-image");
   const speciesMapEl = document.getElementById("species-map");
   const similarListEl = document.getElementById("similar-list");
   const speciesCommonNameEl = document.getElementById("species-common-name");
   const speciesScientificNameEl = document.getElementById("species-scientific-name");
-  const upvoteBtn = document.querySelector(".upvote-btn");
+  const upvoteBtn = document.querySelector(".upvote-button");
 
   speciesCommonNameEl.textContent = speciesName;
 

@@ -28,16 +28,28 @@
   <section class="details-left">
 
       <h2 id="species-common-name">[Species Common Name]</h2>
-      <p id="species-scientific-name" class="scientific-name">[Species Scientific Name]</p>
+      <p id="species-scientific-name" class="species-scientific-name">[Species Scientific Name]</p>
 
       <div class="species-header">
           <div class="species-image">
               <img id="species-image" src="img/fallback-image.png" alt="Species Image" width="400"/>
           </div>
-
+          <div class="description">[Species Visual Description]</div>
+        </div>
+        
         <div class="info-block">
             <h3>Critter Info</h3>
-            <p id="species-info">Loading...</p>
+            <div id="habitat" class="habitat">[Species Habitat]</div>
+            <div id="diet" class="diet">[Species Diet]</div>
+            <div id="behavior" class="behavior">[Species Behavior]</div>
+            <div id="conservation" class="conservation">[Species Conservation Status]</div>
+        </div>
+
+        <div class="fun-facts">
+            <h3>Did you know?</h3>
+            <ul id="fun-facts-list">
+                <!-- Fun facts will be populated here -->
+            </ul>
         </div>
 
 
@@ -59,7 +71,7 @@
       </section>
 
       <!-- UPVOTE BUTTON -->
-      <button class="upvote-btn">
+      <button class="upvote-button">
           ❤️ Up Vote this Animal!
       </button>
 
