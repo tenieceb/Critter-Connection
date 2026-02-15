@@ -13,19 +13,30 @@ document.addEventListener('DOMContentLoaded', async () => {
      RENDER SPOTLIGHT ANIMAL
   -------------------------- */
   if (spotlightContainer) {
-    const spotlightAnimal = getSpotlightAnimal(animals);
-    if (spotlightAnimal) {
-      spotlightContainer.innerHTML = `
-        <h3>${spotlightAnimal.name}</h3>
-        <img src="${spotlightAnimal.image_link || 'img/fallback-image.png'}" 
-             alt="${spotlightAnimal.name}" width="300">
-        <p><strong>Status:</strong> ${spotlightAnimal.status}</p>
-        <p><strong>Type:</strong> ${spotlightAnimal.type}</p>
-      `;
-    } else {
-      spotlightContainer.textContent = 'No spotlight animal available.';
-    }
+  const spotlightAnimal = getSpotlightAnimal(animals);
+
+  if (spotlightAnimal) {
+    spotlightContainer.innerHTML = `
+      <h3>${spotlightAnimal.name}</h3>
+      <img src="${spotlightAnimal.image_link || 'img/fallback-image.png'}" 
+           alt="${spotlightAnimal.name}" width="300">
+      <p><strong>Status:</strong> ${spotlightAnimal.status}</p>
+      <p><strong>Type:</strong> ${spotlightAnimal.type}</p>
+    `;
+
+    // shows user they can click the spotlight card
+    spotlightContainer.style.cursor = "pointer";
+
+    spotlightContainer.addEventListener('click', () => {
+      window.location.href =
+        `species.html?name=${encodeURIComponent(spotlightAnimal.name)}`;
+    });
+
+  } else {
+    spotlightContainer.textContent = 'No spotlight animal available.';
   }
+}
+
 
   /* -------------------------
      INITIAL ANIMAL RENDER
