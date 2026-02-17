@@ -50,3 +50,38 @@ export function getQueryParam(param) {
   const urlParams = new URLSearchParams(window.location.search);
   return urlParams.get(param);
 }
+
+/* --------------------------
+   Recently Viewed Critters Helpers
+-------------------------- */
+
+/**
+ * Get recently viewed critters from localStorage
+ * @returns {Array<string>} Array of species names
+ */
+export function getRecentlyViewed() {
+  const storageKey = 'recentlyViewedCritters';
+  return JSON.parse(localStorage.getItem(storageKey)) || [];
+}
+
+/**
+ * Add a species to recently viewed list
+ * Keeps only the last `maxItems` entries
+ * @param {string} speciesName 
+ * @param {number} maxItems 
+ */
+export function addRecentlyViewed(speciesName, maxItems = 3) {
+  const storageKey = 'recentlyViewedCritters';
+  let list = getRecentlyViewed();
+
+  // Remove duplicates
+  list = list.filter(name => name.toLowerCase() !== speciesName.toLowerCase());
+
+  // Add to front
+  list.unshift(speciesName);
+
+  // Keep only last maxItems
+  if (list.length > maxItems) list = list.slice(0, maxItems);
+
+  localStorage.setItem(storageKey, JSON.stringify(list));
+}

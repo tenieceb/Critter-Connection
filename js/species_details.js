@@ -76,7 +76,9 @@ function renderMap(occurrenceData, mapContainer) {
     return;
   }
 
-  const map = L.map(mapContainer).setView([0, 0], 2);
+  mapContainer.style.height = mapContainer.style.height || "350px";
+
+  const map = L.map(mapContainer.id).setView([0, 0], 2);
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; OpenStreetMap contributors'
@@ -89,13 +91,58 @@ function renderMap(occurrenceData, mapContainer) {
     const lon = parseFloat(record.decimalLongitude);
     if (!isNaN(lat) && !isNaN(lon)) {
       markers.push([lat, lon]);
-      L.circleMarker([lat, lon], { radius: 4, color: 'red' }).addTo(map);
+
+      const marker = L.circleMarker([lat, lon], { radius: 4, color: 'red' }).addTo(map);
+
+      // Click marker to show weather
+      marker.on('click', async () => {
+        try {
+          const YOUR_API_KEY = '3fb62b745deb495897f5a82ccb7eee1d'; // replace with your key
+          const res = await fetch(
+            `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${YOUR_API_KEY}&units=metric`
+          );
+          const weatherData = await res.json();
+
+          let celsius = weatherData.main.temp;
+          let fahrenheit = (celsius * 9/5 + 32).toFixed(1);
+          let unit = 'C';
+          let temp = celsius.toFixed(1);
+
+          // HTML for popup with toggle button
+          const popupContent = document.createElement('div');
+          const weatherHTML = document.createElement('p');
+          weatherHTML.innerHTML = `<strong>Current Weather:</strong> ${weatherData.weather[0].description}<br>Temp: <span id="temp">${temp}</span>°${unit}`;
+          const toggleBtn = document.createElement('button');
+          toggleBtn.textContent = 'Toggle °C/°F';
+          toggleBtn.style.marginTop = '5px';
+          toggleBtn.addEventListener('click', () => {
+            if (unit === 'C') {
+              temp = fahrenheit;
+              unit = 'F';
+            } else {
+              temp = celsius.toFixed(1);
+              unit = 'C';
+            }
+            weatherHTML.innerHTML = `<strong>Current Weather:</strong> ${weatherData.weather[0].description}<br>Temp: <span id="temp">${temp}</span>°${unit}`;
+          });
+
+          popupContent.appendChild(weatherHTML);
+          popupContent.appendChild(toggleBtn);
+
+          marker.bindPopup(popupContent).openPopup();
+        } catch (err) {
+          console.error("Weather fetch error:", err);
+          marker.bindPopup("Unable to load weather data.").openPopup();
+        }
+      });
     }
   });
 
   if (markers.length > 0) {
     map.fitBounds(markers);
+    setTimeout(() => map.invalidateSize(), 100);
   } else {
     mapContainer.textContent = "No valid occurrence coordinates.";
   }
 }
+
