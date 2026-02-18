@@ -1,3 +1,5 @@
+
+
 export async function loadHeaderFooter() {
   try {
     const headerTemplate = await loadTemplate("./partials/header.html");
@@ -21,6 +23,7 @@ export async function loadHeaderFooter() {
     console.error("Error loading header/footer:", error);
   }
 }
+
 export async function loadTemplate(path) {
   const res = await fetch(path);
   const template = await res.text();
@@ -83,5 +86,14 @@ export function addRecentlyViewed(speciesName, maxItems = 3) {
   // Keep only last maxItems
   if (list.length > maxItems) list = list.slice(0, maxItems);
 
-  localStorage.setItem(storageKey, JSON.stringify(list));
+  setLocalStorage(storageKey, list);
+}
+
+export function setLocalStorage(key, data) {
+  localStorage.setItem(key, JSON.stringify(data));
+}
+
+export function getLocalStorage(key) {
+  const data = localStorage.getItem(key);
+  return data ? JSON.parse(data) : [];
 }

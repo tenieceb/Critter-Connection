@@ -1,7 +1,7 @@
 // species_details.js
-import { loadHeaderFooter, getQueryParam } from './utils.mjs';
+import { loadHeaderFooter, getQueryParam, getLocalStorage, setLocalStorage  } from './utils.mjs';
 import { matchGBIFSpeciesName, getGBIFOccurrenceMapData } from './species_data.mjs';
-import { loadLocalAnimals } from './animals.mjs';
+import { loadLocalAnimals} from './animals.mjs';
 
 loadHeaderFooter();
 
@@ -105,8 +105,8 @@ function renderMap(occurrenceData, mapContainer) {
 
           let celsius = weatherData.main.temp;
           let fahrenheit = (celsius * 9/5 + 32).toFixed(1);
-          let unit = 'C';
-          let temp = celsius.toFixed(1);
+          let unit = 'F';
+          let temp = fahrenheit;
 
           // HTML for popup with toggle button
           const popupContent = document.createElement('div');
@@ -146,3 +146,36 @@ function renderMap(occurrenceData, mapContainer) {
   }
 }
 
+// Favorite button logic
+const favKey = "favoriteCritters";
+
+function saveFavorite(speciesObj) {
+  let favorites = getLocalStorage(favKey) || [];
+
+  // Remove duplicates by name
+  favorites = favorites.filter(fav => fav.name !== speciesObj.name);
+
+  favorites.push(speciesObj);
+  setLocalStorage(favKey, favorites);
+}
+
+// Hook up favorite button
+const favoriteButton = document.getElementById("favoritebutton");
+favoriteButton.addEventListener("click", () => {
+  const speciesObj = {
+    name: document.getElementById("species-common-name").textContent,
+    scientific_name: document.getElementById("species-scientific-name").textContent,
+    image_link: document.getElementById("species-image").src,
+    description: document.getElementById("description").textContent,
+    information: {
+      habitat: document.getElementById("habitat").textContent,
+      diet: document.getElementById("diet").textContent,
+      behavior: document.getElementById("behavior").textContent
+    },
+    status: document.getElementById("conservation").textContent,
+    facts: Array.from(document.querySelectorAll("#fun-facts-list li")).map(li => li.textContent)
+  };
+
+  saveFavorite(speciesObj);
+
+});

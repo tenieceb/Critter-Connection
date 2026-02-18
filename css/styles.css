@@ -7,6 +7,7 @@
   --main-font-family: 'Roboto', sans-serif;
   --heading-font-family: 'Montserrat', serif;
 }
+
 body {
   margin: 0;
   font-family: var(--main-font-family);
@@ -16,8 +17,13 @@ body {
 
 header {
   padding: 1rem;
-  background-color: var(--primary-color)  ;
-  color:var(--background-color);
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  /* vertically center content */
+  width: 100%;          /* full width */
+  box-sizing: border-box; /* include padding in width */
 }
 
 main {
@@ -32,4 +38,158 @@ footer {
   padding: 1rem;
   text-align: center;
   background-color: var(--secondary-color);
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+/* ===== LAYOUT ===== */
+.container {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Sidebar filters */
+.filters {
+  flex: 0 0 220px;
+  background-color: var(--secondary-color);
+  padding: 1rem;
+  border-radius: 8px;
+  color: var(--primary-color);
+  height: fit-content;
+}
+
+.filter-group {
+  margin-bottom: 1rem;
+}
+
+.filter-group h4 {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.filter-group label {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+}
+
+/* Main content area */
+.home-main, .animal-list-section, .details-left {
+  flex: 1;
+}
+
+/* ===== ANIMAL GRID ===== */
+.animal-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.animal-card {
+  background-color: var(--background-color);
+  border-radius: 10px;
+  padding: 0.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.animal-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.animal-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+/* ===== SPECIES DETAILS LAYOUT ===== */
+.details-layout {
+  display: flex;
+  gap: 2rem;
+}
+
+.details-left {
+  flex: 2;
+  background-color: var(--background-color);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.details-right {
+  flex: 1;
+  background-color: var(--background-color);
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Info block inside details */
+.info-block h4 {
+  margin-bottom: 0.3rem;
+  margin-top: 0.8rem;
+}
+
+.info-block div {
+  margin-bottom: 0.5rem;
+}
+
+/* Fun facts */
+.fun-facts ul {
+  padding-left: 1.2rem;
+}
+
+/* ===== FAVORITE BUTTON ===== */
+.favorite-button {
+  padding: 0.5rem 1rem;
+  background-color: var(--accent-color);
+  color: var(--background-color);
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  transition: transform .3s ease;
+}
+
+.favorite-button:hover {
+  transform: scale(1.05);
+}
+
+/* Heart pop animation */
+.favorite-button:active::after {
+  content: "❤️";
+  position: absolute;
+  font-size: 2rem;
+  animation: heart-pop 0.8s ease forwards;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+@keyframes heart-pop {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: translate(-50%, -120%) scale(1.5);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(-50%, -200%) scale(0);
+    opacity: 0;
+  }
 }
